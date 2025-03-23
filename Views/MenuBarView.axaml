@@ -4,15 +4,13 @@
              x:Class="Noteflow.Views.MenuBarView"
              x:DataType="vm:MenuBarViewModel">
     
-    <UserControl.DataContext>
-        <vm:MenuBarViewModel />
-    </UserControl.DataContext>
-    
     <DockPanel>
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="red" Height="30">
-            <Button Content="Einstellungen" Command="{Binding OpenSettingsCommand}" />
-            <Button Content="Bank" Command="{Binding EditBankCommand}" />
-            <Button Content="Hilfe anzeigen" Command="{Binding ShowHelpCommand}" />
-        </StackPanel>
+        <Menu DockPanel.Dock="Top" Background="red" Height="30">
+            <MenuItem Header="Einstellungen"> </MenuItem>
+            <MenuItem Header="Bank" Command="{Binding EditBankCommand}">
+                <MenuItem Header="New Card" Command="{Binding NewCardCommand}" />
+            </MenuItem>
+            <MenuItem Header="Hilfe anzeigen" Command="{Binding ShowHelpCommand}" />
+        </Menu>
     </DockPanel>
 </UserControl>

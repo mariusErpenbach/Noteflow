@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             x:Class="Noteflow.Views.NewCardFormularView"
+             x:DataType="vm:NewCardFormularViewModel">
+    
+    <UserControl.DataContext>
+        <vm:NewCardFormularViewModel />
+    </UserControl.DataContext>
+    
+    <StackPanel>
+        <TextBox Watermark="Titel" Text="{Binding Title}" />
+        <TextBox Watermark="Inhalt" Text="{Binding Content}" />
+        <Button Content="Speichern" Command="{Binding SaveCommand}" />
+    </StackPanel>
+</UserControl>

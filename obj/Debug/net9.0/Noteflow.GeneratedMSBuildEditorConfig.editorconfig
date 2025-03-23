@@ -32,3 +32,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/dci/Desktop/Github/Noteflow/Views/MenuBarView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/dci/Desktop/Github/Noteflow/Views/NewCardFormularView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

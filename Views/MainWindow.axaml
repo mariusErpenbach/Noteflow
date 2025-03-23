@@ -16,21 +16,11 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <Grid>
-        <!-- Zeilendefinitionen -->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" /> <!-- Menüleiste -->
-            <RowDefinition Height="*" />   <!-- CardSectionView -->
-            <RowDefinition Height="Auto" /> <!-- Optional: Border am unteren Rand -->
-        </Grid.RowDefinitions>
-
-        <!-- Menüleiste oben -->
-        <views:MenuBarView Grid.Row="0" />
-
-        <!-- CardSectionView nimmt den verbleibenden Platz ein -->
-        <views:CardSectionView Grid.Row="1" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" />
-
-        <!-- Optional: Border am unteren Rand -->
-        <Border Background="LightGray" Grid.Row="2" />
-    </Grid>
+  <DockPanel>
+        <!-- Menüleiste oben fixieren -->
+        <ContentControl DockPanel.Dock="Top" Content="{Binding MenuBarViewModel}" />
+        
+        <!-- CurrentView nimmt den restlichen Platz ein -->
+        <ContentControl Content="{Binding CurrentView}" />
+    </DockPanel>
 </Window>

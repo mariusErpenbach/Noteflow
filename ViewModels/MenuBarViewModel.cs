@@ -1,27 +1,39 @@
-using System;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Windows.Input;
 
 namespace Noteflow.ViewModels
 {
     public partial class MenuBarViewModel : ViewModelBase
     {
-        [RelayCommand]
-        private void OpenSettings()
+        [ObservableProperty]
+        private MainWindowViewModel _mainWindowViewModel;
+
+        public ICommand EditBankCommand { get; }
+        public ICommand ShowHelpCommand { get; }
+        public ICommand NewCardCommand { get; }
+
+        public MenuBarViewModel(MainWindowViewModel mainWindowViewModel)
         {
-            Console.WriteLine("OpenSettings called!");
+            _mainWindowViewModel = mainWindowViewModel;
+            EditBankCommand = new RelayCommand(OnEditBank);
+            ShowHelpCommand = new RelayCommand(OnShowHelp);
+            NewCardCommand = new RelayCommand(OnNewCard);
         }
 
-        [RelayCommand]
-        private void EditBank()
+        private void OnEditBank()
         {
-            Console.WriteLine("EditBank wurde ausgeführt.");
+            // Logik für "Edit Bank"
         }
 
-        [RelayCommand]
-        private void ShowHelp()
+        private void OnShowHelp()
         {
-            Console.WriteLine("ShowHelp called!");
+            // Logik für "Show Help"
+        }
+
+        private void OnNewCard()
+        {
+            MainWindowViewModel.ShowNewCardForm();
         }
     }
 }

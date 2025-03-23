@@ -1,3 +1,11 @@
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.csproj.AssemblyReference.cache
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/resources
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.GeneratedMSBuildEditorConfig.editorconfig
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.AssemblyInfoInputs.cache
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.AssemblyInfo.cs
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.csproj.CoreCompileInputs.cache
+/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.sourcelink.json
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/Noteflow
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/Noteflow.deps.json
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/Noteflow.runtimeconfig.json
@@ -52,14 +60,6 @@
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
 /home/dci/Desktop/Github/Noteflow/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.csproj.AssemblyReference.cache
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/resources
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.GeneratedMSBuildEditorConfig.editorconfig
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.AssemblyInfoInputs.cache
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.AssemblyInfo.cs
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.csproj.CoreCompileInputs.cache
-/home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Noteflow.sourcelink.json
 /home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/Noteflow.dll
 /home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/Avalonia/Noteflow.pdb
 /home/dci/Desktop/Github/Noteflow/obj/Debug/net9.0/refint/Avalonia/Noteflow.dll
