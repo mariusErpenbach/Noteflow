@@ -19,6 +19,7 @@
     <DockPanel>
         <!-- Menüleiste oben -->
         <views:MenuBarView DockPanel.Dock="Top" />
+           <views:CardSectionView />
         <Border Background="LightGray" />
     </DockPanel>
 </Window>
