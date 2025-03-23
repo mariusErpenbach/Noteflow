@@ -1,0 +1,104 @@
+[
+  {
+    "Id": 1,
+    "Front": "AVV",
+    "Back": "Allgemeine Verwaltungsvorschrift.",
+    "Category": "Mathematik"
+  },
+  {
+    "Id": 2,
+    "Front": "DSGVO Grunds\u00E4tze",
+    "Back": "Rechtm\u00E4\u00DFigkeit, Zweckbindung, Datenminimierung, Richtigkeit der Daten, Speicherbegrenzung, Integrit\u00E4t und Vertraulichkeit, Rechenschaftspflicht, ",
+    "Category": "Rechtswissen DSGVO"
+  },
+  {
+    "Id": 3,
+    "Front": "Leasingvertrag",
+    "Back": "Miet\u00E4hnlicher Vertrag \u00FCber die Nutzung eines Wirtschaftsguts gegen regelm\u00E4\u00DFige Zahlungen. Eigentum bleibt beim Leasinggeber.",
+    "Category": "Vertragsrecht, Finanzwesen"
+  },
+  {
+    "Id": 4,
+    "Front": "F\u00E4lligkeitsdarlehen",
+    "Back": "Darlehen, bei dem die gesamte R\u00FCckzahlung erst am Ende der Laufzeit erfolgt. W\u00E4hrenddessen nur Zinszahlungen.",
+    "Category": "Finanzwesen"
+  },
+  {
+    "Id": 5,
+    "Front": "Vertragsautonomie",
+    "Back": "Freiheit der Vertragsparteien, Inhalt, Form und Partner eines Vertrags selbst zu bestimmen. Einschr\u00E4nkungen durch Gesetze m\u00F6glich.",
+    "Category": "Rechtswissen"
+  },
+  {
+    "Id": 6,
+    "Front": "Instandhaltungspflicht",
+    "Back": "Verpflichtung, eine Sache in gebrauchsf\u00E4higem Zustand zu erhalten. Tr\u00E4gt meist der Eigent\u00FCmer oder Vermieter.",
+    "Category": "Rechtswissen"
+  },
+  {
+    "Id": 7,
+    "Front": "Subventionen",
+    "Back": "Subventionen sind finanzielle Zusch\u00FCsse oder Unterst\u00FCtzungszahlungen, die von Regierungen oder \u00F6ffentlichen Institutionen an Unternehmen, Organisationen oder Einzelpersonen gew\u00E4hrt werden. Ziel ist es, bestimmte wirtschaftliche Aktivit\u00E4ten zu f\u00F6rdern, wie etwa die Produktion von G\u00FCtern oder Dienstleistungen, die von gesellschaftlichem Interesse sind. Subventionen k\u00F6nnen in Form von direkten Zahlungen, Steuererleichterungen oder zinsg\u00FCnstigen Krediten gew\u00E4hrt werden. Sie werden oft genutzt, um die Preise f\u00FCr Verbraucher zu senken, Arbeitspl\u00E4tze zu schaffen oder umweltfreundliche Technologien zu unterst\u00FCtzen.",
+    "Category": "Finanzwesen"
+  },
+  {
+    "Id": 8,
+    "Front": "Ratendarlehen",
+    "Back": "sind Darlehen, bei denen der Kreditnehmer das geliehene Kapital in regelm\u00E4\u00DFigen, meist monatlichen Raten zur\u00FCckzahlt. Jede Rate setzt sich dabei aus einem Zinsanteil und einem Tilgungsanteil zusammen. Zu Beginn sind die Zinsen h\u00F6her, da sie auf den gesamten Darlehensbetrag berechnet werden, aber mit fortschreitender R\u00FCckzahlung sinkt der Zinsanteil und der Tilgungsanteil wird gr\u00F6\u00DFer. Ratendarlehen sind eine g\u00E4ngige Finanzierungsform f\u00FCr Privatpersonen, zum Beispiel f\u00FCr den Kauf von Autos oder Konsumg\u00FCtern, aber auch f\u00FCr gr\u00F6\u00DFere Investitionen.",
+    "Category": "Finanzwesen"
+  },
+  {
+    "Id": 9,
+    "Front": "Underpinning Contract",
+    "Back": "Ein Underpinning Contract ist ein Vertrag, der die Grundlage f\u00FCr eine Hauptvereinbarung bildet und zus\u00E4tzliche rechtliche Rahmenbedingungen oder Absicherungen f\u00FCr das zugrunde liegende Gesch\u00E4ft festlegt.",
+    "Category": "Vertragsrecht"
+  },
+  {
+    "Id": 10,
+    "Front": "Intervall",
+    "Back": "Ein Intervall ist der Zeitraum oder die Entfernung zwischen zwei Ereignissen oder Punkten. In der Mathematik bezeichnet es einen Abschnitt auf einer Zahlengerade, der durch zwei Grenzwerte begrenzt wird.",
+    "Category": "Allgemeinwissen"
+  },
+  {
+    "Id": 11,
+    "Front": "Anlageverm\u00F6gen",
+    "Back": "Anlageverm\u00F6gen umfasst langfristige Verm\u00F6genswerte eines Unternehmens, die f\u00FCr die betriebliche T\u00E4tigkeit genutzt werden und nicht f\u00FCr den kurzfristigen Verkauf bestimmt sind. Dazu geh\u00F6ren z. B. Grundst\u00FCcke, Geb\u00E4ude, Maschinen und Fahrzeuge.",
+    "Category": "Finanzwesen"
+  },
+  {
+    "Id": 12,
+    "Front": "Unternehmensbilanzen",
+    "Back": "Unternehmensbilanzen sind finanzielle \u00DCbersichten, die die Verm\u00F6gens- und Kapitalstruktur eines Unternehmens zu einem bestimmten Zeitpunkt darstellen. Sie setzen sich aus der Aktiva (Verm\u00F6genswerte) und der Passiva (Eigen- und Fremdkapital) zusammen und geben Aufschluss \u00FCber die finanzielle Lage des Unternehmens.",
+    "Category": "Finanzwesen"
+  },
+  {
+    "Id": 13,
+    "Front": "File.Exists()",
+    "Back": "Die Methode File.Exists() in C# wird verwendet, um zu \u00FCberpr\u00FCfen, ob eine Datei im angegebenen Pfad existiert. Sie gibt einen booleschen Wert zur\u00FCck-",
+    "Category": "Coding Csharp"
+  },
+  {
+    "Id": 14,
+    "Front": "XAML",
+    "Back": "XAML steht f\u00FCr Extensible Application Markup Language und ist eine deklarative Markup-Sprache, die verwendet wird, um Benutzeroberfl\u00E4chen zu erstellen. Sie wird haupts\u00E4chlich in .NET-Technologien wie WPF, UWP und Xamarin eingesetzt. Mit XAML definieren Entwickler das Layout und die Struktur einer Anwendung, w\u00E4hrend die Logik normalerweise in einer Programmiersprache wie C# geschrieben wird.",
+    "Category": "Coding Csharp"
+  },
+  {
+    "Id": 15,
+    "Front": "WPF",
+    "Back": "WPF, was f\u00FCr Windows Presentation Foundation steht, ist ein UI-Framework von Microsoft, das f\u00FCr die Entwicklung von Desktop-Anwendungen unter Windows verwendet wird. Es bietet eine leistungsstarke Umgebung zur Erstellung grafisch anspruchsvoller Benutzeroberfl\u00E4chen, einschlie\u00DFlich 2D- und 3D-Grafiken sowie Animationen und Datenbindung. WPF nutzt XAML f\u00FCr das Design und C# f\u00FCr die Anwendungslogik.",
+    "Category": "Coding Csharp"
+  },
+  {
+    "Id": 16,
+    "Front": "UWP",
+    "Back": "die Universal Windows Platform, ist eine Plattform von Microsoft, die es Entwicklern erm\u00F6glicht, Anwendungen zu erstellen, die auf allen Windows 10 Ger\u00E4ten laufen, wie PCs, Tablets, Smartphones und sogar Xbox. UWP verwendet ebenfalls XAML f\u00FCr das UI-Design und erm\u00F6glicht den Zugriff auf moderne Windows 10 Funktionen wie Cortana und Live-Tiles, w\u00E4hrend die Apps im Microsoft Store bereitgestellt werden.",
+    "Category": "Coding Csharp"
+  },
+  {
+    "Id": 17,
+    "Front": "XAML",
+    "Back": "XAML steht f\u00FCr Extensible Application Markup Language und ist eine deklarative Markup-Sprache, die verwendet wird, um Benutzeroberfl\u00E4chen zu erstellen. Sie wird haupts\u00E4chlich in .NET-Technologien wie WPF, UWP und Xamarin eingesetzt. Mit XAML definieren Entwickler das Layout und die Struktur einer Anwendung, w\u00E4hrend die Logik normalerweise in einer Programmiersprache wie C# geschrieben wird.",
+    "Category": "Coding Csharp"
+  }
+]
