@@ -2,22 +2,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
              x:Class="Noteflow.Views.CardSectionView"
-             x:DataType="vm:CardSectionViewModel">
+             x:DataType="vm:CardSectionViewModel"
+             HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
     <UserControl.DataContext>
         <vm:CardSectionViewModel />
     </UserControl.DataContext>
-    <StackPanel>
-      <ListBox ItemsSource="{Binding Cards}">
-    <ListBox.ItemTemplate>
-        <DataTemplate>
-            <StackPanel>
-                        <TextBlock Text="{Binding Front}" FontWeight="Bold" />
-                        <TextBlock Text="{Binding Back}"/>
-                        <TextBlock Text="{Binding Category}" FontStyle="Italic"  />
-                    </StackPanel>
-        </DataTemplate>
-    </ListBox.ItemTemplate>
-</ListBox>
-        <Button Content="Save Cards" Command="{Binding SaveCardsCommand}" />
-    </StackPanel>
+
+    <ScrollViewer>
+        <ItemsControl ItemsSource="{Binding Cards}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Expander Header="{Binding Front}" HorizontalAlignment="Stretch" Margin="10,5">
+                        <StackPanel>
+                            <TextBlock Text="{Binding Back}" />
+                            <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
+                        </StackPanel>
+                    </Expander>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </ScrollViewer>
 </UserControl>

@@ -3,7 +3,7 @@
         xmlns:vm="using:Noteflow.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
- 		xmlns:views="clr-namespace:Noteflow.Views"
+        xmlns:views="clr-namespace:Noteflow.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Noteflow.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -16,10 +16,21 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <DockPanel>
+    <Grid>
+        <!-- Zeilendefinitionen -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" /> <!-- Menüleiste -->
+            <RowDefinition Height="*" />   <!-- CardSectionView -->
+            <RowDefinition Height="Auto" /> <!-- Optional: Border am unteren Rand -->
+        </Grid.RowDefinitions>
+
         <!-- Menüleiste oben -->
-        <views:MenuBarView DockPanel.Dock="Top" />
-           <views:CardSectionView />
-        <Border Background="LightGray" />
-    </DockPanel>
+        <views:MenuBarView Grid.Row="0" />
+
+        <!-- CardSectionView nimmt den verbleibenden Platz ein -->
+        <views:CardSectionView Grid.Row="1" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" />
+
+        <!-- Optional: Border am unteren Rand -->
+        <Border Background="LightGray" Grid.Row="2" />
+    </Grid>
 </Window>

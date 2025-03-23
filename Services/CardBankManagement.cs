@@ -28,9 +28,9 @@ namespace Noteflow.Services
                 }
 
                 var jsonData = File.ReadAllText(filePath);
-                 Console.WriteLine($"JSON-Daten: {jsonData}"); // Debugging-Ausgabe
+              
                 var cards = JsonSerializer.Deserialize<List<IndexCard>>(jsonData) ?? new List<IndexCard>();
-                      Console.WriteLine($"{cards.Count} Karten geladen."); // Debugging-Ausgabe
+                      
                 return cards;
             }
             catch (Exception ex)
@@ -62,7 +62,7 @@ namespace Noteflow.Services
             for (int i = 0; i < cards.Count; i++)
             {
                 cards[i].Id = i + 1; // IDs beginnen bei 1
-                 Console.WriteLine($"Karte {cards[i].Id}: {cards[i].Front}"); // Debugging-Ausgabe
+              
             }
             Console.WriteLine("Karten-IDs erfolgreich aktualisiert.");
         }
