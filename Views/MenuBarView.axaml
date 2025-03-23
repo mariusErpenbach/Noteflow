@@ -1,4 +1,3 @@
-<!-- Views/MenuBarView.axaml -->
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
@@ -11,8 +10,9 @@
     
     <DockPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="red" Height="30">
-        <Button Content="Einstellungen" Command="{Binding OpenSettingsCommand}" />
-        <Button Content="Hilfe anzeigen" Command="{Binding ShowHelpCommand}"/>
+            <Button Content="Einstellungen" Command="{Binding OpenSettingsCommand}" />
+            <Button Content="Bank" Command="{Binding EditBankCommand}" />
+            <Button Content="Hilfe anzeigen" Command="{Binding ShowHelpCommand}" />
         </StackPanel>
     </DockPanel>
 </UserControl>

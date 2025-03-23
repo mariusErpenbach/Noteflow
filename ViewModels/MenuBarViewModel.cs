@@ -1,4 +1,3 @@
-// ViewModels/MenuBarViewModel.cs
 using System;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -11,6 +10,12 @@ namespace Noteflow.ViewModels
         private void OpenSettings()
         {
             Console.WriteLine("OpenSettings called!");
+        }
+
+        [RelayCommand]
+        private void EditBank()
+        {
+            Console.WriteLine("EditBank wurde ausgeführt.");
         }
 
         [RelayCommand]
