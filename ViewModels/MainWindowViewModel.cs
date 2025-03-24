@@ -40,5 +40,11 @@ namespace Noteflow.ViewModels
             // Wechsle zurück zur CardSectionView
             CurrentView = new CardSectionViewModel(_cardBankManagement);
         }
+        
+        public void ShowDeleteMode()
+        {
+            // Wechsle zurück zur CardSectionView
+            CurrentView = new DeleteModeViewModel(_cardBankManagement);
+        }
     }
 }

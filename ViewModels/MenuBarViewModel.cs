@@ -12,13 +12,15 @@ namespace Noteflow.ViewModels
         public ICommand EditBankCommand { get; }
         public ICommand ShowHelpCommand { get; }
         public ICommand NewCardCommand { get; }
-
+        public ICommand DeleteCardCommand { get; }
+        
         public MenuBarViewModel(MainWindowViewModel mainWindowViewModel)
         {
             _mainWindowViewModel = mainWindowViewModel;
             EditBankCommand = new RelayCommand(OnEditBank);
             ShowHelpCommand = new RelayCommand(OnShowHelp);
             NewCardCommand = new RelayCommand(OnNewCard);
+            DeleteCardCommand = new RelayCommand(OnDeleteCard);
         }
 
         private void OnEditBank()
@@ -34,6 +36,12 @@ namespace Noteflow.ViewModels
         private void OnNewCard()
         {
             MainWindowViewModel.ShowNewCardForm();
+
+        }
+        private void OnDeleteCard()
+        {
+            MainWindowViewModel.ShowDeleteMode();
+                  
         }
     }
 }
