@@ -4,13 +4,10 @@
              x:Class="Noteflow.Views.NewCardFormularView"
              x:DataType="vm:NewCardFormularViewModel">
     
-    <UserControl.DataContext>
-        <vm:NewCardFormularViewModel />
-    </UserControl.DataContext>
-    
     <StackPanel>
-        <TextBox Watermark="Titel" Text="{Binding Title}" />
-        <TextBox Watermark="Inhalt" Text="{Binding Content}" />
+        <TextBox Watermark="Front" Text="{Binding Front}" />
+        <TextBox Watermark="Back" Text="{Binding Back}" />
+        <TextBox Watermark="Category" Text="{Binding Category}" />
         <Button Content="Speichern" Command="{Binding SaveCommand}" />
     </StackPanel>
 </UserControl>

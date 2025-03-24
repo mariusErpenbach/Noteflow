@@ -4,9 +4,7 @@
              x:Class="Noteflow.Views.CardSectionView"
              x:DataType="vm:CardSectionViewModel"
              HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
-    <UserControl.DataContext>
-        <vm:CardSectionViewModel />
-    </UserControl.DataContext>
+
 
     <ScrollViewer>
         <ItemsControl ItemsSource="{Binding Cards}">

@@ -100,5 +100,209 @@
     "Front": "XAML",
     "Back": "XAML steht f\u00FCr Extensible Application Markup Language und ist eine deklarative Markup-Sprache, die verwendet wird, um Benutzeroberfl\u00E4chen zu erstellen. Sie wird haupts\u00E4chlich in .NET-Technologien wie WPF, UWP und Xamarin eingesetzt. Mit XAML definieren Entwickler das Layout und die Struktur einer Anwendung, w\u00E4hrend die Logik normalerweise in einer Programmiersprache wie C# geschrieben wird.",
     "Category": "Coding Csharp"
+  },
+  {
+    "Id": 18,
+    "Front": "test",
+    "Back": "ye",
+    "Category": "wer"
+  },
+  {
+    "Id": 19,
+    "Front": "new card ",
+    "Back": "yo",
+    "Category": "xoxo"
+  },
+  {
+    "Id": 20,
+    "Front": "Maschinencode",
+    "Back": "Maschinencode ist die direkt von der CPU ausf\u00FChrbare Form eines Programms. Er besteht aus bin\u00E4ren Anweisungen (0 und 1), die spezifische Operationen wie Rechnen, Speichern oder Vergleichen steuern. Da Maschinencode schwer zu lesen und zu schreiben ist, wird er meist durch h\u00F6here Programmiersprachen erstellt und dann von einem Compiler in Maschinencode \u00FCbersetzt.",
+    "Category": "Allgemeinwissen"
+  },
+  {
+    "Id": 21,
+    "Front": "GPL ",
+    "Back": "GPL (GNU General Public License) ist eine Open-Source-Lizenz, die von der Free Software Foundation entwickelt wurde. Sie erlaubt die freie Nutzung, Ver\u00E4nderung und Weitergabe von Software, solange der Quellcode offen bleibt und \u00C4nderungen ebenfalls unter der GPL ver\u00F6ffentlicht werden. Dies f\u00F6rdert Transparenz, Zusammenarbeit und verhindert propriet\u00E4re Nutzung ohne Freigabe des Codes.",
+    "Category": "Informatik"
+  },
+  {
+    "Id": 22,
+    "Front": "MIT-Lizenz",
+    "Back": "MIT-Lizenz ist eine sehr permissive Open-Source-Lizenz, die es erlaubt, Software frei zu nutzen, zu ver\u00E4ndern und zu verbreiten, auch f\u00FCr kommerzielle Zwecke. Die einzige Bedingung ist, dass der urspr\u00FCngliche Lizenztext erhalten bleibt. Sie bietet Entwicklern maximale Freiheit und wird oft in Open-Source-Projekten verwendet.",
+    "Category": "Informatik"
+  },
+  {
+    "Id": 23,
+    "Front": "ITIL",
+    "Back": "ITIL (Information Technology Infrastructure Library) ist ein Framework f\u00FCr IT-Service-Management (ITSM). Es bietet Best Practices zur Planung, Bereitstellung und Verwaltung von IT-Diensten, um Gesch\u00E4ftsprozesse effizient zu unterst\u00FCtzen. ITIL hilft Unternehmen, ihre IT-Services kundenorientiert und wirtschaftlich zu optimieren.",
+    "Category": "Frameworks "
+  },
+  {
+    "Id": 24,
+    "Front": "Design Patterns",
+    "Back": "Entwurfsmuster (Design Patterns) sind bew\u00E4hrte L\u00F6sungen f\u00FCr wiederkehrende Probleme in der Softwareentwicklung. Sie bieten strukturierte Ans\u00E4tze zur Verbesserung von Code-Wartbarkeit, Flexibilit\u00E4t und Wiederverwendbarkeit. Bekannte Muster sind z. B. Singleton, Factory und Observer.",
+    "Category": "Coding"
+  },
+  {
+    "Id": 25,
+    "Front": "SSH",
+    "Back": "SSH (Secure Shell) ist ein Netzwerkprotokoll f\u00FCr die sichere Kommunikation zwischen Computern. Es erm\u00F6glicht verschl\u00FCsselte Verbindungen f\u00FCr Remote-Zugriff, Datei\u00FCbertragungen und sichere Befehlsausf\u00FChrung. SSH wird h\u00E4ufig f\u00FCr die Administration von Servern und sicheren Datenaustausch genutzt.",
+    "Category": "Netzwerke"
+  },
+  {
+    "Id": 26,
+    "Front": "RTU",
+    "Back": "RTU (Remote Terminal Unit) ist ein elektronisches Ger\u00E4t, das in Industrie- und Automatisierungssystemen zur Fern\u00FCberwachung und -steuerung eingesetzt wird. Es sammelt Daten von Sensoren, verarbeitet sie und sendet sie an ein zentrales Leitsystem (SCADA). RTUs werden h\u00E4ufig in der Energieversorgung, Wasserwirtschaft und Prozessindustrie genutzt.",
+    "Category": "Informatik"
+  },
+  {
+    "Id": 27,
+    "Front": "OSI-Model",
+    "Back": "Das 7-Schichten-OSI-Modell beschreibt, wie Daten in Netzwerken \u00FCbertragen werden. Anwendungsschicht (Application Layer), Darstellungsschicht (Presentation Layer), Sitzungsschicht (Session Layer), Transportschicht (Transport Layer),Vermittlungsschicht (Network Layer),Sicherungsschicht (Data Link Layer), Bit\u00FCbertragungsschicht (Physical Layer)",
+    "Category": "Netzwerke"
+  },
+  {
+    "Id": 28,
+    "Front": "Encapsulation (Kapselung) in Netzwerken",
+    "Back": "Encapsulation (Kapselung) in Netzwerken bezieht sich auf den Prozess, bei dem Daten in verschiedene Schichten eines Netzwerkprotokolls verpackt werden. Jede Schicht f\u00FCgt der urspr\u00FCnglichen Nachricht ihre eigene Informationsheader hinzu, um die Kommunikation und \u00DCbertragung zu steuern. Beim Senden von Daten durch ein Netzwerk werden diese Schichten in der Reihenfolge von der Anwendung bis zur physischen \u00DCbertragung hinzugef\u00FCgt und auf der Empfangsseite wieder \u0022abgewickelt\u0022, wobei die jeweiligen Header entfernt werden. Dieser Prozess gew\u00E4hrleistet eine strukturierte, sichere und effiziente Daten\u00FCbertragung.",
+    "Category": "Netzwerke"
+  },
+  {
+    "Id": 29,
+    "Front": "Oszilloskop",
+    "Back": "Ein Oszilloskop ist ein elektronisches Messger\u00E4t, das die Spannung \u00FCber die Zeit graphisch darstellt. Es zeigt elektrische Signale als Wellenformen auf einem Bildschirm, sodass Ingenieure und Techniker Signalverl\u00E4ufe, Frequenzen und andere Eigenschaften von elektrischen Schaltungen \u00FCberwachen k\u00F6nnen. Oszilloskope werden in der Fehlerdiagnose, Signalverarbeitung und Entwicklung von elektronischen Ger\u00E4ten verwendet.",
+    "Category": "Allgemeinwissen"
+  },
+  {
+    "Id": 30,
+    "Front": "Operational Level Agreement (OLA)",
+    "Back": "Ein Operational Level Agreement (OLA) ist eine Vereinbarung innerhalb eines Unternehmens, die die Serviceleistungen zwischen verschiedenen internen Abteilungen oder Teams regelt. Es beschreibt die spezifischen Leistungen, die ein Team gegen\u00FCber einem anderen erbringen muss, und legt die Anforderungen in Bezug auf Qualit\u00E4t, Verf\u00FCgbarkeit und Reaktionszeiten fest. Im Gegensatz zu einem SLA (Service Level Agreement), das sich auf externe Kunden bezieht, konzentriert sich das OLA auf die internen Abl\u00E4ufe und die Zusammenarbeit zwischen verschiedenen Abteilungen.",
+    "Category": "Vertr\u00E4ge"
+  },
+  {
+    "Id": 31,
+    "Front": "SLA (Service Level Agreement) = Extern: Vereinbarung zwischen einem Unternehmen und externen Dienstleistern oder Kunden.",
+    "Back": "Ja, ein Service Level Agreement (SLA) ist oft auch eine Vereinbarung zwischen einem Unternehmen und einem Outsourcer (z. B. einem externen Dienstleister). In diesem Kontext regelt die SLA die spezifischen Leistungen, die der Outsourcer erbringen muss, einschlie\u00DFlich der Qualit\u00E4tsstandards, Reaktionszeiten, Verf\u00FCgbarkeiten und anderer Servicekriterien. Es stellt sicher, dass der Outsourcer die vereinbarten Dienstleistungen auf einem akzeptablen Niveau bereitstellt und gibt dem Unternehmen klare Erwartungen an die Zusammenarbeit.",
+    "Category": "Vert\u00E4ge"
+  },
+  {
+    "Id": 32,
+    "Front": "Underpinning Contract (UC)",
+    "Back": "Ein SLA ist oft Teil des Underpinning Contracts, da es die Servicelevels festlegt, die der Vertragspartner (z. B. ein Outsourcing-Dienstleister) liefern muss.",
+    "Category": "Vertr\u00E4ge"
+  },
+  {
+    "Id": 33,
+    "Front": "\u00D6ffnungsklauseln",
+    "Back": "\u00D6ffnungsklauseln sind vertragliche Bestimmungen, die es den Parteien erm\u00F6glichen, bestimmte Vertragsbedingungen w\u00E4hrend der Laufzeit des Vertrages anzupassen. Diese Klauseln werden oft verwendet, um auf unvorhergesehene Ver\u00E4nderungen in den Umst\u00E4nden zu reagieren, wie z. B. Preis\u00E4nderungen, \u00C4nderungen in gesetzlichen Vorschriften oder Marktbedingungen. Sie bieten Flexibilit\u00E4t, um den Vertrag an ver\u00E4nderte Gegebenheiten anzupassen, ohne dass der gesamte Vertrag neu verhandelt werden muss.",
+    "Category": "Vertr\u00E4ge"
+  },
+  {
+    "Id": 34,
+    "Front": "Rechtsordnung",
+    "Back": "Ein Oberbegriff f\u00FCr Strafrecht, Zivilrecht und \u00D6ffentliches Recht ist Rechtsordnung oder einfach Recht. Diese drei Bereiche bilden zusammen das gesamte Rechtssystem eines Staates und regeln unterschiedliche Aspekte der rechtlichen Beziehungen und Verantwortlichkeiten innerhalb der Gesellschaft.",
+    "Category": "Rechte"
+  },
+  {
+    "Id": 35,
+    "Front": "DIN",
+    "Back": "DIN (Deutsches Institut f\u00FCr Normung) ist eine Organisation, die in Deutschland Normen und Standards f\u00FCr verschiedene Branchen und Technologien entwickelt. Diese Normen dienen dazu, Qualit\u00E4t, Sicherheit und Effizienz in Produkten, Dienstleistungen und Prozessen zu gew\u00E4hrleisten. DIN-Normen sind in vielen Bereichen wie Maschinenbau, Elektrotechnik, Bauwesen und auch im IT-Bereich weit verbreitet.",
+    "Category": "Rechte"
+  },
+  {
+    "Id": 36,
+    "Front": "OPC",
+    "Back": "Open Platform Communications (OPC), oft auch als OPC Classic bezeichnet, ist ein Kommunikationsstandard, der urspr\u00FCnglich von Microsoft entwickelt wurde, um den Datenaustausch zwischen verschiedenen Automatisierungs- und Steuerungssystemen in der Industrie zu erm\u00F6glichen. Der Standard verwendet COM/DCOM (Component Object Model / Distributed Component Object Model), um eine Plattform-unabh\u00E4ngige Kommunikation zwischen Ger\u00E4ten und Anwendungen sicherzustellen.",
+    "Category": "Rechte"
+  },
+  {
+    "Id": 37,
+    "Front": "Audit",
+    "Back": "Ein Audit ist eine systematische, unabh\u00E4ngige \u00DCberpr\u00FCfung von Prozessen, Systemen oder Finanzunterlagen, um deren Genauigkeit, Wirksamkeit und \u00DCbereinstimmung mit festgelegten Standards oder Vorschriften zu bewerten. Audits k\u00F6nnen in verschiedenen Bereichen durchgef\u00FChrt werden, wie z. B. im Finanzwesen, der IT-Sicherheit oder der Qualit\u00E4tssicherung. Ziel ist es, Schwachstellen aufzudecken, die Einhaltung von Vorschriften sicherzustellen und Empfehlungen zur Verbesserung zu geben.",
+    "Category": "BWL"
+  },
+  {
+    "Id": 38,
+    "Front": "ISO",
+    "Back": "ISO (International Organization for Standardization) ist eine internationale Organisation, die weltweit anerkannte Normen f\u00FCr verschiedene Branchen und Sektoren entwickelt. ISO-Normen legen Standards f\u00FCr Qualit\u00E4t, Sicherheit, Effizienz und Nachhaltigkeit fest, um Produkte, Dienstleistungen und Systeme zu harmonisieren und die Zusammenarbeit zwischen L\u00E4ndern zu f\u00F6rdern. Bekannte ISO-Normen sind zum Beispiel die ISO 9001 f\u00FCr Qualit\u00E4tsmanagement und die ISO 27001 f\u00FCr Informationssicherheitsmanagement.",
+    "Category": "Informatik"
+  },
+  {
+    "Id": 39,
+    "Front": "TCO",
+    "Back": "TCO (Total Cost of Ownership) bezeichnet die Gesamtkosten, die mit dem Erwerb, Betrieb und der Wartung eines Produkts oder Systems \u00FCber dessen gesamten Lebenszyklus hinweg verbunden sind. Dies schlie\u00DFt nicht nur den Anschaffungspreis ein, sondern auch Kosten f\u00FCr Installation, Schulung, Wartung, Support, Energieverbrauch und eventuell entstehende Reparaturen. Die TCO-Analyse hilft Unternehmen, eine fundierte Entscheidung \u00FCber Investitionen zu treffen, indem sie die langfristigen Kosten ber\u00FCcksichtigt.",
+    "Category": ""
+  },
+  {
+    "Id": 40,
+    "Front": "EU-Ecolabel",
+    "Back": "Das EU-Ecolabel ist ein Umweltzeichen der Europ\u00E4ischen Union, das umweltfreundliche Produkte und Dienstleistungen kennzeichnet. Es wird an Produkte verliehen, die hohe Umweltstandards erf\u00FCllen und w\u00E4hrend ihres Lebenszyklus eine geringe Auswirkung auf die Umwelt haben, z. B. in Bezug auf Energieverbrauch, Schadstoffemissionen und Abfallmanagement. Das EU-Ecolabel dient Verbrauchern als Orientierungshilfe, um umweltbewusste Kaufentscheidungen zu treffen und f\u00F6rdert die nachhaltige Entwicklung.",
+    "Category": "Allgemeinwissen"
+  },
+  {
+    "Id": 41,
+    "Front": "GPP (Green Public Procurement)",
+    "Back": "GPP (Green Public Procurement), auf Deutsch Gr\u00FCne \u00F6ffentliche Beschaffung, bezeichnet die Praxis, bei der \u00F6ffentliche Auftraggeber Produkte, Dienstleistungen und Bauprojekte ausw\u00E4hlen, die umweltfreundlicher und nachhaltiger sind. Ziel ist es, durch die Ber\u00FCcksichtigung von Umweltkriterien bei der Vergabe von Auftr\u00E4gen die Umweltauswirkungen zu verringern und zur F\u00F6rderung einer umweltfreundlicheren Wirtschaft beizutragen. GPP ber\u00FCcksichtigt Faktoren wie Energieeffizienz, Ressourcenschonung und reduzierte Schadstoffemissionen.",
+    "Category": "Allgemeinwissen"
+  },
+  {
+    "Id": 42,
+    "Front": "Governance",
+    "Back": "Governance bezeichnet die Struktur, Prozesse und Prinzipien, durch die Organisationen oder Systeme gef\u00FChrt, kontrolliert und verwaltet werden. Es umfasst die Entscheidungsfindung, Verantwortlichkeiten, Rechenschaftspflicht und die Einhaltung von Vorschriften. In der Unternehmensf\u00FChrung bezieht sich Governance auf die Art und Weise, wie ein Unternehmen oder eine Organisation ihre Ziele erreicht, Risiken managt und die Interessen der Stakeholder ber\u00FCcksichtigt. Gute Governance f\u00F6rdert Transparenz, Effizienz und ethisches Verhalten in allen Bereichen der Organisation.",
+    "Category": ""
+  },
+  {
+    "Id": 43,
+    "Front": "Compliance",
+    "Back": "Compliance bezeichnet die Einhaltung von Gesetzen, Vorschriften, Richtlinien und internen Standards innerhalb einer Organisation. Es umfasst alle Ma\u00DFnahmen und Verfahren, die sicherstellen, dass ein Unternehmen oder eine Institution rechtlichen und regulatorischen Anforderungen entspricht. Compliance ist in vielen Bereichen wichtig, darunter Finanzen, Datenschutz und Umweltvorschriften, und sch\u00FCtzt Unternehmen vor rechtlichen Konsequenzen, Reputationsverlust und anderen Risiken.",
+    "Category": ""
+  },
+  {
+    "Id": 44,
+    "Front": "GRC ",
+    "Back": "GRC (Governance, Risk Management, and Compliance) bezeichnet einen integrierten Ansatz zur Verwaltung von Unternehmensf\u00FChrung, Risikomanagement und Compliance.",
+    "Category": ""
+  },
+  {
+    "Id": 45,
+    "Front": "Risikoobjektivismus",
+    "Back": "Risikoobjektivismus besagt, dass Risiken objektiv messbar und universell definierbar sind, unabh\u00E4ngig von subjektiven Wahrnehmungen. Risiken k\u00F6nnen durch Daten und Modelle genau quantifiziert werden.",
+    "Category": ""
+  },
+  {
+    "Id": 46,
+    "Front": "Schutzg\u00FCter der Informationssicherheit",
+    "Back": "Vertraulichkeit: Sicherstellen, dass Informationen nur von autorisierten Personen zug\u00E4nglich sind. - Integrit\u00E4t: Gew\u00E4hrleisten, dass Informationen unver\u00E4ndert und korrekt bleiben. - Verf\u00FCgbarkeit: Sicherstellen, dass Informationen bei Bedarf zug\u00E4nglich und nutzbar sind. /Confidentiality/IntegrityAvailability",
+    "Category": ""
+  },
+  {
+    "Id": 47,
+    "Front": "Social Engineering",
+    "Back": "Social Engineering ist eine Manipulationstechnik, bei der Angreifer psychologische Tricks einsetzen, um vertrauliche Informationen oder Zugang zu Systemen zu erlangen. Anstatt technische Schwachstellen auszunutzen, wird das Vertrauen der Zielperson missbraucht, etwa durch T\u00E4uschung oder den Aufbau einer falschen Beziehung. Beispiele sind Phishing, Vishing oder Pretexting, bei denen Opfer dazu gebracht werden, sensible Daten wie Passw\u00F6rter oder Bankinformationen preiszugeben.",
+    "Category": "Hacking"
+  },
+  {
+    "Id": 48,
+    "Front": "MFA",
+    "Back": "MFA (Multi-Factor Authentication) ist eine Sicherheitsmethode, bei der zur Verifizierung der Identit\u00E4t eines Benutzers mehr als ein Authentifizierungsfaktor verwendet wird. Dies erh\u00F6ht die Sicherheit, da mindestens zwei der folgenden Faktoren erforderlich sind:",
+    "Category": "IT-Sicherheit"
+  },
+  {
+    "Id": 49,
+    "Front": "A,- B,- C,- Kunden",
+    "Back": "A, B, C Kunden ist eine Klassifikation, die h\u00E4ufig im Vertrieb und Marketing verwendet wird, um Kunden basierend auf ihrem Wert f\u00FCr das Unternehmen zu kategorisieren. Diese Einteilung hilft dabei, Ressourcen gezielt zu verteilen und strategische Entscheidungen zu treffen.",
+    "Category": "Betriebswirtschaft"
+  },
+  {
+    "Id": 50,
+    "Front": "Arbeitssektoren",
+    "Back": "Arbeitssektoren sind die Hauptbereiche, in die wirtschaftliche T\u00E4tigkeiten unterteilt werden. Sie helfen dabei, verschiedene Branchen und Berufe einzuordnen. Die klassische Einteilung besteht aus vier Sektoren: Prim\u00E4rer Sektor (Urproduktion), Sekund\u00E4rer Sektor (Industrie \u0026 Handwerk), Terti\u00E4rer Sektor (Dienstleistungen), Quart\u00E4rer Sektor (Informationssektor) (moderne Erweiterung)",
+    "Category": "Arbeitsrecht"
+  },
+  {
+    "Id": 51,
+    "Front": "Systemhaus",
+    "Back": "Ein Systemhaus ist ein IT-Dienstleistungsunternehmen, das Unternehmen oder Organisationen ganzheitliche IT-L\u00F6sungen anbietet. Es kombiniert Hard- und Software, Dienstleistungen und Beratung zu einer ma\u00DFgeschneiderten L\u00F6sung.",
+    "Category": "Allgemeinwissen"
   }
 ]

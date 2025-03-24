@@ -1,5 +1,7 @@
 using Avalonia.Controls;
-using Noteflow.ViewModels; 
+using Noteflow.ViewModels;
+using Noteflow.Services;
+
 namespace Noteflow.Views
 {
     public partial class CardSectionView : UserControl
@@ -7,7 +9,12 @@ namespace Noteflow.Views
         public CardSectionView()
         {
             InitializeComponent();
-                DataContext = new CardSectionViewModel(); // Setze den DataContext
+
+            // Setze den DataContext manuell und übergebe CardBankManagement
+            if (VisualRoot is MainWindow mainWindow)
+            {
+                DataContext = new CardSectionViewModel(mainWindow.ViewModel.CardBankManagement);
+            }
         }
     }
 }

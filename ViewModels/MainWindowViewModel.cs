@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using Noteflow.Services;
 using Noteflow.ViewModels;
 
 namespace Noteflow.ViewModels
@@ -11,10 +12,18 @@ namespace Noteflow.ViewModels
         [ObservableProperty]
         private MenuBarViewModel _menuBarViewModel;
 
+        private readonly CardBankManagement _cardBankManagement;
+
+        // Öffentliche Property für CardBankManagement
+        public CardBankManagement CardBankManagement => _cardBankManagement;
+
         public MainWindowViewModel()
         {
+            // Erstelle eine Instanz von CardBankManagement
+            _cardBankManagement = new CardBankManagement("Data/card_bank.json");
+
             // Standardansicht: Zeige die Karten an
-            CurrentView = new CardSectionViewModel(); // Ersetze dies durch dein Standard-ViewModel
+            CurrentView = new CardSectionViewModel(_cardBankManagement);
 
             // Erstelle eine Instanz der Menüleiste
             MenuBarViewModel = new MenuBarViewModel(this);
@@ -22,8 +31,14 @@ namespace Noteflow.ViewModels
 
         public void ShowNewCardForm()
         {
-            // Wechsle zur NewCardFormularView
-            CurrentView = new NewCardFormularViewModel();
+            // Wechsle zur NewCardFormularView und übergebe CardBankManagement
+            CurrentView = new NewCardFormularViewModel(_cardBankManagement, this);
+        }
+
+        public void ShowCardSection()
+        {
+            // Wechsle zurück zur CardSectionView
+            CurrentView = new CardSectionViewModel(_cardBankManagement);
         }
     }
 }

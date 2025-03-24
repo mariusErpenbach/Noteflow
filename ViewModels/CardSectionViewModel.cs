@@ -1,34 +1,21 @@
-using System.Collections.Generic;
 using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
-using Noteflow.Services; // Füge diese Zeile hinzu
-
+using Noteflow.Models;
+using Noteflow.Services;
+using System.Collections.Generic;
 
 namespace Noteflow.ViewModels
 {
-  public partial class CardSectionViewModel : ViewModelBase
-{
-    private CardBankManagement _cardBank;
-
-    [ObservableProperty]
-    private List<IndexCard> _cards = new List<IndexCard>(); // Initialisierung
-
-    public CardSectionViewModel()
+    public partial class CardSectionViewModel : ViewModelBase
     {
-        _cardBank = new CardBankManagement("Data/card_bank.json"); // Beispielpfad
-        LoadCards();
-    }
+        [ObservableProperty]
+        private List<IndexCard> _cards;
 
-    private void LoadCards()
-    {
-        Cards = _cardBank.LoadCards();
-    }
+        private readonly CardBankManagement _cardBankManagement;
 
-    [RelayCommand]
-    private void SaveCards()
-    {
-        _cardBank.ReindexCards(Cards);
-        _cardBank.SaveCards(Cards);
+        public CardSectionViewModel(CardBankManagement cardBankManagement)
+        {
+            _cardBankManagement = cardBankManagement;
+            _cards = _cardBankManagement.LoadCards();
+        }
     }
-}
 }
