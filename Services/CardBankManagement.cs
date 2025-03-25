@@ -29,7 +29,6 @@ namespace Noteflow.Services
                 }
 
                 var jsonData = File.ReadAllText(filePath);
-                Console.WriteLine($"JSON-Daten: {jsonData}"); // Debugging-Ausgabe
                 var cards = JsonSerializer.Deserialize<List<IndexCard>>(jsonData) ?? new List<IndexCard>();
                 Console.WriteLine($"{cards.Count} Karten geladen."); // Debugging-Ausgabe
                 return cards;

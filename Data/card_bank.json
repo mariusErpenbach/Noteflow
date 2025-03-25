@@ -1,408 +1,390 @@
 [
   {
     "Id": 1,
-    "Front": "AVV",
-    "Back": "Allgemeine Verwaltungsvorschrift.",
-    "Category": "Mathematik"
-  },
-  {
-    "Id": 2,
     "Front": "DSGVO Grunds\u00E4tze",
     "Back": "Rechtm\u00E4\u00DFigkeit, Zweckbindung, Datenminimierung, Richtigkeit der Daten, Speicherbegrenzung, Integrit\u00E4t und Vertraulichkeit, Rechenschaftspflicht, ",
     "Category": "Rechtswissen DSGVO"
   },
   {
-    "Id": 3,
+    "Id": 2,
     "Front": "Leasingvertrag",
     "Back": "Miet\u00E4hnlicher Vertrag \u00FCber die Nutzung eines Wirtschaftsguts gegen regelm\u00E4\u00DFige Zahlungen. Eigentum bleibt beim Leasinggeber.",
     "Category": "Vertragsrecht, Finanzwesen"
   },
   {
-    "Id": 4,
+    "Id": 3,
     "Front": "F\u00E4lligkeitsdarlehen",
     "Back": "Darlehen, bei dem die gesamte R\u00FCckzahlung erst am Ende der Laufzeit erfolgt. W\u00E4hrenddessen nur Zinszahlungen.",
     "Category": "Finanzwesen"
   },
   {
-    "Id": 5,
+    "Id": 4,
     "Front": "Vertragsautonomie",
     "Back": "Freiheit der Vertragsparteien, Inhalt, Form und Partner eines Vertrags selbst zu bestimmen. Einschr\u00E4nkungen durch Gesetze m\u00F6glich.",
     "Category": "Rechtswissen"
   },
   {
-    "Id": 6,
+    "Id": 5,
     "Front": "Instandhaltungspflicht",
     "Back": "Verpflichtung, eine Sache in gebrauchsf\u00E4higem Zustand zu erhalten. Tr\u00E4gt meist der Eigent\u00FCmer oder Vermieter.",
     "Category": "Rechtswissen"
   },
   {
-    "Id": 7,
+    "Id": 6,
     "Front": "Subventionen",
     "Back": "Subventionen sind finanzielle Zusch\u00FCsse oder Unterst\u00FCtzungszahlungen, die von Regierungen oder \u00F6ffentlichen Institutionen an Unternehmen, Organisationen oder Einzelpersonen gew\u00E4hrt werden. Ziel ist es, bestimmte wirtschaftliche Aktivit\u00E4ten zu f\u00F6rdern, wie etwa die Produktion von G\u00FCtern oder Dienstleistungen, die von gesellschaftlichem Interesse sind. Subventionen k\u00F6nnen in Form von direkten Zahlungen, Steuererleichterungen oder zinsg\u00FCnstigen Krediten gew\u00E4hrt werden. Sie werden oft genutzt, um die Preise f\u00FCr Verbraucher zu senken, Arbeitspl\u00E4tze zu schaffen oder umweltfreundliche Technologien zu unterst\u00FCtzen.",
     "Category": "Finanzwesen"
   },
   {
-    "Id": 8,
+    "Id": 7,
     "Front": "Ratendarlehen",
     "Back": "sind Darlehen, bei denen der Kreditnehmer das geliehene Kapital in regelm\u00E4\u00DFigen, meist monatlichen Raten zur\u00FCckzahlt. Jede Rate setzt sich dabei aus einem Zinsanteil und einem Tilgungsanteil zusammen. Zu Beginn sind die Zinsen h\u00F6her, da sie auf den gesamten Darlehensbetrag berechnet werden, aber mit fortschreitender R\u00FCckzahlung sinkt der Zinsanteil und der Tilgungsanteil wird gr\u00F6\u00DFer. Ratendarlehen sind eine g\u00E4ngige Finanzierungsform f\u00FCr Privatpersonen, zum Beispiel f\u00FCr den Kauf von Autos oder Konsumg\u00FCtern, aber auch f\u00FCr gr\u00F6\u00DFere Investitionen.",
     "Category": "Finanzwesen"
   },
   {
-    "Id": 9,
+    "Id": 8,
     "Front": "Underpinning Contract",
     "Back": "Ein Underpinning Contract ist ein Vertrag, der die Grundlage f\u00FCr eine Hauptvereinbarung bildet und zus\u00E4tzliche rechtliche Rahmenbedingungen oder Absicherungen f\u00FCr das zugrunde liegende Gesch\u00E4ft festlegt.",
     "Category": "Vertragsrecht"
   },
   {
-    "Id": 10,
+    "Id": 9,
     "Front": "Intervall",
     "Back": "Ein Intervall ist der Zeitraum oder die Entfernung zwischen zwei Ereignissen oder Punkten. In der Mathematik bezeichnet es einen Abschnitt auf einer Zahlengerade, der durch zwei Grenzwerte begrenzt wird.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 11,
+    "Id": 10,
     "Front": "Anlageverm\u00F6gen",
     "Back": "Anlageverm\u00F6gen umfasst langfristige Verm\u00F6genswerte eines Unternehmens, die f\u00FCr die betriebliche T\u00E4tigkeit genutzt werden und nicht f\u00FCr den kurzfristigen Verkauf bestimmt sind. Dazu geh\u00F6ren z. B. Grundst\u00FCcke, Geb\u00E4ude, Maschinen und Fahrzeuge.",
     "Category": "Finanzwesen"
   },
   {
-    "Id": 12,
+    "Id": 11,
     "Front": "Unternehmensbilanzen",
     "Back": "Unternehmensbilanzen sind finanzielle \u00DCbersichten, die die Verm\u00F6gens- und Kapitalstruktur eines Unternehmens zu einem bestimmten Zeitpunkt darstellen. Sie setzen sich aus der Aktiva (Verm\u00F6genswerte) und der Passiva (Eigen- und Fremdkapital) zusammen und geben Aufschluss \u00FCber die finanzielle Lage des Unternehmens.",
     "Category": "Finanzwesen"
   },
   {
-    "Id": 13,
+    "Id": 12,
     "Front": "File.Exists()",
     "Back": "Die Methode File.Exists() in C# wird verwendet, um zu \u00FCberpr\u00FCfen, ob eine Datei im angegebenen Pfad existiert. Sie gibt einen booleschen Wert zur\u00FCck-",
     "Category": "Coding Csharp"
   },
   {
-    "Id": 14,
+    "Id": 13,
     "Front": "XAML",
     "Back": "XAML steht f\u00FCr Extensible Application Markup Language und ist eine deklarative Markup-Sprache, die verwendet wird, um Benutzeroberfl\u00E4chen zu erstellen. Sie wird haupts\u00E4chlich in .NET-Technologien wie WPF, UWP und Xamarin eingesetzt. Mit XAML definieren Entwickler das Layout und die Struktur einer Anwendung, w\u00E4hrend die Logik normalerweise in einer Programmiersprache wie C# geschrieben wird.",
     "Category": "Coding Csharp"
   },
   {
-    "Id": 15,
+    "Id": 14,
     "Front": "WPF",
     "Back": "WPF, was f\u00FCr Windows Presentation Foundation steht, ist ein UI-Framework von Microsoft, das f\u00FCr die Entwicklung von Desktop-Anwendungen unter Windows verwendet wird. Es bietet eine leistungsstarke Umgebung zur Erstellung grafisch anspruchsvoller Benutzeroberfl\u00E4chen, einschlie\u00DFlich 2D- und 3D-Grafiken sowie Animationen und Datenbindung. WPF nutzt XAML f\u00FCr das Design und C# f\u00FCr die Anwendungslogik.",
     "Category": "Coding Csharp"
   },
   {
-    "Id": 16,
+    "Id": 15,
     "Front": "UWP",
     "Back": "die Universal Windows Platform, ist eine Plattform von Microsoft, die es Entwicklern erm\u00F6glicht, Anwendungen zu erstellen, die auf allen Windows 10 Ger\u00E4ten laufen, wie PCs, Tablets, Smartphones und sogar Xbox. UWP verwendet ebenfalls XAML f\u00FCr das UI-Design und erm\u00F6glicht den Zugriff auf moderne Windows 10 Funktionen wie Cortana und Live-Tiles, w\u00E4hrend die Apps im Microsoft Store bereitgestellt werden.",
     "Category": "Coding Csharp"
   },
   {
-    "Id": 17,
+    "Id": 16,
     "Front": "XAML",
     "Back": "XAML steht f\u00FCr Extensible Application Markup Language und ist eine deklarative Markup-Sprache, die verwendet wird, um Benutzeroberfl\u00E4chen zu erstellen. Sie wird haupts\u00E4chlich in .NET-Technologien wie WPF, UWP und Xamarin eingesetzt. Mit XAML definieren Entwickler das Layout und die Struktur einer Anwendung, w\u00E4hrend die Logik normalerweise in einer Programmiersprache wie C# geschrieben wird.",
     "Category": "Coding Csharp"
   },
   {
-    "Id": 18,
+    "Id": 17,
     "Front": "test",
     "Back": "ye",
     "Category": "wer"
   },
   {
-    "Id": 19,
+    "Id": 18,
     "Front": "new card ",
     "Back": "yo",
     "Category": "xoxo"
   },
   {
-    "Id": 20,
+    "Id": 19,
     "Front": "Maschinencode",
     "Back": "Maschinencode ist die direkt von der CPU ausf\u00FChrbare Form eines Programms. Er besteht aus bin\u00E4ren Anweisungen (0 und 1), die spezifische Operationen wie Rechnen, Speichern oder Vergleichen steuern. Da Maschinencode schwer zu lesen und zu schreiben ist, wird er meist durch h\u00F6here Programmiersprachen erstellt und dann von einem Compiler in Maschinencode \u00FCbersetzt.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 21,
+    "Id": 20,
     "Front": "GPL ",
     "Back": "GPL (GNU General Public License) ist eine Open-Source-Lizenz, die von der Free Software Foundation entwickelt wurde. Sie erlaubt die freie Nutzung, Ver\u00E4nderung und Weitergabe von Software, solange der Quellcode offen bleibt und \u00C4nderungen ebenfalls unter der GPL ver\u00F6ffentlicht werden. Dies f\u00F6rdert Transparenz, Zusammenarbeit und verhindert propriet\u00E4re Nutzung ohne Freigabe des Codes.",
     "Category": "Informatik"
   },
   {
-    "Id": 22,
+    "Id": 21,
     "Front": "MIT-Lizenz",
     "Back": "MIT-Lizenz ist eine sehr permissive Open-Source-Lizenz, die es erlaubt, Software frei zu nutzen, zu ver\u00E4ndern und zu verbreiten, auch f\u00FCr kommerzielle Zwecke. Die einzige Bedingung ist, dass der urspr\u00FCngliche Lizenztext erhalten bleibt. Sie bietet Entwicklern maximale Freiheit und wird oft in Open-Source-Projekten verwendet.",
     "Category": "Informatik"
   },
   {
-    "Id": 23,
+    "Id": 22,
     "Front": "ITIL",
     "Back": "ITIL (Information Technology Infrastructure Library) ist ein Framework f\u00FCr IT-Service-Management (ITSM). Es bietet Best Practices zur Planung, Bereitstellung und Verwaltung von IT-Diensten, um Gesch\u00E4ftsprozesse effizient zu unterst\u00FCtzen. ITIL hilft Unternehmen, ihre IT-Services kundenorientiert und wirtschaftlich zu optimieren.",
     "Category": "Frameworks "
   },
   {
-    "Id": 24,
+    "Id": 23,
     "Front": "Design Patterns",
     "Back": "Entwurfsmuster (Design Patterns) sind bew\u00E4hrte L\u00F6sungen f\u00FCr wiederkehrende Probleme in der Softwareentwicklung. Sie bieten strukturierte Ans\u00E4tze zur Verbesserung von Code-Wartbarkeit, Flexibilit\u00E4t und Wiederverwendbarkeit. Bekannte Muster sind z. B. Singleton, Factory und Observer.",
     "Category": "Coding"
   },
   {
-    "Id": 25,
+    "Id": 24,
     "Front": "SSH",
     "Back": "SSH (Secure Shell) ist ein Netzwerkprotokoll f\u00FCr die sichere Kommunikation zwischen Computern. Es erm\u00F6glicht verschl\u00FCsselte Verbindungen f\u00FCr Remote-Zugriff, Datei\u00FCbertragungen und sichere Befehlsausf\u00FChrung. SSH wird h\u00E4ufig f\u00FCr die Administration von Servern und sicheren Datenaustausch genutzt.",
     "Category": "Netzwerke"
   },
   {
-    "Id": 26,
+    "Id": 25,
     "Front": "RTU",
     "Back": "RTU (Remote Terminal Unit) ist ein elektronisches Ger\u00E4t, das in Industrie- und Automatisierungssystemen zur Fern\u00FCberwachung und -steuerung eingesetzt wird. Es sammelt Daten von Sensoren, verarbeitet sie und sendet sie an ein zentrales Leitsystem (SCADA). RTUs werden h\u00E4ufig in der Energieversorgung, Wasserwirtschaft und Prozessindustrie genutzt.",
     "Category": "Informatik"
   },
   {
-    "Id": 27,
+    "Id": 26,
     "Front": "OSI-Model",
     "Back": "Das 7-Schichten-OSI-Modell beschreibt, wie Daten in Netzwerken \u00FCbertragen werden. Anwendungsschicht (Application Layer), Darstellungsschicht (Presentation Layer), Sitzungsschicht (Session Layer), Transportschicht (Transport Layer),Vermittlungsschicht (Network Layer),Sicherungsschicht (Data Link Layer), Bit\u00FCbertragungsschicht (Physical Layer)",
     "Category": "Netzwerke"
   },
   {
-    "Id": 28,
+    "Id": 27,
     "Front": "Encapsulation (Kapselung) in Netzwerken",
     "Back": "Encapsulation (Kapselung) in Netzwerken bezieht sich auf den Prozess, bei dem Daten in verschiedene Schichten eines Netzwerkprotokolls verpackt werden. Jede Schicht f\u00FCgt der urspr\u00FCnglichen Nachricht ihre eigene Informationsheader hinzu, um die Kommunikation und \u00DCbertragung zu steuern. Beim Senden von Daten durch ein Netzwerk werden diese Schichten in der Reihenfolge von der Anwendung bis zur physischen \u00DCbertragung hinzugef\u00FCgt und auf der Empfangsseite wieder \u0022abgewickelt\u0022, wobei die jeweiligen Header entfernt werden. Dieser Prozess gew\u00E4hrleistet eine strukturierte, sichere und effiziente Daten\u00FCbertragung.",
     "Category": "Netzwerke"
   },
   {
-    "Id": 29,
+    "Id": 28,
     "Front": "Oszilloskop",
     "Back": "Ein Oszilloskop ist ein elektronisches Messger\u00E4t, das die Spannung \u00FCber die Zeit graphisch darstellt. Es zeigt elektrische Signale als Wellenformen auf einem Bildschirm, sodass Ingenieure und Techniker Signalverl\u00E4ufe, Frequenzen und andere Eigenschaften von elektrischen Schaltungen \u00FCberwachen k\u00F6nnen. Oszilloskope werden in der Fehlerdiagnose, Signalverarbeitung und Entwicklung von elektronischen Ger\u00E4ten verwendet.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 30,
+    "Id": 29,
     "Front": "Operational Level Agreement (OLA)",
     "Back": "Ein Operational Level Agreement (OLA) ist eine Vereinbarung innerhalb eines Unternehmens, die die Serviceleistungen zwischen verschiedenen internen Abteilungen oder Teams regelt. Es beschreibt die spezifischen Leistungen, die ein Team gegen\u00FCber einem anderen erbringen muss, und legt die Anforderungen in Bezug auf Qualit\u00E4t, Verf\u00FCgbarkeit und Reaktionszeiten fest. Im Gegensatz zu einem SLA (Service Level Agreement), das sich auf externe Kunden bezieht, konzentriert sich das OLA auf die internen Abl\u00E4ufe und die Zusammenarbeit zwischen verschiedenen Abteilungen.",
     "Category": "Vertr\u00E4ge"
   },
   {
-    "Id": 31,
+    "Id": 30,
     "Front": "SLA (Service Level Agreement) = Extern: Vereinbarung zwischen einem Unternehmen und externen Dienstleistern oder Kunden.",
     "Back": "Ja, ein Service Level Agreement (SLA) ist oft auch eine Vereinbarung zwischen einem Unternehmen und einem Outsourcer (z. B. einem externen Dienstleister). In diesem Kontext regelt die SLA die spezifischen Leistungen, die der Outsourcer erbringen muss, einschlie\u00DFlich der Qualit\u00E4tsstandards, Reaktionszeiten, Verf\u00FCgbarkeiten und anderer Servicekriterien. Es stellt sicher, dass der Outsourcer die vereinbarten Dienstleistungen auf einem akzeptablen Niveau bereitstellt und gibt dem Unternehmen klare Erwartungen an die Zusammenarbeit.",
     "Category": "Vert\u00E4ge"
   },
   {
-    "Id": 32,
+    "Id": 31,
     "Front": "Underpinning Contract (UC)",
     "Back": "Ein SLA ist oft Teil des Underpinning Contracts, da es die Servicelevels festlegt, die der Vertragspartner (z. B. ein Outsourcing-Dienstleister) liefern muss.",
     "Category": "Vertr\u00E4ge"
   },
   {
-    "Id": 33,
+    "Id": 32,
     "Front": "\u00D6ffnungsklauseln",
     "Back": "\u00D6ffnungsklauseln sind vertragliche Bestimmungen, die es den Parteien erm\u00F6glichen, bestimmte Vertragsbedingungen w\u00E4hrend der Laufzeit des Vertrages anzupassen. Diese Klauseln werden oft verwendet, um auf unvorhergesehene Ver\u00E4nderungen in den Umst\u00E4nden zu reagieren, wie z. B. Preis\u00E4nderungen, \u00C4nderungen in gesetzlichen Vorschriften oder Marktbedingungen. Sie bieten Flexibilit\u00E4t, um den Vertrag an ver\u00E4nderte Gegebenheiten anzupassen, ohne dass der gesamte Vertrag neu verhandelt werden muss.",
     "Category": "Vertr\u00E4ge"
   },
   {
-    "Id": 34,
+    "Id": 33,
     "Front": "Rechtsordnung",
     "Back": "Ein Oberbegriff f\u00FCr Strafrecht, Zivilrecht und \u00D6ffentliches Recht ist Rechtsordnung oder einfach Recht. Diese drei Bereiche bilden zusammen das gesamte Rechtssystem eines Staates und regeln unterschiedliche Aspekte der rechtlichen Beziehungen und Verantwortlichkeiten innerhalb der Gesellschaft.",
     "Category": "Rechte"
   },
   {
-    "Id": 35,
+    "Id": 34,
     "Front": "DIN",
     "Back": "DIN (Deutsches Institut f\u00FCr Normung) ist eine Organisation, die in Deutschland Normen und Standards f\u00FCr verschiedene Branchen und Technologien entwickelt. Diese Normen dienen dazu, Qualit\u00E4t, Sicherheit und Effizienz in Produkten, Dienstleistungen und Prozessen zu gew\u00E4hrleisten. DIN-Normen sind in vielen Bereichen wie Maschinenbau, Elektrotechnik, Bauwesen und auch im IT-Bereich weit verbreitet.",
     "Category": "Rechte"
   },
   {
-    "Id": 36,
+    "Id": 35,
     "Front": "OPC",
     "Back": "Open Platform Communications (OPC), oft auch als OPC Classic bezeichnet, ist ein Kommunikationsstandard, der urspr\u00FCnglich von Microsoft entwickelt wurde, um den Datenaustausch zwischen verschiedenen Automatisierungs- und Steuerungssystemen in der Industrie zu erm\u00F6glichen. Der Standard verwendet COM/DCOM (Component Object Model / Distributed Component Object Model), um eine Plattform-unabh\u00E4ngige Kommunikation zwischen Ger\u00E4ten und Anwendungen sicherzustellen.",
     "Category": "Rechte"
   },
   {
-    "Id": 37,
+    "Id": 36,
     "Front": "Audit",
     "Back": "Ein Audit ist eine systematische, unabh\u00E4ngige \u00DCberpr\u00FCfung von Prozessen, Systemen oder Finanzunterlagen, um deren Genauigkeit, Wirksamkeit und \u00DCbereinstimmung mit festgelegten Standards oder Vorschriften zu bewerten. Audits k\u00F6nnen in verschiedenen Bereichen durchgef\u00FChrt werden, wie z. B. im Finanzwesen, der IT-Sicherheit oder der Qualit\u00E4tssicherung. Ziel ist es, Schwachstellen aufzudecken, die Einhaltung von Vorschriften sicherzustellen und Empfehlungen zur Verbesserung zu geben.",
     "Category": "BWL"
   },
   {
-    "Id": 38,
+    "Id": 37,
     "Front": "ISO",
     "Back": "ISO (International Organization for Standardization) ist eine internationale Organisation, die weltweit anerkannte Normen f\u00FCr verschiedene Branchen und Sektoren entwickelt. ISO-Normen legen Standards f\u00FCr Qualit\u00E4t, Sicherheit, Effizienz und Nachhaltigkeit fest, um Produkte, Dienstleistungen und Systeme zu harmonisieren und die Zusammenarbeit zwischen L\u00E4ndern zu f\u00F6rdern. Bekannte ISO-Normen sind zum Beispiel die ISO 9001 f\u00FCr Qualit\u00E4tsmanagement und die ISO 27001 f\u00FCr Informationssicherheitsmanagement.",
     "Category": "Informatik"
   },
   {
-    "Id": 39,
+    "Id": 38,
     "Front": "TCO",
     "Back": "TCO (Total Cost of Ownership) bezeichnet die Gesamtkosten, die mit dem Erwerb, Betrieb und der Wartung eines Produkts oder Systems \u00FCber dessen gesamten Lebenszyklus hinweg verbunden sind. Dies schlie\u00DFt nicht nur den Anschaffungspreis ein, sondern auch Kosten f\u00FCr Installation, Schulung, Wartung, Support, Energieverbrauch und eventuell entstehende Reparaturen. Die TCO-Analyse hilft Unternehmen, eine fundierte Entscheidung \u00FCber Investitionen zu treffen, indem sie die langfristigen Kosten ber\u00FCcksichtigt.",
     "Category": ""
   },
   {
-    "Id": 40,
+    "Id": 39,
     "Front": "EU-Ecolabel",
     "Back": "Das EU-Ecolabel ist ein Umweltzeichen der Europ\u00E4ischen Union, das umweltfreundliche Produkte und Dienstleistungen kennzeichnet. Es wird an Produkte verliehen, die hohe Umweltstandards erf\u00FCllen und w\u00E4hrend ihres Lebenszyklus eine geringe Auswirkung auf die Umwelt haben, z. B. in Bezug auf Energieverbrauch, Schadstoffemissionen und Abfallmanagement. Das EU-Ecolabel dient Verbrauchern als Orientierungshilfe, um umweltbewusste Kaufentscheidungen zu treffen und f\u00F6rdert die nachhaltige Entwicklung.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 41,
+    "Id": 40,
     "Front": "GPP (Green Public Procurement)",
     "Back": "GPP (Green Public Procurement), auf Deutsch Gr\u00FCne \u00F6ffentliche Beschaffung, bezeichnet die Praxis, bei der \u00F6ffentliche Auftraggeber Produkte, Dienstleistungen und Bauprojekte ausw\u00E4hlen, die umweltfreundlicher und nachhaltiger sind. Ziel ist es, durch die Ber\u00FCcksichtigung von Umweltkriterien bei der Vergabe von Auftr\u00E4gen die Umweltauswirkungen zu verringern und zur F\u00F6rderung einer umweltfreundlicheren Wirtschaft beizutragen. GPP ber\u00FCcksichtigt Faktoren wie Energieeffizienz, Ressourcenschonung und reduzierte Schadstoffemissionen.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 42,
+    "Id": 41,
     "Front": "Governance",
     "Back": "Governance bezeichnet die Struktur, Prozesse und Prinzipien, durch die Organisationen oder Systeme gef\u00FChrt, kontrolliert und verwaltet werden. Es umfasst die Entscheidungsfindung, Verantwortlichkeiten, Rechenschaftspflicht und die Einhaltung von Vorschriften. In der Unternehmensf\u00FChrung bezieht sich Governance auf die Art und Weise, wie ein Unternehmen oder eine Organisation ihre Ziele erreicht, Risiken managt und die Interessen der Stakeholder ber\u00FCcksichtigt. Gute Governance f\u00F6rdert Transparenz, Effizienz und ethisches Verhalten in allen Bereichen der Organisation.",
     "Category": ""
   },
   {
-    "Id": 43,
+    "Id": 42,
     "Front": "Compliance",
     "Back": "Compliance bezeichnet die Einhaltung von Gesetzen, Vorschriften, Richtlinien und internen Standards innerhalb einer Organisation. Es umfasst alle Ma\u00DFnahmen und Verfahren, die sicherstellen, dass ein Unternehmen oder eine Institution rechtlichen und regulatorischen Anforderungen entspricht. Compliance ist in vielen Bereichen wichtig, darunter Finanzen, Datenschutz und Umweltvorschriften, und sch\u00FCtzt Unternehmen vor rechtlichen Konsequenzen, Reputationsverlust und anderen Risiken.",
     "Category": ""
   },
   {
-    "Id": 44,
+    "Id": 43,
     "Front": "GRC ",
     "Back": "GRC (Governance, Risk Management, and Compliance) bezeichnet einen integrierten Ansatz zur Verwaltung von Unternehmensf\u00FChrung, Risikomanagement und Compliance.",
     "Category": ""
   },
   {
-    "Id": 45,
+    "Id": 44,
     "Front": "Risikoobjektivismus",
     "Back": "Risikoobjektivismus besagt, dass Risiken objektiv messbar und universell definierbar sind, unabh\u00E4ngig von subjektiven Wahrnehmungen. Risiken k\u00F6nnen durch Daten und Modelle genau quantifiziert werden.",
     "Category": ""
   },
   {
-    "Id": 46,
+    "Id": 45,
     "Front": "Schutzg\u00FCter der Informationssicherheit",
     "Back": "Vertraulichkeit: Sicherstellen, dass Informationen nur von autorisierten Personen zug\u00E4nglich sind. - Integrit\u00E4t: Gew\u00E4hrleisten, dass Informationen unver\u00E4ndert und korrekt bleiben. - Verf\u00FCgbarkeit: Sicherstellen, dass Informationen bei Bedarf zug\u00E4nglich und nutzbar sind. /Confidentiality/IntegrityAvailability",
     "Category": ""
   },
   {
-    "Id": 47,
+    "Id": 46,
     "Front": "Social Engineering",
     "Back": "Social Engineering ist eine Manipulationstechnik, bei der Angreifer psychologische Tricks einsetzen, um vertrauliche Informationen oder Zugang zu Systemen zu erlangen. Anstatt technische Schwachstellen auszunutzen, wird das Vertrauen der Zielperson missbraucht, etwa durch T\u00E4uschung oder den Aufbau einer falschen Beziehung. Beispiele sind Phishing, Vishing oder Pretexting, bei denen Opfer dazu gebracht werden, sensible Daten wie Passw\u00F6rter oder Bankinformationen preiszugeben.",
     "Category": "Hacking"
   },
   {
-    "Id": 48,
+    "Id": 47,
     "Front": "MFA",
     "Back": "MFA (Multi-Factor Authentication) ist eine Sicherheitsmethode, bei der zur Verifizierung der Identit\u00E4t eines Benutzers mehr als ein Authentifizierungsfaktor verwendet wird. Dies erh\u00F6ht die Sicherheit, da mindestens zwei der folgenden Faktoren erforderlich sind:",
     "Category": "IT-Sicherheit"
   },
   {
-    "Id": 49,
+    "Id": 48,
     "Front": "A,- B,- C,- Kunden",
     "Back": "A, B, C Kunden ist eine Klassifikation, die h\u00E4ufig im Vertrieb und Marketing verwendet wird, um Kunden basierend auf ihrem Wert f\u00FCr das Unternehmen zu kategorisieren. Diese Einteilung hilft dabei, Ressourcen gezielt zu verteilen und strategische Entscheidungen zu treffen.",
     "Category": "Betriebswirtschaft"
   },
   {
-    "Id": 50,
+    "Id": 49,
     "Front": "Arbeitssektoren",
     "Back": "Arbeitssektoren sind die Hauptbereiche, in die wirtschaftliche T\u00E4tigkeiten unterteilt werden. Sie helfen dabei, verschiedene Branchen und Berufe einzuordnen. Die klassische Einteilung besteht aus vier Sektoren: Prim\u00E4rer Sektor (Urproduktion), Sekund\u00E4rer Sektor (Industrie \u0026 Handwerk), Terti\u00E4rer Sektor (Dienstleistungen), Quart\u00E4rer Sektor (Informationssektor) (moderne Erweiterung)",
     "Category": "Arbeitsrecht"
   },
   {
-    "Id": 51,
+    "Id": 50,
     "Front": "Systemhaus",
     "Back": "Ein Systemhaus ist ein IT-Dienstleistungsunternehmen, das Unternehmen oder Organisationen ganzheitliche IT-L\u00F6sungen anbietet. Es kombiniert Hard- und Software, Dienstleistungen und Beratung zu einer ma\u00DFgeschneiderten L\u00F6sung.",
     "Category": "Allgemeinwissen"
   },
   {
-    "Id": 52,
-    "Front": "",
-    "Back": "",
-    "Category": ""
-  },
-  {
-    "Id": 53,
-    "Front": "",
-    "Back": "",
-    "Category": ""
-  },
-  {
-    "Id": 54,
+    "Id": 51,
     "Front": "Floating License",
     "Back": "Eine Floating License erlaubt die Nutzung einer Software durch eine begrenzte Anzahl von Nutzern innerhalb eines Netzwerks, jedoch nicht gleichzeitig. Die Lizenz wird von einem zentralen Lizenzserver verwaltet und kann von verschiedenen Ger\u00E4ten genutzt werden, solange die maximale Anzahl aktiver Lizenzen nicht \u00FCberschritten wird.",
     "Category": "Software-Lizenzierung"
   },
   {
-    "Id": 55,
+    "Id": 52,
     "Front": "Public Domain Software",
     "Back": "Public Domain Software ist Software, die keinem Urheberrechtsschutz unterliegt und von jedem ohne Einschr\u00E4nkungen genutzt, ver\u00E4ndert und verbreitet werden kann. Dies kann entweder durch den Ablauf des Urheberrechts oder durch eine ausdr\u00FCckliche Erkl\u00E4rung des Urhebers geschehen.",
     "Category": "Software-Lizenzierung / Urheberrecht"
   },
   {
-    "Id": 56,
+    "Id": 53,
     "Front": "Einzelplatzlizenz",
     "Back": "Eine Einzelplatzlizenz erlaubt die Nutzung einer Software auf genau einem Ger\u00E4t oder durch eine einzelne Person. Sie ist nicht \u00FCbertragbar und darf nicht gleichzeitig auf mehreren Ger\u00E4ten verwendet werden.",
     "Category": "Software-Lizenzierung"
   },
   {
-    "Id": 57,
+    "Id": 54,
     "Front": "Open Source",
     "Back": "Open Source bezeichnet Software, deren Quellcode \u00F6ffentlich zug\u00E4nglich ist und von jedem eingesehen, ver\u00E4ndert und weiterverbreitet werden kann. Oft unterliegt sie speziellen Open-Source-Lizenzen, die Regeln f\u00FCr die Nutzung und Weitergabe festlegen.",
     "Category": "Software-Entwicklung  Lizenzierung"
   },
   {
-    "Id": 58,
+    "Id": 55,
     "Front": "Oracle",
     "Back": "Oracle ist ein US-amerikanisches Unternehmen, das f\u00FCr seine Datenbankmanagementsysteme (z. B. Oracle Database) bekannt ist. Neben Datenbanken bietet es auch Cloud-Dienste, Unternehmenssoftware und Hardwarel\u00F6sungen an.",
     "Category": "Unternehmen / Datenbanken"
   },
   {
-    "Id": 59,
+    "Id": 56,
     "Front": "Nutzungsbasierte Modelle",
     "Back": "Nutzungsbasierte Modelle berechnen Kosten abh\u00E4ngig von der tats\u00E4chlichen Nutzung einer Software oder eines Dienstes, z. B. pro Zugriff, Rechenleistung oder Datenvolumen. Dieses Modell wird h\u00E4ufig bei Cloud-Services und Software-as-a-Service (SaaS) eingesetzt.",
     "Category": "Gesch\u00E4ftsmodelle / Software-Lizenzierung"
   },
   {
-    "Id": 60,
+    "Id": 57,
     "Front": "Compiler",
     "Back": "Ein Compiler ist ein Programm, das Quellcode aus einer Programmiersprache in eine ausf\u00FChrbare Datei oder Maschinencode \u00FCbersetzt. Dadurch kann der Code von einem Computer ohne weitere \u00DCbersetzung direkt ausgef\u00FChrt werden.",
     "Category": "Software-Entwicklung / Programmierung"
   },
   {
-    "Id": 61,
+    "Id": 58,
     "Front": "HMI",
     "Back": " HMI (Human-Machine Interface) bezeichnet die Schnittstelle, \u00FCber die Menschen mit Maschinen oder Systemen interagieren. Sie erm\u00F6glicht es Nutzern, Daten einzugeben, den Zustand der Maschine zu \u00FCberwachen und Befehle zu erteilen, oft in Form von Touchscreens, Tasten oder visuellen Anzeigen.",
     "Category": "Technologie / Benutzerinteraktion"
   },
   {
-    "Id": 62,
+    "Id": 59,
     "Front": "Schnittstellen",
     "Back": "APIs (Application Programming Interfaces), Benutzerschnittstellen (UI), Hardware-Schnittstellen,Netzwerkschnittstellen - Schnittstellen (APIs) sind definierte Kommunikationswege, \u00FCber die verschiedene Softwareanwendungen miteinander interagieren k\u00F6nnen. Sie erm\u00F6glichen den Austausch von Daten und Funktionen zwischen Programmen, ohne dass deren interne Struktur offengelegt wird.",
     "Category": "Software / Technologie"
   },
   {
-    "Id": 63,
+    "Id": 60,
     "Front": "Amortisieren",
     "Back": "Amortisieren bedeutet, die Kosten einer Investition \u00FCber einen bestimmten Zeitraum hinweg abzuzahlen. Dies geschieht durch regelm\u00E4\u00DFige Zahlungen, die sowohl Zinsen als auch einen Teil des urspr\u00FCnglichen Betrags abdecken, bis die Investition vollst\u00E4ndig ausgeglichen ist.",
     "Category": "Finanzwesen / Wirtschaft"
   },
   {
-    "Id": 64,
+    "Id": 61,
     "Front": "Embedded Systems",
     "Back": "Embedded Systems sind spezialisierte, in andere Ger\u00E4te integrierte Computersysteme, die eine spezifische Funktion erf\u00FCllen. Sie sind in der Regel ressourcenoptimiert, zuverl\u00E4ssig und haben oft eine Echtzeitf\u00E4higkeit, wie z. B. in Fahrzeugen, Haushaltsger\u00E4ten oder Medizinger\u00E4ten.",
     "Category": "Technologie / Hardware"
   },
   {
-    "Id": 65,
+    "Id": 62,
     "Front": "AddOn/Plugin",
     "Back": "Ein AddOn oder Plugin ist eine Software-Erweiterung, die zus\u00E4tzliche Funktionen zu einer bestehenden Anwendung hinzuf\u00FCgt. Es wird oft verwendet, um die Funktionalit\u00E4t von Programmen wie Webbrowsern, Texteditoren oder CMS-Systemen zu erweitern, ohne die Hauptanwendung selbst zu ver\u00E4ndern.",
     "Category": "Software / Erweiterungen"
   },
   {
-    "Id": 66,
+    "Id": 63,
     "Front": "Requirements engeneering",
     "Back": "Requirements Engineering ist der Prozess, bei dem die Anforderungen an ein System oder eine Software gesammelt, dokumentiert und analysiert werden. Ziel ist es, die Bed\u00FCrfnisse und Erwartungen der Stakeholder klar zu definieren und als Grundlage f\u00FCr die Entwicklung zu nutzen.",
     "Category": "Softwareentwicklung / Projektmanagement"
   },
   {
-    "Id": 67,
+    "Id": 64,
     "Front": "TCP/UDP",
     "Back": "TCP (Transmission Control Protocol) und UDP (User Datagram Protocol) sind zwei Protokolle zur \u00DCbertragung von Daten im Internet. TCP gew\u00E4hrleistet eine zuverl\u00E4ssige, fehlerfreie und in der richtigen Reihenfolge erfolgende Daten\u00FCbertragung, w\u00E4hrend UDP schneller ist, aber keine Garantie f\u00FCr die Zustellung oder Reihenfolge bietet.",
     "Category": "Netzwerktechnologien"
   },
   {
-    "Id": 68,
+    "Id": 65,
     "Front": "Rahmenvertr\u00E4ge",
     "Back": "Rahmenvertr\u00E4ge sind langfristige Vereinbarungen zwischen zwei Parteien, die die allgemeinen Bedingungen f\u00FCr zuk\u00FCnftige Einzelgesch\u00E4fte festlegen. Sie bieten Flexibilit\u00E4t und Klarheit, indem sie Preise, Lieferbedingungen und andere wesentliche Punkte f\u00FCr wiederkehrende Transaktionen vorab definieren.",
     "Category": "Vertragsrecht / Gesch\u00E4ftsbeziehungen"

@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Noteflow.ViewModels;
 using Noteflow.Services;
-
+using System.Diagnostics;
 namespace Noteflow.Views
 {
     public partial class DeleteModeView : UserControl
@@ -9,12 +9,10 @@ namespace Noteflow.Views
         public DeleteModeView()
         {
             InitializeComponent();
-
-            // Setze den DataContext manuell und übergebe CardBankManagement
-            if (VisualRoot is MainWindow mainWindow)
-            {
-                DataContext = new DeleteModeViewModel(mainWindow.ViewModel.CardBankManagement);
-            }
+    this.Loaded += (s, e) => 
+    {
+        Debug.WriteLine($"Aktueller DataContext: {DataContext?.GetType().Name}");
+    };
         }
     }
 }

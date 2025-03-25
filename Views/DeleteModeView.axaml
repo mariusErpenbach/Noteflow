@@ -3,20 +3,27 @@
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
              x:Class="Noteflow.Views.DeleteModeView"
              x:DataType="vm:DeleteModeViewModel"
+             x:Name="root"
              HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
 
-
     <ScrollViewer>
-  
         <ItemsControl ItemsSource="{Binding Cards}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Expander Header="yey" HorizontalAlignment="Stretch" Margin="10,5">
-                        <StackPanel>
-                            <TextBlock Text="{Binding Back}" />
-                            <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
-                        </StackPanel>
-                    </Expander>
+                    <StackPanel>
+                        <!-- Alle Card-Properties sind jetzt unter "Card" verfügbar -->
+                        <Expander Header="{Binding Card.Front}" HorizontalAlignment="Stretch" Margin="10,5">
+                            <StackPanel>
+                                <TextBlock Text="{Binding Card.Back}" />
+                                <TextBlock Text="{Binding Card.Category, StringFormat='Kategorie: {0}'}" />
+                            </StackPanel>
+                        </Expander>
+                        
+                        <!-- Direktes Binding auf den Wrapper -->
+                        <Button Command="{Binding DeleteCommand}" 
+                                Content="Delete"
+                                Margin="10,0,10,10"/>
+                    </StackPanel>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>

@@ -1,30 +1,78 @@
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Noteflow.Models;
 using Noteflow.Services;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Linq;
+using System.Windows.Input;
 
 namespace Noteflow.ViewModels
 {
     public partial class DeleteModeViewModel : ViewModelBase
     {
-        
-        [ObservableProperty]
-        private List<IndexCard> _cards;
-
+        public class CardWrapper
+        {
+            public required IndexCard Card { get; set; }
+            public required ICommand DeleteCommand { get; set; }
+        }
 
         private readonly CardBankManagement _cardBankManagement;
-        private readonly MainWindowViewModel _mainWindowViewModel;
+
+        private ObservableCollection<CardWrapper> _cards;
+        public ObservableCollection<CardWrapper> Cards
+        {
+            get => _cards;
+            set
+            {
+                _cards = value;
+                OnPropertyChanged();
+                // Automatisch speichern bei Änderungen
+                SaveAndReindex();
+            }
+        }
 
         public DeleteModeViewModel(CardBankManagement cardBankManagement)
         {
             _cardBankManagement = cardBankManagement;
-            _cards = _cardBankManagement.LoadCards();
+            LoadCards();
         }
 
-        private void OnSave()
+        private void LoadCards()
         {
-            // Navigiere zurück zur CardSectionView
-            _mainWindowViewModel.ShowCardSection();
+            var loadedCards = _cardBankManagement.LoadCards();
+            Cards = new ObservableCollection<CardWrapper>(
+                loadedCards.Select(card => new CardWrapper 
+                { 
+                    Card = card,
+                    DeleteCommand = new RelayCommand(() => DeleteCard(card.Id)) 
+                }));
+        }
+
+     private void DeleteCard(int cardId)
+{
+    // 1. Originale Liste laden
+    var allCards = _cardBankManagement.LoadCards();
+    
+    // 2. Karte aus Original-Liste entfernen
+    allCards.RemoveAll(c => c.Id == cardId);
+    
+    // 3. IDs neu sortieren und speichern
+    _cardBankManagement.ReindexCards(allCards);
+    _cardBankManagement.SaveCards(allCards);
+    
+    // 4. UI-Liste aktualisieren
+    LoadCards(); // Diese Methode lädt die Daten neu aus der JSON
+    
+    Debug.WriteLine($"Karte {cardId} wurde dauerhaft gelöscht.");
+}
+
+        private void SaveAndReindex()
+        {
+            var currentCards = Cards.Select(w => w.Card).ToList();
+            _cardBankManagement.ReindexCards(currentCards);
+            _cardBankManagement.SaveCards(currentCards);
+            Debug.WriteLine("Karten wurden automatisch gespeichert und reindiziert.");
         }
     }
 }
