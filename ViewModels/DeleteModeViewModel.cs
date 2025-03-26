@@ -22,19 +22,24 @@ namespace Noteflow.ViewModels
         private ObservableCollection<CardWrapper> _cards;
         public ObservableCollection<CardWrapper> Cards
         {
-            get => _cards;
+            get => Cards2;
             set
             {
-                _cards = value;
+                Cards2 = value;
                 OnPropertyChanged();
                 // Automatisch speichern bei Änderungen
                 SaveAndReindex();
             }
         }
 
+        public ObservableCollection<CardWrapper> Cards1 { get => Cards2; set => Cards2 = value; }
+        public ObservableCollection<CardWrapper> Cards2 { get => _cards; set => _cards = value; }
+        public ObservableCollection<CardWrapper> Cards3 { get => _cards; set => _cards = value; }
+
         public DeleteModeViewModel(CardBankManagement cardBankManagement)
         {
-            _cardBankManagement = cardBankManagement;
+             _cardBankManagement = cardBankManagement;
+            _cards = new ObservableCollection<CardWrapper>();  // Leere Liste initialisieren
             LoadCards();
         }
 

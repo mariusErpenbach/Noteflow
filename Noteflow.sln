@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noteflow", "Noteflow.csproj", "{ED29AC99-0BCE-20D4-2D9E-C03E9C4FF604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED29AC99-0BCE-20D4-2D9E-C03E9C4FF604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED29AC99-0BCE-20D4-2D9E-C03E9C4FF604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED29AC99-0BCE-20D4-2D9E-C03E9C4FF604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED29AC99-0BCE-20D4-2D9E-C03E9C4FF604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68223019-5B56-4291-B120-DC0968D96345}
+	EndGlobalSection
+EndGlobal

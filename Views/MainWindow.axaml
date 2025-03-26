@@ -16,11 +16,11 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-  <DockPanel>
+  <DockPanel  Background="#2b2d42">
         <!-- Menüleiste oben fixieren -->
         <ContentControl DockPanel.Dock="Top" Content="{Binding MenuBarViewModel}" />
         
         <!-- CurrentView nimmt den restlichen Platz ein -->
-        <ContentControl Content="{Binding CurrentView}" />
+        <ContentControl Content="{Binding CurrentView}"/>
     </DockPanel>
 </Window>

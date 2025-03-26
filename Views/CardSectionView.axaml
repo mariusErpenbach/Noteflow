@@ -10,12 +10,24 @@
         <ItemsControl ItemsSource="{Binding Cards}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Expander Header="{Binding Front}" HorizontalAlignment="Stretch" Margin="10,5">
-                        <StackPanel>
-                             <TextBlock Text="{Binding Back}" TextWrapping="Wrap"/>
-                            <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
-                        </StackPanel>
-                    </Expander>
+                  <Expander Header="{Binding Front}" 
+          HorizontalAlignment="Stretch" 
+          Margin="10,5">
+    <Expander.Styles>
+        <!-- Style für den Header-Button (ToggleButton) -->
+        <Style Selector="Expander /template/ ToggleButton#PART_ExpanderToggleButton">
+            <Setter Property="Background" Value="#081F33" />
+            <Setter Property="Foreground" Value="White" /> <!-- Textfarbe -->
+            <Setter Property="BorderThickness" Value="0" /> <!-- Rahmen entfernen -->
+        </Style>
+    </Expander.Styles>
+    
+    <!-- Unveränderter Inhalt -->
+    <StackPanel>
+        <TextBlock Text="{Binding Back}" TextWrapping="Wrap"/>
+        <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
+    </StackPanel>
+</Expander>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>

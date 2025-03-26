@@ -1,7 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Windows.Input;
-
+using System;
 namespace Noteflow.ViewModels
 {
     public partial class MenuBarViewModel : ViewModelBase
@@ -13,7 +13,8 @@ namespace Noteflow.ViewModels
         public ICommand ShowHelpCommand { get; }
         public ICommand NewCardCommand { get; }
         public ICommand DeleteCardCommand { get; }
-        
+        public ICommand FilterCardCommand {get; }
+
         public MenuBarViewModel(MainWindowViewModel mainWindowViewModel)
         {
             _mainWindowViewModel = mainWindowViewModel;
@@ -21,6 +22,7 @@ namespace Noteflow.ViewModels
             ShowHelpCommand = new RelayCommand(OnShowHelp);
             NewCardCommand = new RelayCommand(OnNewCard);
             DeleteCardCommand = new RelayCommand(OnDeleteCard);
+            FilterCardCommand = new RelayCommand(OnFilterCard);
         }
 
         private void OnEditBank()
@@ -42,6 +44,10 @@ namespace Noteflow.ViewModels
         {
             MainWindowViewModel.ShowDeleteMode();
                   
+        }
+        private void OnFilterCard()
+        {
+            Console.WriteLine("Test Nachricht");
         }
     }
 }

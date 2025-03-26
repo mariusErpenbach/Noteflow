@@ -5,13 +5,12 @@
              x:DataType="vm:MenuBarViewModel">
     
     <DockPanel>
-        <Menu DockPanel.Dock="Top" Background="red" Height="30">
-            <MenuItem Header="Einstellungen"> </MenuItem>
-            <MenuItem Header="Bank" Command="{Binding EditBankCommand}">
+        <Menu DockPanel.Dock="Top" Background="#8A817C" Height="30">
+            <MenuItem Header="Bank" Command="{Binding EditBankCommand}" Background="#463f3a">
                 <MenuItem Header="New Card" Command="{Binding NewCardCommand}" />
                 <MenuItem Header="Delete Card" Command="{Binding DeleteCardCommand}" />
             </MenuItem>
-            <MenuItem Header="Hilfe anzeigen" Command="{Binding ShowHelpCommand}" />
+            <MenuItem Header="Search" Command="{Binding FilterCardCommand}" />
         </Menu>
     </DockPanel>
 </UserControl>
