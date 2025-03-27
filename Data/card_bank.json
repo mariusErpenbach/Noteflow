@@ -388,5 +388,41 @@
     "Front": "Rahmenvertr\u00E4ge",
     "Back": "Rahmenvertr\u00E4ge sind langfristige Vereinbarungen zwischen zwei Parteien, die die allgemeinen Bedingungen f\u00FCr zuk\u00FCnftige Einzelgesch\u00E4fte festlegen. Sie bieten Flexibilit\u00E4t und Klarheit, indem sie Preise, Lieferbedingungen und andere wesentliche Punkte f\u00FCr wiederkehrende Transaktionen vorab definieren.",
     "Category": "Vertragsrecht / Gesch\u00E4ftsbeziehungen"
+  },
+  {
+    "Id": 66,
+    "Front": "Server",
+    "Back": "Ein Server ist ein Computer oder ein System, das Dienste, Ressourcen oder Daten \u00FCber ein Netzwerk bereitstellt. Er empf\u00E4ngt Anfragen von Clients (z. B. PCs oder Smartphones) und verarbeitet diese, um Informationen oder Dienste bereitzustellen, wie z. B. Webhosting, Dateispeicherung oder Datenbankverwaltung.",
+    "Category": ""
+  },
+  {
+    "Id": 67,
+    "Front": "Firmware",
+    "Back": "Firmware ist eine spezielle Art von Software, die in Hardwarekomponenten integriert ist und deren Funktionen steuert. Sie ist in der Regel nicht direkt vom Benutzer \u00E4nderbar und sorgt daf\u00FCr, dass die Hardware korrekt funktioniert, indem sie grundlegende Anweisungen bereitstellt, wie z. B. beim Booten eines Ger\u00E4ts.",
+    "Category": ""
+  },
+  {
+    "Id": 68,
+    "Front": "Mainframe-Computer",
+    "Back": "Mainframe-Computer sind leistungsstarke Gro\u00DFrechner, die f\u00FCr die Verarbeitung gro\u00DFer Datenmengen und die Ausf\u00FChrung zahlreicher gleichzeitiger Aufgaben in Unternehmen und Institutionen eingesetzt werden. Sie bieten hohe Verf\u00FCgbarkeit, Sicherheit und Skalierbarkeit und werden h\u00E4ufig f\u00FCr kritische Anwendungen wie Banktransaktionen oder Flugbuchungssysteme genutzt.",
+    "Category": ""
+  },
+  {
+    "Id": 69,
+    "Front": "WAN",
+    "Back": "Ein WAN (Wide Area Network) ist ein Netzwerk, das \u00FCber gro\u00DFe geografische Entfernungen hinweg mehrere lokale Netzwerke (LANs) verbindet. Es erm\u00F6glicht die Kommunikation und den Datenaustausch zwischen Standorten, die weit voneinander entfernt sind, z. B. in verschiedenen St\u00E4dten oder L\u00E4ndern. Das Internet ist das gr\u00F6\u00DFte WAN der Welt.",
+    "Category": ""
+  },
+  {
+    "Id": 70,
+    "Front": "WLAN",
+    "Back": "Wireless Local Area Network ist ein drahtloses Netzwerk, das es Ger\u00E4ten erm\u00F6glicht, sich innerhalb eines begrenzten geografischen Bereichs, wie z. B. einem B\u00FCro oder einem Zuhause, ohne Kabelverbindung zu verbinden. Es nutzt Funktechnologie, um Daten \u00FCber Funkwellen zu \u00FCbertragen und bietet eine flexible Verbindung f\u00FCr mobile Ger\u00E4te.",
+    "Category": ""
+  },
+  {
+    "Id": 71,
+    "Front": "Cloud",
+    "Back": "Die Cloud bezeichnet eine Reihe von Online-Diensten, die \u00FCber das Internet bereitgestellt werden, anstatt lokal auf einem Computer oder Server installiert zu sein. Cloud-Dienste umfassen Speicher, Anwendungen und Rechenleistung und erm\u00F6glichen Benutzern den Zugriff auf Ressourcen von \u00FCberall aus, solange eine Internetverbindung besteht. Beispiele sind Google Drive, Amazon Web Services (AWS) und Microsoft Azure.",
+    "Category": ""
   }
 ]
