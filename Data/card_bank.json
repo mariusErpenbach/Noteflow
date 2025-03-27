@@ -424,5 +424,41 @@
     "Front": "Cloud",
     "Back": "Die Cloud bezeichnet eine Reihe von Online-Diensten, die \u00FCber das Internet bereitgestellt werden, anstatt lokal auf einem Computer oder Server installiert zu sein. Cloud-Dienste umfassen Speicher, Anwendungen und Rechenleistung und erm\u00F6glichen Benutzern den Zugriff auf Ressourcen von \u00FCberall aus, solange eine Internetverbindung besteht. Beispiele sind Google Drive, Amazon Web Services (AWS) und Microsoft Azure.",
     "Category": ""
+  },
+  {
+    "Id": 72,
+    "Front": "Propriet\u00E4re Software",
+    "Back": "Propriet\u00E4re Software ist Software, deren Quellcode und Lizenzrechte im Besitz eines Unternehmens oder einer Einzelperson sind. Sie darf in der Regel nicht ver\u00E4ndert, weitergegeben oder kopiert werden, ohne dass der Rechteinhaber zustimmt. Beispiele f\u00FCr propriet\u00E4re Software sind Microsoft Windows, Adobe Photoshop oder Apple macOS. Benutzer zahlen in der Regel f\u00FCr Lizenzen oder Abonnements, um die Software zu nutzen.",
+    "Category": ""
+  },
+  {
+    "Id": 73,
+    "Front": "Betriebsrat",
+    "Back": "Der Betriebsrat vertritt die Interessen der Arbeitnehmer im Unternehmen und sorgt daf\u00FCr, dass die Rechte der Besch\u00E4ftigten gewahrt bleiben. In Bezug auf Auszubildende spielt der Betriebsrat eine Rolle, indem er z. B. bei der Ausgestaltung von Arbeitsbedingungen oder bei Beschwerden zu Rate gezogen wird.",
+    "Category": "Arbeitsrecht"
+  },
+  {
+    "Id": 74,
+    "Front": "Jugendarbeitschutzgesetz",
+    "Back": "Das Gesetz sch\u00FCtzt jugendliche Auszubildende vor \u00FCberm\u00E4\u00DFiger Belastung und regelt ihre Arbeitszeiten, Pausen und den Umfang der Arbeiten. So d\u00FCrfen Jugendliche z. B. nicht l\u00E4nger als 8 Stunden t\u00E4glich arbeiten und nicht nach 20 Uhr. Dies stellt sicher, dass die Ausbildung nicht zu einer gesundheitlichen Belastung wird.",
+    "Category": "Arbeitsrecht"
+  },
+  {
+    "Id": 75,
+    "Front": "Tarifvertrag",
+    "Back": "Ein Tarifvertrag regelt die Arbeitsbedingungen f\u00FCr eine bestimmte Branche oder Berufsgruppe und wird zwischen Arbeitgebern und Gewerkschaften ausgehandelt. In vielen F\u00E4llen legen Tarifvertr\u00E4ge Mindestverg\u00FCtungen, Arbeitszeiten und Urlaubstage f\u00FCr Auszubildende fest.",
+    "Category": "Arbeitsrecht Tarife"
+  },
+  {
+    "Id": 76,
+    "Front": "Linienorganisation",
+    "Back": "Die Linienorganisation beschreibt eine Form der Hierarchischen Organisation, bei der die Befehls- und Kommunikationswege von oben nach unten verlaufen. Ein h\u00E4ufig verwendetes Schaubild, um eine Linienorganisation darzustellen, ist tats\u00E4chlich das Stammbaum-Schaubild. Hier werden die verschiedenen Positionen (wie ein Stammbaum) so dargestellt, dass die \u00DCber- und Unterordnung sichtbar ist. n einer Linienorganisation hat jede Position genau einen Vorgesetzten (in vertikaler Linie), was klare Befehlsketten schafft.",
+    "Category": "Unternehmensstrukturen"
+  },
+  {
+    "Id": 77,
+    "Front": "Aufbauorganisation",
+    "Back": "Pyramidenschaubild. Die Aufbauorganisation eines Unternehmens beschreibt die Struktur und Hierarchie innerhalb des Betriebs. Es wird festgelegt, wer wem unterstellt ist und welche Zust\u00E4ndigkeiten es gibt. Im Kontext des Ausbildungsverh\u00E4ltnisses ist es wichtig, dass der Ausbilder klar definiert ist und der Azubi wei\u00DF, wer die Ansprechpartner sind.",
+    "Category": "Unternehmensstrukturen"
   }
 ]
