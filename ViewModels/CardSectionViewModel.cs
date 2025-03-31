@@ -40,8 +40,7 @@ namespace Noteflow.ViewModels
             var lowerValue = value.ToLower();
             Cards = AllCards.Where(card =>
                 card.Front.ToLower().Contains(lowerValue) ||
-                card.Category.ToLower().Contains(lowerValue) ||
-                card.Back.ToLower().Contains(lowerValue)
+                card.Category.ToLower().Contains(lowerValue) 
             ).ToList();
         }
     }

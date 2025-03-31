@@ -556,5 +556,53 @@
     "Front": "Leitzins",
     "Back": "Der Leitzins ist der Zinssatz, den eine Zentralbank f\u00FCr die Kreditvergabe an Gesch\u00E4ftsbanken festlegt. Dieser Zinssatz beeinflusst ma\u00DFgeblich die allgemeine Zinslandschaft in einer Volkswirtschaft, da Gesch\u00E4ftsbanken ihre Kredite und Einlagen in der Regel an den Leitzins anpassen. Der Leitzins wird von Zentralbanken wie der Europ\u00E4ischen Zentralbank (EZB) oder der US-Notenbank (Fed) genutzt, um geldpolitische Ziele wie Inflation und Wirtschaftswachstum zu steuern. In der IT-Branche kann der Leitzins indirekt die Kosten f\u00FCr Unternehmensfinanzierungen oder Investitionen in Technologieprojekte beeinflussen.",
     "Category": "Finanzen \u0026 Wirtschaft"
+  },
+  {
+    "Id": 94,
+    "Front": "TOM",
+    "Back": "Technische und Organisatorische Ma\u00DFnahmen (TOM) sind Schutzma\u00DFnahmen, die Unternehmen ergreifen m\u00FCssen, um personenbezogene Daten gem\u00E4\u00DF der Datenschutz-Grundverordnung (DSGVO) zu sichern. Diese Ma\u00DFnahmen sollen sicherstellen, dass Daten vor unbefugtem Zugriff, Verlust oder Manipulation gesch\u00FCtzt sind.",
+    "Category": "IT-Sicherheit \u0026 Datenschutz"
+  },
+  {
+    "Id": 95,
+    "Front": "Security vs. Safety",
+    "Back": "Security und Safety sind zwei Begriffe, die oft verwechselt werden, jedoch unterschiedliche Bedeutungen haben, insbesondere im IT-Bereich. Security beschreibt den Schutz von IT-Systemen, Netzwerken und Daten vor \u00E4u\u00DFeren Bedrohungen wie Hackerangriffen, Schadsoftware oder unbefugtem Zugriff. Unternehmen setzen hier auf Ma\u00DFnahmen wie Verschl\u00FCsselung, Firewalls und Zugriffskontrollen, um sensible Informationen vor Manipulation oder Diebstahl zu sch\u00FCtzen.",
+    "Category": " IT-Sicherheit \u0026 Risikomanagement"
+  },
+  {
+    "Id": 96,
+    "Front": "Version vs. Variante ",
+    "Back": "Die Begriffe Version und Variante klingen \u00E4hnlich, beschreiben jedoch unterschiedliche Konzepte in der Softwareentwicklung. Eine Version bezeichnet eine Weiterentwicklung oder Aktualisierung eines bestehenden Softwareprodukts. Sie entsteht durch Fehlerkorrekturen, Leistungsverbesserungen oder neue Funktionen und wird meist mit einer Versionsnummer gekennzeichnet, beispielsweise 2.0 oder 3.1. Updates innerhalb einer Version k\u00F6nnen kleinere \u00C4nderungen beinhalten, w\u00E4hrend ein gro\u00DFer Versionssprung oft tiefgreifende Neuerungen mit sich bringt.",
+    "Category": "Softwareentwicklung \u0026 Produktmanagement"
+  },
+  {
+    "Id": 97,
+    "Front": "IaaS, SaaS, ScaaS, WaaS, DaaS, PaaS",
+    "Back": "Cloud Computing bietet verschiedene Dienstmodelle, die sich in ihrem Leistungsumfang unterscheiden. Infrastructure as a Service (IaaS) stellt virtuelle Server, Netzwerke und Speicherressourcen bereit, auf denen Unternehmen ihre eigenen Anwendungen betreiben k\u00F6nnen, ohne physische Hardware verwalten zu m\u00FCssen. Platform as a Service (PaaS) bietet eine Entwicklungsumgebung, in der Entwickler Anwendungen erstellen, testen und ausf\u00FChren k\u00F6nnen, ohne sich um die zugrunde liegende Infrastruktur k\u00FCmmern zu m\u00FCssen. Software as a Service (SaaS) hingegen stellt vollst\u00E4ndige Softwarel\u00F6sungen \u00FCber das Internet bereit, sodass Nutzer Programme direkt im Browser verwenden k\u00F6nnen, ohne Installation oder Wartung.",
+    "Category": "Cloud Computing \u0026 IT-Dienste"
+  },
+  {
+    "Id": 98,
+    "Front": "On-Premise ",
+    "Back": "On-Premise bezeichnet eine IT-Betriebsform, bei der Software, Server und Datenbanken vollst\u00E4ndig innerhalb der eigenen Unternehmensinfrastruktur gehostet und betrieben werden. Im Gegensatz zu Cloud-L\u00F6sungen liegen alle Systeme und Daten auf firmeneigenen Servern, die entweder im eigenen Rechenzentrum oder in speziell gesicherten R\u00E4umen innerhalb des Unternehmens untergebracht sind. Dadurch behalten Unternehmen die volle Kontrolle \u00FCber ihre IT-Umgebung, m\u00FCssen aber auch f\u00FCr Wartung, Updates, Sicherheit und Skalierung selbst sorgen.",
+    "Category": "IT-Infrastruktur \u0026 Deployment"
+  },
+  {
+    "Id": 99,
+    "Front": "Server-Arten",
+    "Back": "Server \u00FCbernehmen in der IT verschiedene Aufgaben und lassen sich nach ihrem Einsatzzweck in unterschiedliche Kategorien unterteilen. Ein Webserver stellt Webseiten und Webanwendungen bereit und verarbeitet Anfragen von Clients \u00FCber das HTTP-Protokoll. Ein Datenbankserver speichert, verwaltet und stellt strukturierte Daten f\u00FCr Anwendungen bereit, sodass mehrere Nutzer oder Systeme gleichzeitig darauf zugreifen k\u00F6nnen. Ein Mailserver erm\u00F6glicht das Senden, Empfangen und Verwalten von E-Mails, indem er Nachrichten zwischen Clients und anderen Mailservern weiterleitet.",
+    "Category": "IT-Infrastruktur \u0026 Netzwerke"
+  },
+  {
+    "Id": 100,
+    "Front": "DMZ",
+    "Back": "Die Demilitarisierte Zone (DMZ) ist ein speziell abgesicherter Bereich in einem Computernetzwerk, der zwischen dem internen Unternehmensnetzwerk und dem \u00F6ffentlichen Internet liegt. Sie dient dazu, externe Dienste wie Webserver, Mailserver oder VPN-Gateways bereitzustellen, ohne dabei das interne Netzwerk direkt Angriffen aus dem Internet auszusetzen. Die DMZ wird durch eine Firewall-Architektur gesch\u00FCtzt, die den Datenverkehr zwischen der DMZ, dem internen Netzwerk und dem Internet gezielt kontrolliert.",
+    "Category": "Netzwerksicherheit \u0026 IT-Infrastruktur"
+  },
+  {
+    "Id": 101,
+    "Front": "KVP",
+    "Back": "Der Kontinuierliche Verbesserungsprozess (KVP) ist eine Methode zur stetigen Optimierung von Prozessen, Produkten oder Dienstleistungen innerhalb eines Unternehmens. Anstatt auf einmalige gro\u00DFe Ver\u00E4nderungen zu setzen, basiert KVP auf kleinen, schrittweisen Verbesserungen, die regelm\u00E4\u00DFig umgesetzt und \u00FCberpr\u00FCft werden. Dabei werden h\u00E4ufig Ans\u00E4tze wie das PDCA-Modell (Plan-Do-Check-Act) oder die Kaizen-Philosophie verwendet, um eine nachhaltige und langfristige Weiterentwicklung sicherzustellen.",
+    "Category": "Qualit\u00E4tsmanagement \u0026 Prozessoptimierung"
   }
 ]
