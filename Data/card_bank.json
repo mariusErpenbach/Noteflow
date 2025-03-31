@@ -481,90 +481,78 @@
   },
   {
     "Id": 81,
-    "Front": "",
-    "Back": "",
-    "Category": ""
-  },
-  {
-    "Id": 82,
     "Front": "Full-Stack-Entwickler",
     "Back": "Ein Full-Stack-Entwickler ist ein Programmierer, der sowohl die Frontend- als auch die Backend-Entwicklung beherrscht und in der Lage ist, eine komplette Anwendung von der Benutzeroberfl\u00E4che bis zur Server-Logik zu erstellen. Er arbeitet mit verschiedenen Technologien wie HTML, CSS und JavaScript f\u00FCr das Frontend sowie mit Datenbanken, Servern und APIs f\u00FCr das Backend. Durch sein breites Wissen kann ein Full-Stack-Entwickler flexibel in unterschiedlichen Bereichen eingesetzt werden und \u00FCbernimmt oft eine zentrale Rolle in der Entwicklung von Web- und Softwareprojekten.",
     "Category": "Softwareentwicklung \u0026 Webentwicklung"
   },
   {
-    "Id": 83,
+    "Id": 82,
     "Front": "Frontend",
     "Back": "Das Frontend bezeichnet den Teil einer Anwendung, der f\u00FCr den Benutzer sichtbar und direkt interaktiv ist, beispielsweise eine Website oder eine App-Oberfl\u00E4che. Es wird mit Technologien wie HTML, CSS und JavaScript umgesetzt, oft unter Verwendung von Frameworks wie React, Angular oder Vue.js, um komplexe und dynamische Benutzeroberfl\u00E4chen zu erstellen. Ein gutes Frontend zeichnet sich durch ansprechendes Design, intuitive Benutzerf\u00FChrung und eine hohe Performance aus, um eine optimale User Experience zu gew\u00E4hrleisten.",
     "Category": "Webentwicklung \u0026 UI/UX-Design"
   },
   {
-    "Id": 84,
+    "Id": 83,
     "Front": "Backend",
     "Back": "Das Backend ist der Teil einer Anwendung, der auf dem Server l\u00E4uft und die Gesch\u00E4ftslogik, Datenverarbeitung sowie die Kommunikation mit der Datenbank verwaltet. Es wird mit Programmiersprachen wie Python, Java, Node.js oder PHP entwickelt und nutzt oft Frameworks wie Django, Spring Boot oder Express.js, um robuste und skalierbare Anwendungen zu erstellen. Ein effizientes Backend sorgt f\u00FCr die sichere Verarbeitung von Benutzeranfragen, die Authentifizierung sowie die Bereitstellung und Verwaltung von Daten \u00FCber APIs.",
     "Category": "Softwareentwicklung \u0026 Servertechnologien"
   },
   {
-    "Id": 85,
+    "Id": 84,
     "Front": "CMS",
     "Back": "Ein Content Management System (CMS) ist eine Software, die es Benutzern erm\u00F6glicht, digitale Inhalte wie Texte, Bilder und Videos auf einer Website zu erstellen, zu verwalten und zu bearbeiten, ohne tiefgehende Programmierkenntnisse zu ben\u00F6tigen. CMS-Plattformen wie WordPress, Joomla oder Drupal bieten benutzerfreundliche Schnittstellen und eine Vielzahl von Erweiterungen, die die Anpassung von Websites erleichtern. Sie sind besonders n\u00FCtzlich f\u00FCr die Verwaltung von dynamischen Webseiten, Blogs oder E-Commerce-Plattformen und erm\u00F6glichen eine effiziente Zusammenarbeit im Team.",
     "Category": "Webentwicklung \u0026 Content Management"
   },
   {
-    "Id": 86,
+    "Id": 85,
     "Front": "Add-On",
     "Back": "Ein Add-On ist eine Software-Erweiterung, die zus\u00E4tzliche Funktionen zu einer bestehenden Anwendung oder Plattform hinzuf\u00FCgt, ohne deren Grundstruktur zu ver\u00E4ndern. In der IT wird der Begriff oft verwendet, um Plugins, Module oder Erweiterungen zu beschreiben, die bestehende Programme wie Webbrowser, Content-Management-Systeme oder Spiele erweitern, um neue Features bereitzustellen. Add-Ons erm\u00F6glichen es Entwicklern und Benutzern, Software flexibel anzupassen und um zus\u00E4tzliche Funktionen wie z. B. neue Designoptionen, Integrationen oder Sicherheitsfunktionen zu erg\u00E4nzen.",
     "Category": "Software \u0026 Erweiterungen"
   },
   {
-    "Id": 87,
+    "Id": 86,
     "Front": "Asset Tracking",
     "Back": "Asset Tracking bezeichnet die Methode zur Verfolgung und Verwaltung von Verm\u00F6genswerten (Assets), wie z. B. Hardware, Maschinen oder Ausr\u00FCstungen, in einem Unternehmen. Durch den Einsatz von Technologien wie RFID, GPS und Barcode-Scannern k\u00F6nnen Unternehmen den Standort, den Zustand und den Nutzungshistorie ihrer Assets \u00FCberwachen, um eine effiziente Verwaltung, Wartung und Kontrolle zu gew\u00E4hrleisten. Diese Praxis ist besonders in der IT und Logistik wichtig, um Verluste zu minimieren, Wartungskosten zu senken und eine pr\u00E4zise Bestandsf\u00FChrung zu erm\u00F6glichen.",
     "Category": " IT-Management \u0026 Logistik"
   },
   {
-    "Id": 88,
+    "Id": 87,
     "Front": "Lean Six Sigma",
     "Back": "Lean Six Sigma ist eine Methodologie zur Verbesserung von Gesch\u00E4ftsprozessen, die Elemente der Lean-Philosophie (Reduzierung von Verschwendung) und des Six Sigma-Ansatzes (Minimierung von Fehlern und Variabilit\u00E4t) kombiniert. Ziel ist es, Prozesse effizienter zu gestalten, Kosten zu senken und die Qualit\u00E4t zu steigern, indem sowohl unn\u00F6tige Schritte eliminiert als auch die Variabilit\u00E4t in Prozessen reduziert wird. In der IT und anderen Branchen wird Lean Six Sigma genutzt, um Prozesse zu optimieren, Ressourcen besser zu nutzen und eine hohe Kundenzufriedenheit durch kontinuierliche Verbesserung zu gew\u00E4hrleisten.",
     "Category": "Prozessoptimierung \u0026 Qualit\u00E4tsmanagement"
   },
   {
-    "Id": 89,
+    "Id": 88,
     "Front": "DMAIC",
     "Back": "DMAIC ist eine systematische Methodik im Rahmen von Six Sigma zur Verbesserung von Prozessen, die aus den f\u00FCnf Phasen Define (Definieren), Measure (Messen), Analyze (Analysieren), Improve (Verbessern) und Control (Steuern) besteht. Ziel von DMAIC ist es, bestehende Prozesse zu optimieren, indem Probleme identifiziert, die Ursachen analysiert und L\u00F6sungen implementiert werden, um die Prozessleistung zu steigern und Variabilit\u00E4t zu verringern. Diese Methode wird h\u00E4ufig in der IT und im produzierenden Gewerbe eingesetzt, um die Qualit\u00E4t und Effizienz von Prozessen nachhaltig zu erh\u00F6hen.",
     "Category": "Qualit\u00E4tsmanagement \u0026 Prozessverbesserung"
   },
   {
-    "Id": 90,
+    "Id": 89,
     "Front": "Aufgabenanalyse",
     "Back": "Die Aufgabenanalyse ist ein methodischer Prozess, bei dem eine bestimmte Aufgabe oder ein Arbeitsprozess detailliert untersucht wird, um die einzelnen Schritte, Anforderungen und Ressourcen zu identifizieren. Ziel ist es, die Aufgabenstruktur zu verstehen, Optimierungspotentiale zu erkennen und eine effiziente Arbeitsweise zu entwickeln. In der IT wird eine Aufgabenanalyse h\u00E4ufig verwendet, um komplexe Projekte in kleinere, handhabbare Arbeitseinheiten zu unterteilen, die dann leichter zu planen und zu steuern sind. Sie ist auch ein n\u00FCtzliches Werkzeug f\u00FCr die Anforderungsanalyse bei Softwareentwicklungsprojekten",
     "Category": "Projektmanagement \u0026 Arbeitsorganisation"
   },
   {
-    "Id": 91,
+    "Id": 90,
     "Front": "Aufgabensynthese",
     "Back": "Die Aufgabensynthese ist der Prozess, bei dem verschiedene Teilaufgaben oder Arbeitsprozesse zu einer Gesamtaufgabe zusammengef\u00FChrt werden. Ziel ist es, diese Aufgaben in einer logischen und effizienten Weise zu kombinieren, um die Gesamtzielsetzung des Projekts oder der Organisation zu erreichen. In der IT wird Aufgabensynthese oft genutzt, um komplexe Projekte in \u00FCberschaubare, aber miteinander verkn\u00FCpfte Module zu integrieren, was zu einer besseren Koordination und Ressourcenallokation f\u00FChrt. Sie hilft dabei, die Aufgaben sinnvoll zu gruppieren und redundante oder ineffiziente Schritte zu eliminieren.",
     "Category": "Projektmanagement \u0026 Arbeitsorganisation"
   },
   {
-    "Id": 92,
+    "Id": 91,
     "Front": "5 Why-Methode",
     "Back": "Die 5 Why-Methode ist eine einfache und effektive Technik zur Ursachenanalyse, bei der man f\u00FCnfmal hintereinander die Frage \u0022Warum?\u0022 stellt, um die zugrunde liegende Ursache eines Problems zu identifizieren. Durch das wiederholte Hinterfragen werden nicht nur Symptome aufgedeckt, sondern die tats\u00E4chliche Ursache des Problems, die oft tiefer in den Prozessen oder Systemen liegt, herausgearbeitet. Diese Methode wird besonders in der IT und im Qualit\u00E4tsmanagement eingesetzt, um Fehlerursachen zu ermitteln, Prozesse zu verbessern und wiederkehrende Probleme nachhaltig zu l\u00F6sen.",
     "Category": "Qualit\u00E4tsmanagement \u0026 Probleml\u00F6sung"
   },
   {
-    "Id": 93,
+    "Id": 92,
     "Front": "Zins-Bindung",
     "Back": "Zins-Bindung bezeichnet den Zeitraum, in dem der Zinssatz f\u00FCr ein Darlehen oder eine Finanzierung festgelegt und unver\u00E4nderlich bleibt. Diese Bindung sorgt f\u00FCr Planungssicherheit, da der Kreditnehmer w\u00E4hrend der Bindungsfrist keine Zinsschwankungen bef\u00FCrchten muss. I",
     "Category": "Finanzen \u0026 Unternehmensmanagement"
   },
   {
-    "Id": 94,
-    "Front": "",
-    "Back": "",
-    "Category": ""
-  },
-  {
-    "Id": 95,
+    "Id": 93,
     "Front": "Leitzins",
     "Back": "Der Leitzins ist der Zinssatz, den eine Zentralbank f\u00FCr die Kreditvergabe an Gesch\u00E4ftsbanken festlegt. Dieser Zinssatz beeinflusst ma\u00DFgeblich die allgemeine Zinslandschaft in einer Volkswirtschaft, da Gesch\u00E4ftsbanken ihre Kredite und Einlagen in der Regel an den Leitzins anpassen. Der Leitzins wird von Zentralbanken wie der Europ\u00E4ischen Zentralbank (EZB) oder der US-Notenbank (Fed) genutzt, um geldpolitische Ziele wie Inflation und Wirtschaftswachstum zu steuern. In der IT-Branche kann der Leitzins indirekt die Kosten f\u00FCr Unternehmensfinanzierungen oder Investitionen in Technologieprojekte beeinflussen.",
     "Category": "Finanzen \u0026 Wirtschaft"

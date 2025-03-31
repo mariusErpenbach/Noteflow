@@ -1,35 +1,45 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Class="Noteflow.Views.CardSectionView"
              x:DataType="vm:CardSectionViewModel"
-             HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch">
+             HorizontalAlignment="Stretch" 
+             HorizontalContentAlignment="Stretch"
+             mc:Ignorable="d">
 
-
-    <ScrollViewer>
-        <ItemsControl ItemsSource="{Binding Cards}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                  <Expander Header="{Binding Front}" 
-          HorizontalAlignment="Stretch" 
-          Margin="10,5">
-    <Expander.Styles>
-        <!-- Style für den Header-Button (ToggleButton) -->
-        <Style Selector="Expander /template/ ToggleButton#PART_ExpanderToggleButton">
-            <Setter Property="Background" Value="#081F33" />
-            <Setter Property="Foreground" Value="White" /> <!-- Textfarbe -->
-            <Setter Property="BorderThickness" Value="0" /> <!-- Rahmen entfernen -->
-        </Style>
-    </Expander.Styles>
-    
-    <!-- Unveränderter Inhalt -->
     <StackPanel>
-        <TextBlock Text="{Binding Back}" TextWrapping="Wrap"/>
-        <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
+        <!-- Vereinfachtes Suchfeld ohne Delay -->
+        <TextBox Watermark="Suche (mind. 3 Zeichen)..."
+                 Text="{Binding SearchText, Mode=TwoWay}"
+                 Margin="10"
+                 Padding="10,5"/>
+        
+        <!-- Kartenliste -->
+        <ScrollViewer>
+            <ItemsControl ItemsSource="{Binding Cards}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Expander Header="{Binding Front}" 
+                                  HorizontalAlignment="Stretch" 
+                                  Margin="10,5">
+                            <Expander.Styles>
+                                <Style Selector="Expander /template/ ToggleButton#PART_ExpanderToggleButton">
+                                    <Setter Property="Background" Value="#081F33" />
+                                    <Setter Property="Foreground" Value="White" />
+                                    <Setter Property="BorderThickness" Value="0" />
+                                </Style>
+                            </Expander.Styles>
+                            
+                            <StackPanel>
+                                <TextBlock Text="{Binding Back}" TextWrapping="Wrap"/>
+                                <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
+                            </StackPanel>
+                        </Expander>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
     </StackPanel>
-</Expander>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-    </ScrollViewer>
 </UserControl>
