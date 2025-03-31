@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Noteflow.Services;
 using Noteflow.ViewModels;
 
@@ -8,6 +9,8 @@ namespace Noteflow.ViewModels
     {
         [ObservableProperty]
         private ViewModelBase _currentView;
+             [ObservableProperty]
+        private bool _showBackButton;
 
         [ObservableProperty]
         private MenuBarViewModel _menuBarViewModel;
@@ -27,8 +30,22 @@ namespace Noteflow.ViewModels
 
             // Erstelle eine Instanz der Menüleiste
             MenuBarViewModel = new MenuBarViewModel(this);
+            
+            UpdateBackButtonVisibility();
         }
-
+          partial void OnCurrentViewChanged(ViewModelBase value)
+        {
+            UpdateBackButtonVisibility();
+        }
+         private void UpdateBackButtonVisibility()
+        {
+            ShowBackButton = CurrentView is not CardSectionViewModel;
+        }
+        [RelayCommand]
+        public void GoBack()
+        {
+            ShowCardSection();
+        }
         public void ShowNewCardForm()
         {
             // Wechsle zur NewCardFormularView und übergebe CardBankManagement
