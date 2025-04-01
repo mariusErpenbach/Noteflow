@@ -640,5 +640,17 @@
     "Front": "Produktivit\u00E4t",
     "Back": "Output/Input",
     "Category": "Arbeits- und Effizienzmanagement"
+  },
+  {
+    "Id": 108,
+    "Front": "Intonation",
+    "Back": "Intonation bezeichnet die melodische Variation der Stimme beim Sprechen, die Betonung, Tonh\u00F6he und Rhythmus umfasst. Sie beeinflusst die Bedeutung von S\u00E4tzen, indem sie Emotionen, Fragen, Aussagen oder Betonungen ausdr\u00FCckt und so zur Verst\u00E4ndlichkeit und Ausdruckskraft der Sprache beitr\u00E4gt.",
+    "Category": "Linguistik / Kommunikation"
+  },
+  {
+    "Id": 109,
+    "Front": "Intranet",
+    "Back": "Ein Intranet ist ein internes Netzwerk, das von einer Organisation genutzt wird, um Informationen und Ressourcen zu teilen, die nur f\u00FCr Mitarbeiter oder Mitglieder der Organisation zug\u00E4nglich sind. Im Wesentlichen handelt es sich um ein private, lokal oder virtuell abgeschottetes Netzwerk, das die gleichen Technologien wie das Internet verwendet, jedoch nur innerhalb der Organisation zug\u00E4nglich ist.",
+    "Category": "Netzwerk / IT-Infrastruktur"
   }
 ]
