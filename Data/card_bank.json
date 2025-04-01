@@ -604,5 +604,41 @@
     "Front": "KVP",
     "Back": "Der Kontinuierliche Verbesserungsprozess (KVP) ist eine Methode zur stetigen Optimierung von Prozessen, Produkten oder Dienstleistungen innerhalb eines Unternehmens. Anstatt auf einmalige gro\u00DFe Ver\u00E4nderungen zu setzen, basiert KVP auf kleinen, schrittweisen Verbesserungen, die regelm\u00E4\u00DFig umgesetzt und \u00FCberpr\u00FCft werden. Dabei werden h\u00E4ufig Ans\u00E4tze wie das PDCA-Modell (Plan-Do-Check-Act) oder die Kaizen-Philosophie verwendet, um eine nachhaltige und langfristige Weiterentwicklung sicherzustellen.",
     "Category": "Qualit\u00E4tsmanagement \u0026 Prozessoptimierung"
+  },
+  {
+    "Id": 102,
+    "Front": "ROP",
+    "Back": "Ein ROP (Raster Operation Pipeline) ist eine entscheidende Komponente innerhalb einer GPU, die f\u00FCr das Rendering der finalen Pixel auf dem Bildschirm verantwortlich ist. Die ROPs \u00FCbernehmen Aufgaben wie Anti-Aliasing, Tiefentests und das Schreiben von Pixelwerten in den Framebuffer. Eine h\u00F6here Anzahl an ROPs bedeutet in der Regel eine bessere Leistung bei hohen Aufl\u00F6sungen, insbesondere bei 4K- oder 8K-Gaming.",
+    "Category": "GPU-Architektur "
+  },
+  {
+    "Id": 103,
+    "Front": " IP-Adresse",
+    "Back": "Eine IP-Adresse (Internet Protocol Address) ist eine eindeutige numerische Kennung, die Ger\u00E4ten in einem Netzwerk zugewiesen wird, um die Kommunikation zu erm\u00F6glichen. Sie existiert in zwei Hauptversionen: IPv4 (z. B. 192.168.1.1) und IPv6 (z. B. 2001:db8::ff00:42:8329), wobei IPv6 mehr m\u00F6gliche Adressen bietet.",
+    "Category": "Netzwerktechnologie"
+  },
+  {
+    "Id": 104,
+    "Front": "ROM",
+    "Back": "Der ROM (Read-Only Memory) ist ein nicht-fl\u00FCchtiger Speicher, der Daten dauerhaft speichert und nicht ohne Weiteres ver\u00E4ndert werden kann. Er wird oft f\u00FCr Firmware oder BIOS verwendet, da die darauf gespeicherten Daten auch nach dem Ausschalten des Ger\u00E4ts erhalten bleiben.",
+    "Category": "Hardware / Speichertechnologie"
+  },
+  {
+    "Id": 105,
+    "Front": "Socket",
+    "Back": "Ein Socket ist eine Schnittstelle f\u00FCr die Kommunikation zwischen zwei Programmen \u00FCber ein Netzwerk oder innerhalb eines Systems. Er verbindet einen IP-Adresse-Port-Kombination mit einer Anwendung und erm\u00F6glicht so den Datenaustausch, z. B. \u00FCber das TCP- oder UDP-Protokoll.",
+    "Category": "Netzwerktechnologie / Kommunikation"
+  },
+  {
+    "Id": 106,
+    "Front": "IT-Sicherheitsgesetz",
+    "Back": "Das IT-Sicherheitsgesetz ist ein deutsches Gesetz, das die Sicherheit von Informationstechnik in kritischen Infrastrukturen (wie Energieversorgung, Gesundheitswesen) und bei Unternehmen des \u00F6ffentlichen Sektors regelt. Es verpflichtet Betreiber, Mindeststandards zur IT-Sicherheit zu erf\u00FCllen und Sicherheitsvorf\u00E4lle zu melden, um die Resilienz gegen Cyberangriffe zu erh\u00F6hen.",
+    "Category": "Recht / IT-Sicherheit"
+  },
+  {
+    "Id": 107,
+    "Front": "Produktivit\u00E4t",
+    "Back": "Output/Input",
+    "Category": "Arbeits- und Effizienzmanagement"
   }
 ]
