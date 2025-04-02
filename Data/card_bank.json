@@ -652,5 +652,29 @@
     "Front": "Intranet",
     "Back": "Ein Intranet ist ein internes Netzwerk, das von einer Organisation genutzt wird, um Informationen und Ressourcen zu teilen, die nur f\u00FCr Mitarbeiter oder Mitglieder der Organisation zug\u00E4nglich sind. Im Wesentlichen handelt es sich um ein private, lokal oder virtuell abgeschottetes Netzwerk, das die gleichen Technologien wie das Internet verwendet, jedoch nur innerhalb der Organisation zug\u00E4nglich ist.",
     "Category": "Netzwerk / IT-Infrastruktur"
+  },
+  {
+    "Id": 110,
+    "Front": "Vier-Ohren-Modell",
+    "Back": "Friedemann Schulz von Thun beschreibt: 1. Sachebene \u2013 reine Fakten (z. B. \u201EDie Ampel ist gr\u00FCn.\u201C); 2. Selbstoffenbarung \u2013 was der Sprecher \u00FCber sich preisgibt (z. B. \u201EIch habe es eilig.\u201C); 3. Beziehungsebene \u2013 was der Sprecher \u00FCber die Beziehung ausdr\u00FCckt (z. B. \u201EDu f\u00E4hrst zu langsam.\u201C); 4. Appell-Ebene \u2013 was der Sprecher erreichen will (z. B. \u201EFahr endlich los!\u201C)",
+    "Category": "Kommunikationspsychologie"
+  },
+  {
+    "Id": 111,
+    "Front": "Peripherieger\u00E4te",
+    "Back": "Peripherieger\u00E4te sind externe Ger\u00E4te, die an einen Computer angeschlossen werden, um dessen Funktionen zu erweitern. Dazu geh\u00F6ren Eingabeger\u00E4te wie Tastaturen und M\u00E4use, Ausgabeger\u00E4te wie Monitore und Drucker, sowie Speicherger\u00E4te wie Festplatten und USB-Sticks. Sie sind \u00FCber verschiedene Schnittstellen wie USB, Bluetooth oder HDMI mit dem Computer verbunden.",
+    "Category": "Hardware / Computertechnik"
+  },
+  {
+    "Id": 112,
+    "Front": "DNS",
+    "Back": "DNS (Domain Name System) ist ein System, das Domainnamen (wie www.example.com) in IP-Adressen (wie 192.168.1.1) umwandelt. Es erm\u00F6glicht es, Websites \u00FCber leicht merkbare Namen zu erreichen, anstatt IP-Adressen direkt eingeben zu m\u00FCssen, und dient als \u201ETelefonbuch\u201C des Internets.",
+    "Category": "Netzwerktechnologie"
+  },
+  {
+    "Id": 113,
+    "Front": "EPK",
+    "Back": "Eine EPK (Ereignisgesteuerte Prozesskette) ist ein grafisches Modell, das verwendet wird, um Gesch\u00E4ftsprozesse darzustellen. Sie zeigt die Abl\u00E4ufe von Ereignissen, Aktivit\u00E4ten und deren Beziehungen innerhalb eines Unternehmens. In einer EPK sind Ereignisse, die einen Prozess starten oder beeinflussen, durch Rechtecke symbolisiert, und die Aktivit\u00E4ten, die durchgef\u00FChrt werden, sind durch abgerundete Rechtecke dargestellt. Verzweigungen, Bedingungen und Abl\u00E4ufe zwischen den Ereignissen und Aktivit\u00E4ten werden durch spezielle Symbole wie Pfeile, Operatoren und Verzweigungen dargestellt.",
+    "Category": "Gesch\u00E4ftsprozessmodellierung"
   }
 ]
