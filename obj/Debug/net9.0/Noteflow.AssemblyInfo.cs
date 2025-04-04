@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Noteflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e1175d9879c201383a9109eaffc1b720378c577")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67070afb3c0ccde897c9f13b791966d9505d6f3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Noteflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Noteflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -676,5 +676,35 @@
     "Front": "EPK",
     "Back": "Eine EPK (Ereignisgesteuerte Prozesskette) ist ein grafisches Modell, das verwendet wird, um Gesch\u00E4ftsprozesse darzustellen. Sie zeigt die Abl\u00E4ufe von Ereignissen, Aktivit\u00E4ten und deren Beziehungen innerhalb eines Unternehmens. In einer EPK sind Ereignisse, die einen Prozess starten oder beeinflussen, durch Rechtecke symbolisiert, und die Aktivit\u00E4ten, die durchgef\u00FChrt werden, sind durch abgerundete Rechtecke dargestellt. Verzweigungen, Bedingungen und Abl\u00E4ufe zwischen den Ereignissen und Aktivit\u00E4ten werden durch spezielle Symbole wie Pfeile, Operatoren und Verzweigungen dargestellt.",
     "Category": "Gesch\u00E4ftsprozessmodellierung"
+  },
+  {
+    "Id": 114,
+    "Front": "DAS",
+    "Back": "DAS bezeichnet eine Speicherl\u00F6sung, bei der Festplatten direkt an einen Computer oder Server angeschlossen sind \u2013 z.\u202FB. \u00FCber USB, SATA oder SAS. Die Daten sind ausschlie\u00DFlich lokal verf\u00FCgbar, was f\u00FCr einzelne Arbeitspl\u00E4tze ausreichend ist, aber bei mehreren Nutzern schnell an Grenzen st\u00F6\u00DFt. Es ist kosteng\u00FCnstig, einfach zu verwalten und bietet eine hohe Daten\u00FCbertragungsrate \u2013 allerdings ohne zentrale Verwaltung oder Netzwerkzugriff wie bei NAS oder SAN.",
+    "Category": "Speichertechnologie / IT-Infrastruktur"
+  },
+  {
+    "Id": 115,
+    "Front": "NAS",
+    "Back": "NAS ist ein netzwerkgebundener Speicher, der \u00FCber LAN (z.\u202FB. per Ethernet) mehreren Ger\u00E4ten gleichzeitig Zugriff auf zentrale Daten erm\u00F6glicht. Es handelt sich im Grunde um einen eigenen kleinen Server mit eigenem Betriebssystem, oft speziell f\u00FCr Dateifreigaben, Backups oder Medienserver-Funktionen optimiert. NAS-Systeme sind ideal f\u00FCr kleine bis mittlere Netzwerke, da sie Dateizugriff, Benutzerverwaltung und oft sogar Cloud-Funktionen bieten.",
+    "Category": "Speichertechnologie / IT-Infrastruktur"
+  },
+  {
+    "Id": 116,
+    "Front": "SAN",
+    "Back": "SAN ist ein hochleistungsf\u00E4higes Netzwerk, das mehrere Server mit zentralem Speicher verbindet \u2013 meist \u00FCber spezielle Protokolle wie Fibre Channel oder iSCSI. Im Gegensatz zu NAS arbeitet SAN blockbasiert (wie eine lokal angeschlossene Festplatte) und eignet sich vor allem f\u00FCr gro\u00DFe Rechenzentren und gesch\u00E4ftskritische Anwendungen. Es bietet sehr hohe Geschwindigkeit, Ausfallsicherheit und Skalierbarkeit, ist aber komplex und teuer in der Einrichtung und Wartung.",
+    "Category": "Speichertechnologie / IT-Infrastruktur"
+  },
+  {
+    "Id": 117,
+    "Front": "SSD",
+    "Back": "Eine SSD ist ein moderner Datentr\u00E4ger, der \u2013 im Gegensatz zur klassischen HDD \u2013 keine rotierenden Scheiben, sondern elektronische Speicherchips (Flash-Speicher) verwendet. Dadurch sind SSDs deutlich schneller, leiser, robuster und energieeffizienter. Sie beschleunigen sp\u00FCrbar das Hochfahren, Programmstarts und Datei\u00FCbertragungen, haben aber im Vergleich zur HDD oft einen h\u00F6heren Preis pro GB.",
+    "Category": "Speichertechnologie / Hardware"
+  },
+  {
+    "Id": 118,
+    "Front": "Bildschirmtypen",
+    "Back": "Bildschirmtypen beschreiben die verschiedenen Technologien, die in Monitoren verwendet werden, um Bilder darzustellen. Diese unterscheiden sich in der Art und Weise, wie sie Licht erzeugen und die Bildqualit\u00E4t beeinflussen. Eine g\u00E4ngige Unterscheidung wird zwischen LCD, OLED, und LED getroffen.",
+    "Category": "Hardware / EDV"
   }
 ]
