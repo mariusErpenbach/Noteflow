@@ -706,5 +706,65 @@
     "Front": "Bildschirmtypen",
     "Back": "Bildschirmtypen beschreiben die verschiedenen Technologien, die in Monitoren verwendet werden, um Bilder darzustellen. Diese unterscheiden sich in der Art und Weise, wie sie Licht erzeugen und die Bildqualit\u00E4t beeinflussen. Eine g\u00E4ngige Unterscheidung wird zwischen LCD, OLED, und LED getroffen.",
     "Category": "Hardware / EDV"
+  },
+  {
+    "Id": 119,
+    "Front": "BSI",
+    "Back": "Das Bundesamt f\u00FCr Sicherheit in der Informationstechnik (BSI) ist eine deutsche Beh\u00F6rde, die f\u00FCr die IT-Sicherheit von Regierung, Wirtschaft und Gesellschaft zust\u00E4ndig ist. Es entwickelt Standards, warnt vor Sicherheitsl\u00FCcken und gibt Empfehlungen f\u00FCr den Schutz digitaler Systeme.",
+    "Category": "IT-Sicherheit / Beh\u00F6rden"
+  },
+  {
+    "Id": 120,
+    "Front": "KRITIS",
+    "Back": "KRITIS steht f\u00FCr Kritische Infrastrukturen und bezeichnet Einrichtungen, deren Ausfall erhebliche Versorgungsengp\u00E4sse oder Gef\u00E4hrdungen f\u00FCr die \u00F6ffentliche Sicherheit verursachen w\u00FCrde, z.B. Energieversorgung, Wasserwerke oder Krankenh\u00E4user.",
+    "Category": "IT-Sicherheit / Infrastruktur"
+  },
+  {
+    "Id": 121,
+    "Front": "IT-Grundschutz-Kompendium",
+    "Back": "Das IT-Grundschutz-Kompendium wird vom BSI herausgegeben und bietet systematische Anleitungen und Ma\u00DFnahmenkataloge, um IT-Systeme sicher zu gestalten. Es enth\u00E4lt Standards, Vorgehensweisen und konkrete Empfehlungen f\u00FCr verschiedenste Organisationen.",
+    "Category": "IT-Sicherheit / Standards \u0026 Methoden"
+  },
+  {
+    "Id": 122,
+    "Front": "Framework",
+    "Back": "Ein Framework ist ein vorgefertigtes Ger\u00FCst aus Code, das die Entwicklung von Software erleichtert, indem es wiederkehrende Aufgaben standardisiert. Entwickler m\u00FCssen so nicht alles selbst programmieren, sondern bauen auf bestehenden Strukturen auf.",
+    "Category": "Softwareentwicklung / Programmiergrundlagen"
+  },
+  {
+    "Id": 123,
+    "Front": "Ubiquitous Computing",
+    "Back": "Ubiquitous Computing (auch pervasive computing) bezeichnet die Idee, dass Computer und intelligente Ger\u00E4te allgegenw\u00E4rtig sind und in allt\u00E4gliche Objekte integriert werden, sodass sie unauff\u00E4llig und nahtlos in das Leben der Menschen eingebunden sind, ohne dass sie direkt wahrgenommen werden.",
+    "Category": "Technologie / Zukunftstechnologien"
+  },
+  {
+    "Id": 124,
+    "Front": "Reverse Engineering",
+    "Back": "Bezeichnet den Prozess, bei dem bestehende Produkte, Software oder Systeme analysiert werden, um deren Struktur, Funktionsweise oder Design zu verstehen. Dies wird oft genutzt, um Fehler zu beheben, Sicherheitsl\u00FCcken zu finden oder eigene Produkte zu verbessern.",
+    "Category": "IT-Sicherheit / Technikmethoden"
+  },
+  {
+    "Id": 125,
+    "Front": "Software-Lebenszyklus",
+    "Back": "Der Software-Lebenszyklus beschreibt die Phasen, die eine Software durchl\u00E4uft, von der ersten Idee bis zum Ende ihrer Nutzung. Zu den Phasen geh\u00F6ren: Planung, Design, Entwicklung, Test, Wartung und schlie\u00DFlich die Stilllegung oder das Update der Software. Der Lebenszyklus hilft, Software systematisch zu managen und zu optimieren.",
+    "Category": "Softwareentwicklung / Projektmanagement"
+  },
+  {
+    "Id": 126,
+    "Front": "GmbH",
+    "Back": " Die Gesellschaft mit beschr\u00E4nkter Haftung (GmbH) ist eine in Deutschland h\u00E4ufig verwendete Rechtsform f\u00FCr Unternehmen. Die Haftung der Gesellschafter ist auf ihre Einlagen beschr\u00E4nkt, was bedeutet, dass sie mit ihrem Privatverm\u00F6gen nicht f\u00FCr Unternehmensschulden haften. Die GmbH ist eine eigenst\u00E4ndige juristische Person.\u200B",
+    "Category": "Wirtschaft / Unternehmensrecht"
+  },
+  {
+    "Id": 127,
+    "Front": "gGmbH",
+    "Back": "Eine gGmbH (gemeinn\u00FCtzige GmbH) ist eine spezielle Form der GmbH, die sich auf gemeinn\u00FCtzige Zwecke fokussiert. Im Gegensatz zur normalen GmbH darf sie keine Gewinne an ihre Gesellschafter aussch\u00FCtten, sondern muss diese in die F\u00F6rderung des gemeinn\u00FCtzigen Zwecks reinvestieren. Sie ist von der K\u00F6rperschaftssteuer befreit, solange sie ihre gemeinn\u00FCtzigen Ziele verfolgt.",
+    "Category": "Wirtschaft / Unternehmensrecht"
+  },
+  {
+    "Id": 128,
+    "Front": "Kommanditgesellschaft (KG)",
+    "Back": "Eine Kommanditgesellschaft (KG) ist eine Personengesellschaft, bei der es zwei Arten von Gesellschaftern gibt: den Komplement\u00E4r, der unbeschr\u00E4nkt haftet, und den Kommanditisten, dessen Haftung auf die H\u00F6he seiner Einlage beschr\u00E4nkt ist. Diese Rechtsform wird h\u00E4ufig von Familienunternehmen oder kleineren Unternehmen gew\u00E4hlt, da sie eine flexible Struktur bei gleichzeitig beschr\u00E4nkter Haftung f\u00FCr Investoren bietet.",
+    "Category": "Wirtschaft / Unternehmensrecht"
   }
 ]
