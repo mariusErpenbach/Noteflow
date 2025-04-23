@@ -766,5 +766,47 @@
     "Front": "Kommanditgesellschaft (KG)",
     "Back": "Eine Kommanditgesellschaft (KG) ist eine Personengesellschaft, bei der es zwei Arten von Gesellschaftern gibt: den Komplement\u00E4r, der unbeschr\u00E4nkt haftet, und den Kommanditisten, dessen Haftung auf die H\u00F6he seiner Einlage beschr\u00E4nkt ist. Diese Rechtsform wird h\u00E4ufig von Familienunternehmen oder kleineren Unternehmen gew\u00E4hlt, da sie eine flexible Struktur bei gleichzeitig beschr\u00E4nkter Haftung f\u00FCr Investoren bietet.",
     "Category": "Wirtschaft / Unternehmensrecht"
+  },
+  {
+    "Id": 129,
+    "Front": "CIA (im IT-Kontext)",
+    "Back": "In der IT-Sicherheit steht CIA f\u00FCr die drei Grundwerte: Confidentiality (Vertraulichkeit), Integrity (Integrit\u00E4t) und Availability (Verf\u00FCgbarkeit). Diese Prinzipien sorgen daf\u00FCr, dass Daten gesch\u00FCtzt, unver\u00E4ndert und jederzeit erreichbar sind \u2013 sie bilden das Fundament moderner Sicherheitskonzepte.",
+    "Category": "IT-Sicherheit / Grundprinzipien"
+  },
+  {
+    "Id": 130,
+    "Front": "Edge Computing",
+    "Back": "Edge Computing beschreibt die Verarbeitung von Daten direkt an der Quelle, also am Rand (\u0022Edge\u0022) des Netzwerks, statt sie erst an zentrale Rechenzentren zu senden. Das reduziert Latenzzeiten, spart Bandbreite und erm\u00F6glicht schnellere Reaktionen, was besonders bei Echtzeitanwendungen wie IoT-Ger\u00E4ten wichtig ist.",
+    "Category": "Technologie / IT-Infrastruktur"
+  },
+  {
+    "Id": 131,
+    "Front": "Echtzeit-Systeme",
+    "Back": "Echtzeit-Systeme sind Computersysteme, bei denen es entscheidend ist, dass Reaktionen oder Berechnungen innerhalb einer vorgegebenen Zeitspanne erfolgen. Sie werden z.B. in der Medizin, der Industrieautomation oder bei autonomen Fahrzeugen eingesetzt, wo jede Verz\u00F6gerung fatale Folgen haben k\u00F6nnte.",
+    "Category": "Technologie / Systemarchitektur"
+  },
+  {
+    "Id": 132,
+    "Front": "Fog Computing",
+    "Back": "Fog Computing ist eine Erweiterung von Edge Computing und verteilt Rechenleistung, Speicher und Netzwerkdienste zwischen Endger\u00E4ten und zentralen Rechenzentren. Es schafft eine zus\u00E4tzliche Schicht (\u0022Nebel\u0022) nahe am Nutzer, um Daten schneller und effizienter zu verarbeiten \u2013 ideal f\u00FCr Anwendungen wie Smart Cities oder vernetzte Fabriken.",
+    "Category": "Technologie / IT-Infrastruktur"
+  },
+  {
+    "Id": 133,
+    "Front": "Rootbare IP-Adressen",
+    "Back": "Rootbare IP-Adressen sind IP-Adressen, die f\u00FCr einen Server oder Dienst vollst\u00E4ndig administrativ verf\u00FCgbar sind, oft auf Rootservern. Der Begriff \u201Erootbar\u201C deutet an, dass der Nutzer vollen Root-Zugriff auf das Ger\u00E4t oder die Adresse hat und damit alle Rechte zur Konfiguration, Verwaltung und Nutzung besitzt.",
+    "Category": "IT / Netzwerktechnik"
+  },
+  {
+    "Id": 134,
+    "Front": "Netzplan",
+    "Back": "Ein Netzplan stellt grafisch dar, wie Aufgaben, Prozesse oder technische Komponenten miteinander verkn\u00FCpft sind, oft in Form von Knoten und Pfeilen. In der IT zeigt ein Netzplan z.B. den Aufbau eines Netzwerks, in der Projektplanung beschreibt er die zeitlichen Abh\u00E4ngigkeiten von Aufgaben.",
+    "Category": "IT / Projektmanagement \u0026 Netzwerktechnik"
+  },
+  {
+    "Id": 135,
+    "Front": "Euklidischer Algorithmus",
+    "Back": "Der Euklidische Algorithmus ist ein klassisches Verfahren zur Bestimmung des gr\u00F6\u00DFten gemeinsamen Teilers (ggT) zweier Zahlen. Er funktioniert, indem man wiederholt die gr\u00F6\u00DFere Zahl durch die kleinere teilt und dann die kleinere Zahl und den Rest als neue Zahlen einsetzt \u2013 bis der Rest null ist.",
+    "Category": "Mathematik / Algorithmen"
   }
 ]
