@@ -808,5 +808,11 @@
     "Front": "Euklidischer Algorithmus",
     "Back": "Der Euklidische Algorithmus ist ein klassisches Verfahren zur Bestimmung des gr\u00F6\u00DFten gemeinsamen Teilers (ggT) zweier Zahlen. Er funktioniert, indem man wiederholt die gr\u00F6\u00DFere Zahl durch die kleinere teilt und dann die kleinere Zahl und den Rest als neue Zahlen einsetzt \u2013 bis der Rest null ist.",
     "Category": "Mathematik / Algorithmen"
+  },
+  {
+    "Id": 136,
+    "Front": "APM",
+    "Back": " APM bezeichnet die \u00DCberwachung und Verwaltung der Leistung und Verf\u00FCgbarkeit von Softwareanwendungen. Dabei werden Metriken wie Antwortzeiten, Fehlerraten oder Systemauslastung erfasst, um Engp\u00E4sse schnell zu erkennen und die Nutzererfahrung zu verbessern.",
+    "Category": "IT / Monitoring \u0026 Optimierung"
   }
 ]
