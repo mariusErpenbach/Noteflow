@@ -814,5 +814,35 @@
     "Front": "APM",
     "Back": " APM bezeichnet die \u00DCberwachung und Verwaltung der Leistung und Verf\u00FCgbarkeit von Softwareanwendungen. Dabei werden Metriken wie Antwortzeiten, Fehlerraten oder Systemauslastung erfasst, um Engp\u00E4sse schnell zu erkennen und die Nutzererfahrung zu verbessern.",
     "Category": "IT / Monitoring \u0026 Optimierung"
+  },
+  {
+    "Id": 137,
+    "Front": "IT-SIG",
+    "Back": "Das IT-Sicherheitsgesetz (IT-SiG) ist ein deutsches Gesetz, das Betreiber kritischer Infrastrukturen verpflichtet, ihre IT-Systeme gegen Angriffe zu sch\u00FCtzen. Es wurde 2015 eingef\u00FChrt und durch das IT-SiG 2.0 (2021) erweitert. Ziel ist es, die nationale Cybersicherheit zu st\u00E4rken, etwa durch Meldepflichten bei Sicherheitsvorf\u00E4llen und Vorgaben f\u00FCr Sicherheitsstandards.",
+    "Category": "Gesetzgebung / IT-Compliance"
+  },
+  {
+    "Id": 138,
+    "Front": "ISMS",
+    "Back": "Ein ISMS (Information Security Management System) ist ein systematischer Ansatz zur Verwaltung sensibler Unternehmensinformationen, um sie dauerhaft zu sch\u00FCtzen. Es umfasst Richtlinien, Verfahren und Kontrollen zur Risikoanalyse, Umsetzung von Ma\u00DFnahmen und kontinuierlichen Verbesserung. Ein bekanntes Rahmenwerk daf\u00FCr ist ISO/IEC 27001.",
+    "Category": "Managementsystem / Informationssicherheit"
+  },
+  {
+    "Id": 139,
+    "Front": "BSIG",
+    "Back": "Das BSI-Gesetz (BSIG) ist die gesetzliche Grundlage f\u00FCr die Aufgaben des Bundesamts f\u00FCr Sicherheit in der Informationstechnik (BSI) in Deutschland. Es regelt unter anderem die Sicherheitsanforderungen an IT-Systeme kritischer Infrastrukturen und die Rolle des BSI als zentrale Cybersicherheitsbeh\u00F6rde. Es ist eng mit dem IT-Sicherheitsgesetz verkn\u00FCpft.",
+    "Category": "Gesetzgebung / IT-Sicherheitsrecht"
+  },
+  {
+    "Id": 140,
+    "Front": "IT vs OT",
+    "Back": "IT (Information Technology) bezieht sich auf klassische Informationssysteme wie Server, Netzwerke und B\u00FCrosoftware. OT (Operational Technology) hingegen steuert physische Prozesse, z.\u202FB. in der Industrie \u2013 etwa Maschinen, Sensoren oder Steueranlagen. OT-Systeme sind oft \u00E4lter und schwerer abzusichern, da sie urspr\u00FCnglich nicht f\u00FCr Netzwerkanbindung oder Cybersecurity konzipiert wurden. Die Sicherheitsschnittstelle zwischen IT und OT ist besonders kritisch.",
+    "Category": "Technologietypen / IT-Sicherheitskonzepte"
+  },
+  {
+    "Id": 141,
+    "Front": "NIS-2",
+    "Back": "NIS-2 ist die \u00FCberarbeitete EU-Richtlinie zur Netzwerk- und Informationssicherheit und ersetzt die urspr\u00FCngliche NIS-Richtlinie von 2016. Sie erweitert den Geltungsbereich auf deutlich mehr Unternehmen und Sektoren \u2013 auch au\u00DFerhalb kritischer Infrastrukturen. Ziel ist ein h\u00F6heres, einheitliches Sicherheitsniveau in der EU durch strengere Anforderungen, Meldepflichten und pers\u00F6nliche Haftung von F\u00FChrungskr\u00E4ften. Die Umsetzung in nationales Recht muss bis Oktober 2024 erfolgen.",
+    "Category": "EU-Richtlinie / Cybersicherheitsregulierung"
   }
 ]
