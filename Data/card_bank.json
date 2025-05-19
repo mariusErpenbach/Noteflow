@@ -844,5 +844,101 @@
     "Front": "NIS-2",
     "Back": "NIS-2 ist die \u00FCberarbeitete EU-Richtlinie zur Netzwerk- und Informationssicherheit und ersetzt die urspr\u00FCngliche NIS-Richtlinie von 2016. Sie erweitert den Geltungsbereich auf deutlich mehr Unternehmen und Sektoren \u2013 auch au\u00DFerhalb kritischer Infrastrukturen. Ziel ist ein h\u00F6heres, einheitliches Sicherheitsniveau in der EU durch strengere Anforderungen, Meldepflichten und pers\u00F6nliche Haftung von F\u00FChrungskr\u00E4ften. Die Umsetzung in nationales Recht muss bis Oktober 2024 erfolgen.",
     "Category": "EU-Richtlinie / Cybersicherheitsregulierung"
+  },
+  {
+    "Id": 142,
+    "Front": "IMAC/RD",
+    "Back": "IMAC/RD steht f\u00FCr Install, Move, Add, Change / Remove, Dispose. Es beschreibt typische Vorg\u00E4nge im Lebenszyklus von IT-Arbeitsplatzhardware und -software. Diese Prozesse regeln z.\u202FB. die Installation neuer Ger\u00E4te, Umz\u00FCge, \u00C4nderungen an Konfigurationen oder das fachgerechte Entsorgen alter Systeme. In gro\u00DFen IT-Umgebungen ist IMAC/RD Teil eines strukturierten IT-Service-Managements.",
+    "Category": " IT-Service / Lifecycle-Management"
+  },
+  {
+    "Id": 143,
+    "Front": "SDM",
+    "Back": "Das Standard-Datenschutzmodell (SDM) ist ein Rahmenwerk zur datenschutzkonformen Umsetzung technischer und organisatorischer Ma\u00DFnahmen (TOM) nach DSGVO. Es basiert auf einem risikoorientierten Ansatz und \u00FCbersetzt rechtliche Anforderungen in konkrete Pr\u00FCf- und Schutzma\u00DFnahmen. Zentral sind dabei sieben Gew\u00E4hrleistungsziele wie Verf\u00FCgbarkeit, Vertraulichkeit oder Intervenierbarkeit. Das SDM dient Aufsichtsbeh\u00F6rden und Verantwortlichen als gemeinsame Bewertungsgrundlage.",
+    "Category": "Datenschutz / Compliance-Framework"
+  },
+  {
+    "Id": 144,
+    "Front": "Gerichtsstand",
+    "Back": "Der Gerichtsstand bezeichnet den Ort (und damit das zust\u00E4ndige Gericht), an dem rechtliche Streitigkeiten aus einem Vertrag verhandelt werden. Er wird h\u00E4ufig vertraglich festgelegt, um Klarheit im Streitfall zu schaffen. Fehlt eine solche Klausel, gilt der gesetzliche Gerichtsstand, meist der Wohn- oder Gesch\u00E4ftssitz der beklagten Partei.",
+    "Category": "Recht / Vertragswesen"
+  },
+  {
+    "Id": 145,
+    "Front": "Subunternehmer",
+    "Back": "Ein Subunternehmer ist ein Unternehmen oder eine Person, die von einem Hauptauftragnehmer beauftragt wird, einen Teil der vereinbarten Leistungen auszuf\u00FChren. Subunternehmer sind h\u00E4ufig in Bau, IT oder Dienstleistungsprojekten t\u00E4tig. Sie arbeiten vertraglich indirekt f\u00FCr den Auftraggeber, haben aber keinen direkten Vertrag mit ihm.",
+    "Category": "Vertragswesen / Lieferkette"
+  },
+  {
+    "Id": 146,
+    "Front": "Vertretbare Sachen",
+    "Back": "Vertretbare Sachen sind bewegliche Sachen, die nach Ma\u00DF, Zahl oder Gewicht bestimmt und durch gleichwertige St\u00FCcke ersetzbar sind. Beispiele sind Geld, \u00D6l oder Schrauben. Im Gegensatz dazu stehen nicht vertretbare Sachen, die individuell sind und nicht einfach austauschbar, wie ein bestimmtes Kunstwerk.",
+    "Category": "Recht / Sachenrecht"
+  },
+  {
+    "Id": 147,
+    "Front": "Werkliefervertrag",
+    "Back": "Ein Werkliefervertrag ist ein Vertrag, bei dem der Unternehmer ein fertiges Werk herstellt und dieses auch liefert. Entscheidend ist, dass das Ergebnis nicht nur produziert, sondern dem Auftraggeber auch \u00FCbergeben wird. Der Unterschied zum reinen Werkvertrag liegt also im Lieferaspekt des fertigen Produkts.",
+    "Category": "Vertragsrecht / Werkvertr\u00E4ge"
+  },
+  {
+    "Id": 148,
+    "Front": "Interoperabilit\u00E4t",
+    "Back": "Interoperabilit\u00E4t bezeichnet die F\u00E4higkeit verschiedener Systeme oder Anwendungen, reibungslos miteinander zu kommunizieren und zusammenzuarbeiten. Sie stellt sicher, dass Daten und Funktionen zwischen unterschiedlichen Plattformen ohne Anpassungsprobleme ausgetauscht werden k\u00F6nnen. Besonders wichtig ist Interoperabilit\u00E4t in heterogenen IT-Umgebungen und bei Standards.",
+    "Category": "IT / Systemintegration"
+  },
+  {
+    "Id": 149,
+    "Front": "Indikator",
+    "Back": "Ein Indikator ist ein messbares Signal oder Anzeichen, das auf einen bestimmten Zustand oder ein Ereignis hinweist. In der IT-Sicherheit k\u00F6nnen Indikatoren zum Beispiel Hinweise auf Angriffe oder Schwachstellen sein (z.\u202FB. verd\u00E4chtiger Netzwerkverkehr). Sie helfen dabei, fr\u00FChzeitig Risiken zu erkennen und darauf zu reagieren.",
+    "Category": "IT-Sicherheit / Monitoring"
+  },
+  {
+    "Id": 150,
+    "Front": "Private vs \u00D6ffentliche Ip Adressen",
+    "Back": "Private IP-Adressen sind f\u00FCr lokale Netzwerke reserviert und nicht im Internet routbar. Sie dienen der internen Kommunikation, z.\u202FB. in Heim- oder Firmennetzwerken. \u00D6ffentliche IP-Adressen sind weltweit eindeutig und erm\u00F6glichen Ger\u00E4ten den direkten Zugriff und die Erreichbarkeit im Internet. Private Adressen werden meist \u00FCber NAT (Network Address Translation) ins \u00F6ffentliche Netz verbunden.",
+    "Category": "Netzwerke / IP-Adressierung"
+  },
+  {
+    "Id": 151,
+    "Front": "DHCP",
+    "Back": "DHCP (Dynamic Host Configuration Protocol) ist ein Netzwerkprotokoll, das Ger\u00E4ten automatisch IP-Adressen und weitere Netzwerkinformationen zuweist. So m\u00FCssen Ger\u00E4te nicht manuell konfiguriert werden, was den Netzwerkbetrieb vereinfacht und Fehler reduziert. DHCP-Server verwalten und vergeben die Adressen dynamisch, meist zeitlich begrenzt (Leasing).",
+    "Category": "Netzwerktechnik / IP-Adressvergabe"
+  },
+  {
+    "Id": 152,
+    "Front": "Port",
+    "Back": "Ein Port ist eine numerische Kennung, die Netzwerkverbindungen auf einem Ger\u00E4t unterscheidet. Er hilft, Datenpakete an die richtigen Programme oder Dienste weiterzuleiten, z.\u202FB. HTTP auf Port 80 oder HTTPS auf Port 443. Ports sind essenziell f\u00FCr die Steuerung des Datenverkehrs in TCP/IP-Netzwerken.",
+    "Category": "Netzwerke / Kommunikation"
+  },
+  {
+    "Id": 153,
+    "Front": "Energielabels",
+    "Back": "Energielabels kennzeichnen den Energieverbrauch und die Effizienz von Ger\u00E4ten, z.\u202FB. Haushaltsger\u00E4ten oder Servern. Sie sollen Verbrauchern helfen, umweltfreundlichere und sparsamere Produkte zu w\u00E4hlen. Die Skala reicht meist von A (sehr effizient) bis G (weniger effizient). In der IT werden Labels wie Energy Star oder EU-Energielabel verwendet.",
+    "Category": "Nachhaltigkeit / Ger\u00E4tekennzeichnung"
+  },
+  {
+    "Id": 154,
+    "Front": "EU ECO Lable",
+    "Back": "Das EU Ecolabel ist das offizielle Umweltzeichen der Europ\u00E4ischen Union f\u00FCr besonders umweltfreundliche Produkte und Dienstleistungen. Es bewertet den gesamten Lebenszyklus \u2013 von der Herstellung \u00FCber die Nutzung bis zur Entsorgung. Es gilt f\u00FCr viele Produktgruppen, z.\u202FB. Papier, Reinigungsmittel oder Elektronik, und hilft Verbraucher:innen beim nachhaltigen Einkauf. Das Label ist freiwillig, aber streng zertifiziert.",
+    "Category": "Nachhaltigkeit / Umweltkennzeichnung"
+  },
+  {
+    "Id": 155,
+    "Front": "Malware",
+    "Back": "Malware (Kurzform f\u00FCr malicious software) ist ein Sammelbegriff f\u00FCr sch\u00E4dliche Programme, die IT-Systeme angreifen oder manipulieren \u2013 z.\u202FB. Viren, W\u00FCrmer, Trojaner oder Ransomware. Ziel ist oft Datendiebstahl, Sabotage oder Erpressung. Malware verbreitet sich \u00FCber infizierte Anh\u00E4nge, Downloads oder Schwachstellen im System.",
+    "Category": "IT-Sicherheit / Schadsoftware"
+  },
+  {
+    "Id": 156,
+    "Front": "Ransomware",
+    "Back": "Ransomware ist eine Art von Malware, die Daten auf einem System verschl\u00FCsselt und erst nach Zahlung eines L\u00F6segelds (engl. ransom) wieder freigibt. Betroffene verlieren den Zugriff auf ihre Dateien oder Systeme. Ziel ist meist finanzielle Erpressung \u2013 h\u00E4ufig \u00FCber Kryptow\u00E4hrungen. Ransomware-Angriffe betreffen Unternehmen, Beh\u00F6rden und Privatpersonen gleicherma\u00DFen.",
+    "Category": "It-Sicherheit / Schadsoftware"
+  },
+  {
+    "Id": 157,
+    "Front": "Metadaten",
+    "Back": "Metadaten sind Daten \u00FCber Daten \u2013 sie beschreiben Eigenschaften von Informationen, z.\u202FB. Erstellungsdatum, Autor, Dateigr\u00F6\u00DFe oder Standort. Sie helfen bei der Organisation, Suche und Analyse von Dateien. In der IT-Sicherheit sind Metadaten wichtig, da sie sensible Informationen enthalten k\u00F6nnen, z.\u202FB. bei Fotos oder Dokumenten.",
+    "Category": "Datenmanagement / IT-Sicherheit"
   }
 ]
