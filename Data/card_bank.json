@@ -940,5 +940,23 @@
     "Front": "Metadaten",
     "Back": "Metadaten sind Daten \u00FCber Daten \u2013 sie beschreiben Eigenschaften von Informationen, z.\u202FB. Erstellungsdatum, Autor, Dateigr\u00F6\u00DFe oder Standort. Sie helfen bei der Organisation, Suche und Analyse von Dateien. In der IT-Sicherheit sind Metadaten wichtig, da sie sensible Informationen enthalten k\u00F6nnen, z.\u202FB. bei Fotos oder Dokumenten.",
     "Category": "Datenmanagement / IT-Sicherheit"
+  },
+  {
+    "Id": 158,
+    "Front": "v-xt",
+    "Back": "V-Modell XT ist ein standardisiertes Vorgehensmodell f\u00FCr IT-Projekte in Beh\u00F6rden und \u00F6ffentlichen Einrichtungen in Deutschland. Es basiert auf einem Wasserfall-\u00E4hnlichen Ansatz mit klaren Phasen und definierten Ergebnissen (Produkten). Ziel ist es, die Planung, Entwicklung und Qualit\u00E4tssicherung von IT-Systemen nachvollziehbar und \u00FCberpr\u00FCfbar zu gestalten \u2013 mit Fokus auf Dokumentation, Rollen und Pr\u00FCfprozesse.",
+    "Category": "IT-Projektmanagement / Verwaltung"
+  },
+  {
+    "Id": 159,
+    "Front": "PRINCE2",
+    "Back": "PRINCE2 (Projects IN Controlled Environments) ist eine strukturierte Projektmanagement-Methode aus dem Vereinigten K\u00F6nigreich. Sie legt den Fokus auf klare Rollen, kontrollierte Phasen und regelm\u00E4\u00DFige Fortschrittskontrollen. PRINCE2 ist prozessorientiert, skalierbar und wird h\u00E4ufig in gro\u00DFen Organisationen und im \u00F6ffentlichen Sektor eingesetzt.",
+    "Category": "Projektmanagement"
+  },
+  {
+    "Id": 160,
+    "Front": "Minimal und Maximal Prinzip",
+    "Back": "Das Minimalprinzip besagt: ein bestimmtes Ziel mit m\u00F6glichst geringem Mitteleinsatz erreichen.",
+    "Category": "Wirtschaft / Effizienzprinzipien"
   }
 ]
