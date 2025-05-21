@@ -958,5 +958,77 @@
     "Front": "Minimal und Maximal Prinzip",
     "Back": "Das Minimalprinzip besagt: ein bestimmtes Ziel mit m\u00F6glichst geringem Mitteleinsatz erreichen.",
     "Category": "Wirtschaft / Effizienzprinzipien"
+  },
+  {
+    "Id": 161,
+    "Front": "Pareto Prinzip",
+    "Back": "Das Pareto-Prinzip (80/20-Regel) besagt: 80\u202F% der Ergebnisse entstehen durch 20\u202F% des Aufwands. Es hilft, Priorit\u00E4ten zu setzen \u2013 z.\u202FB. sich auf die Aufgaben zu konzentrieren, die den gr\u00F6\u00DFten Nutzen bringen. Das Prinzip wird h\u00E4ufig in Management, Produktivit\u00E4t und Fehleranalyse eingesetzt.",
+    "Category": "Zeitmanagement / Effizienz"
+  },
+  {
+    "Id": 162,
+    "Front": "Transistor",
+    "Back": "Ein Transistor ist ein elektronisches Bauteil, das als Schalter oder Verst\u00E4rker f\u00FCr elektrische Signale dient. Er ist das Grundelement moderner Computerchips und besteht meist aus Halbleitermaterial. Durch Steuerung des Stromflusses erm\u00F6glicht er digitale Logik \u2013 also das Ein- und Ausschalten von Bits.",
+    "Category": "Hardware / Elektronik"
+  },
+  {
+    "Id": 163,
+    "Front": "Transformator",
+    "Back": "Ein Transformator wandelt Wechselspannungen in h\u00F6here oder niedrigere Spannungen um \u2013 z.\u202FB. von Hochspannung im Stromnetz zu Haushaltsstrom. Er funktioniert nach dem Prinzip der elektromagnetischen Induktion mit zwei Spulen auf einem gemeinsamen Eisenkern. Transformatoren sind essenziell f\u00FCr effiziente Strom\u00FCbertragung \u00FCber gro\u00DFe Distanzen.",
+    "Category": "Elektrotechnik / Energie\u00FCbertragung"
+  },
+  {
+    "Id": 164,
+    "Front": "Operationsverst\u00E4rker",
+    "Back": "Ein Operationsverst\u00E4rker (OpAmp) ist ein vielseitiger, integrierter Schaltkreis, der analoge Signale verst\u00E4rken kann. Er hat zwei Eing\u00E4nge (invertierend und nicht-invertierend) und einen Ausgang. Typische Anwendungen sind Filter, Addierer, Komparatoren oder analoge Rechenwerke. In idealer Theorie hat er eine unendliche Verst\u00E4rkung und keinen Stromverbrauch am Eingang.",
+    "Category": "Elektronik / Schaltungstechnik"
+  },
+  {
+    "Id": 165,
+    "Front": "Lastenheft",
+    "Back": "Ein Lastenheft beschreibt die Anforderungen und Erwartungen des Auftraggebers an ein Projekt oder System \u2013 aus Kundensicht. Es enth\u00E4lt Ziele, Rahmenbedingungen und Funktionen, ohne L\u00F6sungsvorgaben zu machen. Das Lastenheft ist die Grundlage f\u00FCr das sp\u00E4ter vom Auftragnehmer erstellte Pflichtenheft.",
+    "Category": "Projektmanagement / Systementwicklung"
+  },
+  {
+    "Id": 166,
+    "Front": "Pflichtenheft",
+    "Back": "Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt konkret, wie die Anforderungen aus dem Lastenheft umgesetzt werden sollen. Es enth\u00E4lt technische Details, Konzepte und Umsetzungspl\u00E4ne. Damit dient es als verbindliche Grundlage f\u00FCr Entwicklung, Tests und Abnahme.",
+    "Category": "Projektmanagement / Systementwicklung"
+  },
+  {
+    "Id": 167,
+    "Front": "KPI",
+    "Back": "KPI steht f\u00FCr Key Performance Indicator \u2013 also Schl\u00FCsselkennzahl, mit der die Leistung eines Unternehmens, Projekts oder Prozesses gemessen wird. Beispiele sind Umsatz, Fehlerquote oder Kundenzufriedenheit. KPIs helfen, Ziele zu \u00FCberwachen und fundierte Entscheidungen zu treffen.",
+    "Category": "Controlling / Performance-Messung"
+  },
+  {
+    "Id": 168,
+    "Front": "APM (Neu)",
+    "Back": "APM steht f\u00FCr Application Performance Monitoring. Es bezeichnet Tools und Verfahren zur \u00DCberwachung und Analyse der Leistung von Softwareanwendungen \u2013 z.\u202FB. Ladezeiten, Fehler, Serverantworten. Ziel ist es, Engp\u00E4sse fr\u00FChzeitig zu erkennen, Probleme zu beheben und die Nutzererfahrung zu optimieren.",
+    "Category": "IT-Performance / Monitoring"
+  },
+  {
+    "Id": 169,
+    "Front": "SCADA",
+    "Back": "SCADA steht f\u00FCr Supervisory Control and Data Acquisition. Es handelt sich um ein System zur \u00DCberwachung und Steuerung von Industrieanlagen, z.\u202FB. in der Energie-, Wasser- oder Produktionswirtschaft. SCADA-Systeme sammeln Daten in Echtzeit, visualisieren Prozesse und erm\u00F6glichen Eingriffe \u2013 oft aus der Ferne.",
+    "Category": "OT / Automatisierungstechnik"
+  },
+  {
+    "Id": 170,
+    "Front": "Router Monitoring",
+    "Back": "Router Monitoring bezeichnet die \u00DCberwachung von Netzwerkroutern, um deren Leistung, Auslastung und Sicherheit zu kontrollieren. Typische Kennzahlen sind Traffic, Verbindungen, Paketverluste oder CPU-Auslastung. Ziel ist es, St\u00F6rungen fr\u00FCh zu erkennen, Netzwerke stabil zu halten und potenzielle Angriffe zu bemerken.",
+    "Category": "Netzwerktechnik / IT-Sicherheit"
+  },
+  {
+    "Id": 171,
+    "Front": "VoIP Monitoring",
+    "Back": "VoIP Monitoring \u00FCberwacht die Qualit\u00E4t und Leistung von Voice-over-IP-Telefonaten. Es misst Parameter wie Latenz, Paketverlust und Jitter, um Sprachqualit\u00E4t sicherzustellen. So k\u00F6nnen St\u00F6rungen fr\u00FCh erkannt und behoben werden, um unterbrechungsfreie Telefonate zu garantieren.",
+    "Category": "Netzwerktechnik / Kommunikation"
+  },
+  {
+    "Id": 172,
+    "Front": "Switch Monitoring",
+    "Back": "Switch Monitoring \u00FCberwacht Netzwerk-Switches hinsichtlich Leistung, Verbindungen und Fehlern. Es erfasst z.\u202FB. Port-Status, Datenverkehr, Fehlerraten und Temperatur. So lassen sich Probleme fr\u00FCh erkennen, Netzwerkausf\u00E4lle vermeiden und die Netzwerkqualit\u00E4t sichern.",
+    "Category": "Netzwerktechnik / IT-Management"
   }
 ]
