@@ -1474,19 +1474,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dci/.nuget/packages/": {}
+    "C:\\Users\\hwty\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dci/Desktop/Github/Noteflow/Noteflow.csproj",
+      "projectUniqueName": "D:\\github\\Noteflow\\Noteflow.csproj",
       "projectName": "Noteflow",
-      "projectPath": "/home/dci/Desktop/Github/Noteflow/Noteflow.csproj",
-      "packagesPath": "/home/dci/.nuget/packages/",
-      "outputPath": "/home/dci/Desktop/Github/Noteflow/obj/",
+      "projectPath": "D:\\github\\Noteflow\\Noteflow.csproj",
+      "packagesPath": "C:\\Users\\hwty\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\Noteflow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dci/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hwty\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1510,7 +1510,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -1557,7 +1557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

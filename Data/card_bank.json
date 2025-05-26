@@ -814,5 +814,17 @@
     "Front": "APM",
     "Back": " APM bezeichnet die \u00DCberwachung und Verwaltung der Leistung und Verf\u00FCgbarkeit von Softwareanwendungen. Dabei werden Metriken wie Antwortzeiten, Fehlerraten oder Systemauslastung erfasst, um Engp\u00E4sse schnell zu erkennen und die Nutzererfahrung zu verbessern.",
     "Category": "IT / Monitoring \u0026 Optimierung"
+  },
+  {
+    "Id": 137,
+    "Front": "Benchmarking",
+    "Back": "Benchmarking ist der systematische Vergleich von Prozessen, Produkten oder Leistungen mit denen anderer \u2013 meist der Besten der Branche. Ziel ist es, eigene Schw\u00E4chen zu erkennen und Verbesserungspotenziale aufzudecken. Es f\u00F6rdert Innovation, Effizienz und Wettbewerbsf\u00E4higkeit.",
+    "Category": "Qualit\u00E4tsmanagement / Unternehmensstrategie"
+  },
+  {
+    "Id": 138,
+    "Front": "Rationelles Lesen",
+    "Back": "Rationelles Lesen ist eine Methode, um Texte schnell und gezielt zu erfassen, ohne jedes Wort im Detail zu lesen. Dabei werden Lesetechniken wie Skimming (\u00DCberfliegen) und Scanning (gezieltes Suchen) eingesetzt. Ziel ist es, wesentliche Informationen effizient zu erkennen und irrelevante Inhalte auszublenden.",
+    "Category": "Lerntechnik / Informationsverarbeitung"
   }
 ]
