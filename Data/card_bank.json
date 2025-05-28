@@ -817,6 +817,7 @@
   },
   {
     "Id": 137,
+<<<<<<< HEAD
     "Front": "Benchmarking",
     "Back": "Benchmarking ist der systematische Vergleich von Prozessen, Produkten oder Leistungen mit denen anderer \u2013 meist der Besten der Branche. Ziel ist es, eigene Schw\u00E4chen zu erkennen und Verbesserungspotenziale aufzudecken. Es f\u00F6rdert Innovation, Effizienz und Wettbewerbsf\u00E4higkeit.",
     "Category": "Qualit\u00E4tsmanagement / Unternehmensstrategie"
@@ -886,5 +887,220 @@
     "Front": "Bonit\u00E4t vs Liquidit\u00E4t",
     "Back": "Bonit\u00E4t und Liquidit\u00E4t sind zwei unterschiedliche, aber oft zusammen betrachtete finanzielle Kennzahlen. Bonit\u00E4t beschreibt die langfristige F\u00E4higkeit eines Schuldners, seinen Zahlungsverpflichtungen nachzukommen \u2013 also seine Kreditw\u00FCrdigkeit. Liquidit\u00E4t hingegen bezieht sich auf die kurzfristige F\u00E4higkeit, aktuelle Rechnungen und Verbindlichkeiten zu begleichen, etwa durch vorhandene Geldmittel oder schnell verf\u00FCgbare Verm\u00F6genswerte. Ein Unternehmen kann also liquide, aber nicht unbedingt bonit\u00E4tsstark sein \u2013 oder umgekehrt.",
     "Category": "Wirtschaft / Finanzen"
+=======
+    "Front": "IT-SIG",
+    "Back": "Das IT-Sicherheitsgesetz (IT-SiG) ist ein deutsches Gesetz, das Betreiber kritischer Infrastrukturen verpflichtet, ihre IT-Systeme gegen Angriffe zu sch\u00FCtzen. Es wurde 2015 eingef\u00FChrt und durch das IT-SiG 2.0 (2021) erweitert. Ziel ist es, die nationale Cybersicherheit zu st\u00E4rken, etwa durch Meldepflichten bei Sicherheitsvorf\u00E4llen und Vorgaben f\u00FCr Sicherheitsstandards.",
+    "Category": "Gesetzgebung / IT-Compliance"
+  },
+  {
+    "Id": 138,
+    "Front": "ISMS",
+    "Back": "Ein ISMS (Information Security Management System) ist ein systematischer Ansatz zur Verwaltung sensibler Unternehmensinformationen, um sie dauerhaft zu sch\u00FCtzen. Es umfasst Richtlinien, Verfahren und Kontrollen zur Risikoanalyse, Umsetzung von Ma\u00DFnahmen und kontinuierlichen Verbesserung. Ein bekanntes Rahmenwerk daf\u00FCr ist ISO/IEC 27001.",
+    "Category": "Managementsystem / Informationssicherheit"
+  },
+  {
+    "Id": 139,
+    "Front": "BSIG",
+    "Back": "Das BSI-Gesetz (BSIG) ist die gesetzliche Grundlage f\u00FCr die Aufgaben des Bundesamts f\u00FCr Sicherheit in der Informationstechnik (BSI) in Deutschland. Es regelt unter anderem die Sicherheitsanforderungen an IT-Systeme kritischer Infrastrukturen und die Rolle des BSI als zentrale Cybersicherheitsbeh\u00F6rde. Es ist eng mit dem IT-Sicherheitsgesetz verkn\u00FCpft.",
+    "Category": "Gesetzgebung / IT-Sicherheitsrecht"
+  },
+  {
+    "Id": 140,
+    "Front": "IT vs OT",
+    "Back": "IT (Information Technology) bezieht sich auf klassische Informationssysteme wie Server, Netzwerke und B\u00FCrosoftware. OT (Operational Technology) hingegen steuert physische Prozesse, z.\u202FB. in der Industrie \u2013 etwa Maschinen, Sensoren oder Steueranlagen. OT-Systeme sind oft \u00E4lter und schwerer abzusichern, da sie urspr\u00FCnglich nicht f\u00FCr Netzwerkanbindung oder Cybersecurity konzipiert wurden. Die Sicherheitsschnittstelle zwischen IT und OT ist besonders kritisch.",
+    "Category": "Technologietypen / IT-Sicherheitskonzepte"
+  },
+  {
+    "Id": 141,
+    "Front": "NIS-2",
+    "Back": "NIS-2 ist die \u00FCberarbeitete EU-Richtlinie zur Netzwerk- und Informationssicherheit und ersetzt die urspr\u00FCngliche NIS-Richtlinie von 2016. Sie erweitert den Geltungsbereich auf deutlich mehr Unternehmen und Sektoren \u2013 auch au\u00DFerhalb kritischer Infrastrukturen. Ziel ist ein h\u00F6heres, einheitliches Sicherheitsniveau in der EU durch strengere Anforderungen, Meldepflichten und pers\u00F6nliche Haftung von F\u00FChrungskr\u00E4ften. Die Umsetzung in nationales Recht muss bis Oktober 2024 erfolgen.",
+    "Category": "EU-Richtlinie / Cybersicherheitsregulierung"
+  },
+  {
+    "Id": 142,
+    "Front": "IMAC/RD",
+    "Back": "IMAC/RD steht f\u00FCr Install, Move, Add, Change / Remove, Dispose. Es beschreibt typische Vorg\u00E4nge im Lebenszyklus von IT-Arbeitsplatzhardware und -software. Diese Prozesse regeln z.\u202FB. die Installation neuer Ger\u00E4te, Umz\u00FCge, \u00C4nderungen an Konfigurationen oder das fachgerechte Entsorgen alter Systeme. In gro\u00DFen IT-Umgebungen ist IMAC/RD Teil eines strukturierten IT-Service-Managements.",
+    "Category": " IT-Service / Lifecycle-Management"
+  },
+  {
+    "Id": 143,
+    "Front": "SDM",
+    "Back": "Das Standard-Datenschutzmodell (SDM) ist ein Rahmenwerk zur datenschutzkonformen Umsetzung technischer und organisatorischer Ma\u00DFnahmen (TOM) nach DSGVO. Es basiert auf einem risikoorientierten Ansatz und \u00FCbersetzt rechtliche Anforderungen in konkrete Pr\u00FCf- und Schutzma\u00DFnahmen. Zentral sind dabei sieben Gew\u00E4hrleistungsziele wie Verf\u00FCgbarkeit, Vertraulichkeit oder Intervenierbarkeit. Das SDM dient Aufsichtsbeh\u00F6rden und Verantwortlichen als gemeinsame Bewertungsgrundlage.",
+    "Category": "Datenschutz / Compliance-Framework"
+  },
+  {
+    "Id": 144,
+    "Front": "Gerichtsstand",
+    "Back": "Der Gerichtsstand bezeichnet den Ort (und damit das zust\u00E4ndige Gericht), an dem rechtliche Streitigkeiten aus einem Vertrag verhandelt werden. Er wird h\u00E4ufig vertraglich festgelegt, um Klarheit im Streitfall zu schaffen. Fehlt eine solche Klausel, gilt der gesetzliche Gerichtsstand, meist der Wohn- oder Gesch\u00E4ftssitz der beklagten Partei.",
+    "Category": "Recht / Vertragswesen"
+  },
+  {
+    "Id": 145,
+    "Front": "Subunternehmer",
+    "Back": "Ein Subunternehmer ist ein Unternehmen oder eine Person, die von einem Hauptauftragnehmer beauftragt wird, einen Teil der vereinbarten Leistungen auszuf\u00FChren. Subunternehmer sind h\u00E4ufig in Bau, IT oder Dienstleistungsprojekten t\u00E4tig. Sie arbeiten vertraglich indirekt f\u00FCr den Auftraggeber, haben aber keinen direkten Vertrag mit ihm.",
+    "Category": "Vertragswesen / Lieferkette"
+  },
+  {
+    "Id": 146,
+    "Front": "Vertretbare Sachen",
+    "Back": "Vertretbare Sachen sind bewegliche Sachen, die nach Ma\u00DF, Zahl oder Gewicht bestimmt und durch gleichwertige St\u00FCcke ersetzbar sind. Beispiele sind Geld, \u00D6l oder Schrauben. Im Gegensatz dazu stehen nicht vertretbare Sachen, die individuell sind und nicht einfach austauschbar, wie ein bestimmtes Kunstwerk.",
+    "Category": "Recht / Sachenrecht"
+  },
+  {
+    "Id": 147,
+    "Front": "Werkliefervertrag",
+    "Back": "Ein Werkliefervertrag ist ein Vertrag, bei dem der Unternehmer ein fertiges Werk herstellt und dieses auch liefert. Entscheidend ist, dass das Ergebnis nicht nur produziert, sondern dem Auftraggeber auch \u00FCbergeben wird. Der Unterschied zum reinen Werkvertrag liegt also im Lieferaspekt des fertigen Produkts.",
+    "Category": "Vertragsrecht / Werkvertr\u00E4ge"
+  },
+  {
+    "Id": 148,
+    "Front": "Interoperabilit\u00E4t",
+    "Back": "Interoperabilit\u00E4t bezeichnet die F\u00E4higkeit verschiedener Systeme oder Anwendungen, reibungslos miteinander zu kommunizieren und zusammenzuarbeiten. Sie stellt sicher, dass Daten und Funktionen zwischen unterschiedlichen Plattformen ohne Anpassungsprobleme ausgetauscht werden k\u00F6nnen. Besonders wichtig ist Interoperabilit\u00E4t in heterogenen IT-Umgebungen und bei Standards.",
+    "Category": "IT / Systemintegration"
+  },
+  {
+    "Id": 149,
+    "Front": "Indikator",
+    "Back": "Ein Indikator ist ein messbares Signal oder Anzeichen, das auf einen bestimmten Zustand oder ein Ereignis hinweist. In der IT-Sicherheit k\u00F6nnen Indikatoren zum Beispiel Hinweise auf Angriffe oder Schwachstellen sein (z.\u202FB. verd\u00E4chtiger Netzwerkverkehr). Sie helfen dabei, fr\u00FChzeitig Risiken zu erkennen und darauf zu reagieren.",
+    "Category": "IT-Sicherheit / Monitoring"
+  },
+  {
+    "Id": 150,
+    "Front": "Private vs \u00D6ffentliche Ip Adressen",
+    "Back": "Private IP-Adressen sind f\u00FCr lokale Netzwerke reserviert und nicht im Internet routbar. Sie dienen der internen Kommunikation, z.\u202FB. in Heim- oder Firmennetzwerken. \u00D6ffentliche IP-Adressen sind weltweit eindeutig und erm\u00F6glichen Ger\u00E4ten den direkten Zugriff und die Erreichbarkeit im Internet. Private Adressen werden meist \u00FCber NAT (Network Address Translation) ins \u00F6ffentliche Netz verbunden.",
+    "Category": "Netzwerke / IP-Adressierung"
+  },
+  {
+    "Id": 151,
+    "Front": "DHCP",
+    "Back": "DHCP (Dynamic Host Configuration Protocol) ist ein Netzwerkprotokoll, das Ger\u00E4ten automatisch IP-Adressen und weitere Netzwerkinformationen zuweist. So m\u00FCssen Ger\u00E4te nicht manuell konfiguriert werden, was den Netzwerkbetrieb vereinfacht und Fehler reduziert. DHCP-Server verwalten und vergeben die Adressen dynamisch, meist zeitlich begrenzt (Leasing).",
+    "Category": "Netzwerktechnik / IP-Adressvergabe"
+  },
+  {
+    "Id": 152,
+    "Front": "Port",
+    "Back": "Ein Port ist eine numerische Kennung, die Netzwerkverbindungen auf einem Ger\u00E4t unterscheidet. Er hilft, Datenpakete an die richtigen Programme oder Dienste weiterzuleiten, z.\u202FB. HTTP auf Port 80 oder HTTPS auf Port 443. Ports sind essenziell f\u00FCr die Steuerung des Datenverkehrs in TCP/IP-Netzwerken.",
+    "Category": "Netzwerke / Kommunikation"
+  },
+  {
+    "Id": 153,
+    "Front": "Energielabels",
+    "Back": "Energielabels kennzeichnen den Energieverbrauch und die Effizienz von Ger\u00E4ten, z.\u202FB. Haushaltsger\u00E4ten oder Servern. Sie sollen Verbrauchern helfen, umweltfreundlichere und sparsamere Produkte zu w\u00E4hlen. Die Skala reicht meist von A (sehr effizient) bis G (weniger effizient). In der IT werden Labels wie Energy Star oder EU-Energielabel verwendet.",
+    "Category": "Nachhaltigkeit / Ger\u00E4tekennzeichnung"
+  },
+  {
+    "Id": 154,
+    "Front": "EU ECO Lable",
+    "Back": "Das EU Ecolabel ist das offizielle Umweltzeichen der Europ\u00E4ischen Union f\u00FCr besonders umweltfreundliche Produkte und Dienstleistungen. Es bewertet den gesamten Lebenszyklus \u2013 von der Herstellung \u00FCber die Nutzung bis zur Entsorgung. Es gilt f\u00FCr viele Produktgruppen, z.\u202FB. Papier, Reinigungsmittel oder Elektronik, und hilft Verbraucher:innen beim nachhaltigen Einkauf. Das Label ist freiwillig, aber streng zertifiziert.",
+    "Category": "Nachhaltigkeit / Umweltkennzeichnung"
+  },
+  {
+    "Id": 155,
+    "Front": "Malware",
+    "Back": "Malware (Kurzform f\u00FCr malicious software) ist ein Sammelbegriff f\u00FCr sch\u00E4dliche Programme, die IT-Systeme angreifen oder manipulieren \u2013 z.\u202FB. Viren, W\u00FCrmer, Trojaner oder Ransomware. Ziel ist oft Datendiebstahl, Sabotage oder Erpressung. Malware verbreitet sich \u00FCber infizierte Anh\u00E4nge, Downloads oder Schwachstellen im System.",
+    "Category": "IT-Sicherheit / Schadsoftware"
+  },
+  {
+    "Id": 156,
+    "Front": "Ransomware",
+    "Back": "Ransomware ist eine Art von Malware, die Daten auf einem System verschl\u00FCsselt und erst nach Zahlung eines L\u00F6segelds (engl. ransom) wieder freigibt. Betroffene verlieren den Zugriff auf ihre Dateien oder Systeme. Ziel ist meist finanzielle Erpressung \u2013 h\u00E4ufig \u00FCber Kryptow\u00E4hrungen. Ransomware-Angriffe betreffen Unternehmen, Beh\u00F6rden und Privatpersonen gleicherma\u00DFen.",
+    "Category": "It-Sicherheit / Schadsoftware"
+  },
+  {
+    "Id": 157,
+    "Front": "Metadaten",
+    "Back": "Metadaten sind Daten \u00FCber Daten \u2013 sie beschreiben Eigenschaften von Informationen, z.\u202FB. Erstellungsdatum, Autor, Dateigr\u00F6\u00DFe oder Standort. Sie helfen bei der Organisation, Suche und Analyse von Dateien. In der IT-Sicherheit sind Metadaten wichtig, da sie sensible Informationen enthalten k\u00F6nnen, z.\u202FB. bei Fotos oder Dokumenten.",
+    "Category": "Datenmanagement / IT-Sicherheit"
+  },
+  {
+    "Id": 158,
+    "Front": "v-xt",
+    "Back": "V-Modell XT ist ein standardisiertes Vorgehensmodell f\u00FCr IT-Projekte in Beh\u00F6rden und \u00F6ffentlichen Einrichtungen in Deutschland. Es basiert auf einem Wasserfall-\u00E4hnlichen Ansatz mit klaren Phasen und definierten Ergebnissen (Produkten). Ziel ist es, die Planung, Entwicklung und Qualit\u00E4tssicherung von IT-Systemen nachvollziehbar und \u00FCberpr\u00FCfbar zu gestalten \u2013 mit Fokus auf Dokumentation, Rollen und Pr\u00FCfprozesse.",
+    "Category": "IT-Projektmanagement / Verwaltung"
+  },
+  {
+    "Id": 159,
+    "Front": "PRINCE2",
+    "Back": "PRINCE2 (Projects IN Controlled Environments) ist eine strukturierte Projektmanagement-Methode aus dem Vereinigten K\u00F6nigreich. Sie legt den Fokus auf klare Rollen, kontrollierte Phasen und regelm\u00E4\u00DFige Fortschrittskontrollen. PRINCE2 ist prozessorientiert, skalierbar und wird h\u00E4ufig in gro\u00DFen Organisationen und im \u00F6ffentlichen Sektor eingesetzt.",
+    "Category": "Projektmanagement"
+  },
+  {
+    "Id": 160,
+    "Front": "Minimal und Maximal Prinzip",
+    "Back": "Das Minimalprinzip besagt: ein bestimmtes Ziel mit m\u00F6glichst geringem Mitteleinsatz erreichen.",
+    "Category": "Wirtschaft / Effizienzprinzipien"
+  },
+  {
+    "Id": 161,
+    "Front": "Pareto Prinzip",
+    "Back": "Das Pareto-Prinzip (80/20-Regel) besagt: 80\u202F% der Ergebnisse entstehen durch 20\u202F% des Aufwands. Es hilft, Priorit\u00E4ten zu setzen \u2013 z.\u202FB. sich auf die Aufgaben zu konzentrieren, die den gr\u00F6\u00DFten Nutzen bringen. Das Prinzip wird h\u00E4ufig in Management, Produktivit\u00E4t und Fehleranalyse eingesetzt.",
+    "Category": "Zeitmanagement / Effizienz"
+  },
+  {
+    "Id": 162,
+    "Front": "Transistor",
+    "Back": "Ein Transistor ist ein elektronisches Bauteil, das als Schalter oder Verst\u00E4rker f\u00FCr elektrische Signale dient. Er ist das Grundelement moderner Computerchips und besteht meist aus Halbleitermaterial. Durch Steuerung des Stromflusses erm\u00F6glicht er digitale Logik \u2013 also das Ein- und Ausschalten von Bits.",
+    "Category": "Hardware / Elektronik"
+  },
+  {
+    "Id": 163,
+    "Front": "Transformator",
+    "Back": "Ein Transformator wandelt Wechselspannungen in h\u00F6here oder niedrigere Spannungen um \u2013 z.\u202FB. von Hochspannung im Stromnetz zu Haushaltsstrom. Er funktioniert nach dem Prinzip der elektromagnetischen Induktion mit zwei Spulen auf einem gemeinsamen Eisenkern. Transformatoren sind essenziell f\u00FCr effiziente Strom\u00FCbertragung \u00FCber gro\u00DFe Distanzen.",
+    "Category": "Elektrotechnik / Energie\u00FCbertragung"
+  },
+  {
+    "Id": 164,
+    "Front": "Operationsverst\u00E4rker",
+    "Back": "Ein Operationsverst\u00E4rker (OpAmp) ist ein vielseitiger, integrierter Schaltkreis, der analoge Signale verst\u00E4rken kann. Er hat zwei Eing\u00E4nge (invertierend und nicht-invertierend) und einen Ausgang. Typische Anwendungen sind Filter, Addierer, Komparatoren oder analoge Rechenwerke. In idealer Theorie hat er eine unendliche Verst\u00E4rkung und keinen Stromverbrauch am Eingang.",
+    "Category": "Elektronik / Schaltungstechnik"
+  },
+  {
+    "Id": 165,
+    "Front": "Lastenheft",
+    "Back": "Ein Lastenheft beschreibt die Anforderungen und Erwartungen des Auftraggebers an ein Projekt oder System \u2013 aus Kundensicht. Es enth\u00E4lt Ziele, Rahmenbedingungen und Funktionen, ohne L\u00F6sungsvorgaben zu machen. Das Lastenheft ist die Grundlage f\u00FCr das sp\u00E4ter vom Auftragnehmer erstellte Pflichtenheft.",
+    "Category": "Projektmanagement / Systementwicklung"
+  },
+  {
+    "Id": 166,
+    "Front": "Pflichtenheft",
+    "Back": "Das Pflichtenheft wird vom Auftragnehmer erstellt und beschreibt konkret, wie die Anforderungen aus dem Lastenheft umgesetzt werden sollen. Es enth\u00E4lt technische Details, Konzepte und Umsetzungspl\u00E4ne. Damit dient es als verbindliche Grundlage f\u00FCr Entwicklung, Tests und Abnahme.",
+    "Category": "Projektmanagement / Systementwicklung"
+  },
+  {
+    "Id": 167,
+    "Front": "KPI",
+    "Back": "KPI steht f\u00FCr Key Performance Indicator \u2013 also Schl\u00FCsselkennzahl, mit der die Leistung eines Unternehmens, Projekts oder Prozesses gemessen wird. Beispiele sind Umsatz, Fehlerquote oder Kundenzufriedenheit. KPIs helfen, Ziele zu \u00FCberwachen und fundierte Entscheidungen zu treffen.",
+    "Category": "Controlling / Performance-Messung"
+  },
+  {
+    "Id": 168,
+    "Front": "APM (Neu)",
+    "Back": "APM steht f\u00FCr Application Performance Monitoring. Es bezeichnet Tools und Verfahren zur \u00DCberwachung und Analyse der Leistung von Softwareanwendungen \u2013 z.\u202FB. Ladezeiten, Fehler, Serverantworten. Ziel ist es, Engp\u00E4sse fr\u00FChzeitig zu erkennen, Probleme zu beheben und die Nutzererfahrung zu optimieren.",
+    "Category": "IT-Performance / Monitoring"
+  },
+  {
+    "Id": 169,
+    "Front": "SCADA",
+    "Back": "SCADA steht f\u00FCr Supervisory Control and Data Acquisition. Es handelt sich um ein System zur \u00DCberwachung und Steuerung von Industrieanlagen, z.\u202FB. in der Energie-, Wasser- oder Produktionswirtschaft. SCADA-Systeme sammeln Daten in Echtzeit, visualisieren Prozesse und erm\u00F6glichen Eingriffe \u2013 oft aus der Ferne.",
+    "Category": "OT / Automatisierungstechnik"
+  },
+  {
+    "Id": 170,
+    "Front": "Router Monitoring",
+    "Back": "Router Monitoring bezeichnet die \u00DCberwachung von Netzwerkroutern, um deren Leistung, Auslastung und Sicherheit zu kontrollieren. Typische Kennzahlen sind Traffic, Verbindungen, Paketverluste oder CPU-Auslastung. Ziel ist es, St\u00F6rungen fr\u00FCh zu erkennen, Netzwerke stabil zu halten und potenzielle Angriffe zu bemerken.",
+    "Category": "Netzwerktechnik / IT-Sicherheit"
+  },
+  {
+    "Id": 171,
+    "Front": "VoIP Monitoring",
+    "Back": "VoIP Monitoring \u00FCberwacht die Qualit\u00E4t und Leistung von Voice-over-IP-Telefonaten. Es misst Parameter wie Latenz, Paketverlust und Jitter, um Sprachqualit\u00E4t sicherzustellen. So k\u00F6nnen St\u00F6rungen fr\u00FCh erkannt und behoben werden, um unterbrechungsfreie Telefonate zu garantieren.",
+    "Category": "Netzwerktechnik / Kommunikation"
+  },
+  {
+    "Id": 172,
+    "Front": "Switch Monitoring",
+    "Back": "Switch Monitoring \u00FCberwacht Netzwerk-Switches hinsichtlich Leistung, Verbindungen und Fehlern. Es erfasst z.\u202FB. Port-Status, Datenverkehr, Fehlerraten und Temperatur. So lassen sich Probleme fr\u00FCh erkennen, Netzwerkausf\u00E4lle vermeiden und die Netzwerkqualit\u00E4t sichern.",
+    "Category": "Netzwerktechnik / IT-Management"
+>>>>>>> 8ef42def22383228e409170be5fcb0c14504ef74
   }
 ]
