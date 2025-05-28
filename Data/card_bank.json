@@ -826,5 +826,65 @@
     "Front": "Rationelles Lesen",
     "Back": "Rationelles Lesen ist eine Methode, um Texte schnell und gezielt zu erfassen, ohne jedes Wort im Detail zu lesen. Dabei werden Lesetechniken wie Skimming (\u00DCberfliegen) und Scanning (gezieltes Suchen) eingesetzt. Ziel ist es, wesentliche Informationen effizient zu erkennen und irrelevante Inhalte auszublenden.",
     "Category": "Lerntechnik / Informationsverarbeitung"
+  },
+  {
+    "Id": 139,
+    "Front": "Honorific",
+    "Back": "Ein Honorific ist ein ehrender Titel oder eine Anredeform, die Respekt oder gesellschaftlichen Status ausdr\u00FCckt \u2013 z.\u202FB. Dr., Professor, Herr, Frau oder im Japanischen -san, -sama. Sie werden verwendet, um H\u00F6flichkeit und soziale Hierarchie zu zeigen. In vielen Kulturen sind sie fester Bestandteil der formellen Kommunikation.",
+    "Category": "Sprache / Kultur"
+  },
+  {
+    "Id": 140,
+    "Front": "Aktorik",
+    "Back": "Aktorik bezieht sich auf die ausf\u00FChrende Komponente eines Systems, die auf Befehle reagiert und physisch etwas bewegt oder ver\u00E4ndert \u2013 etwa Motoren, Ventile oder Roboterarme. In der IT oder Automatisierung schlie\u00DFt Aktorik den Kreis zwischen digitaler Steuerung und realer Wirkung. Sie ist das Gegenst\u00FCck zur Sensorik, die Daten liefert.",
+    "Category": "Soziotechnische Systeme / Organisationstheorie"
+  },
+  {
+    "Id": 141,
+    "Front": "Sensorik",
+    "Back": "Sensorik umfasst alle Systeme und Bauteile zur Erfassung von Messgr\u00F6\u00DFen \u2013 wie Temperatur, Licht, Bewegung oder Druck. Sensoren wandeln physikalische Reize in elektrische Signale um, die weiterverarbeitet werden k\u00F6nnen. Sie sind das \u0022Auge und Ohr\u0022 technischer Systeme und das Gegenst\u00FCck zur Aktorik.",
+    "Category": "Automatisierung / Messtechnik"
+  },
+  {
+    "Id": 142,
+    "Front": "Van",
+    "Back": "VAN steht f\u00FCr Value Added Network \u2013 ein privates Kommunikationsnetz, das zus\u00E4tzliche Dienste wie Datenkonvertierung, -weiterleitung und -sicherheit anbietet. Es wird h\u00E4ufig im gesch\u00E4ftlichen Umfeld genutzt, z.\u202FB. f\u00FCr den elektronischen Datenaustausch (EDI) zwischen Unternehmen. VANs agieren oft als Mittelsmann, um Daten sicher und formatiert zu \u00FCbermitteln.",
+    "Category": "Netzwerk / IT-Sicherheit"
+  },
+  {
+    "Id": 143,
+    "Front": "VLan",
+    "Back": "VLAN steht f\u00FCr \u201EVirtual Local Area Network\u201C. Es bezeichnet ein virtuelles Teilnetz innerhalb eines physischen Netzwerks, in dem Ger\u00E4te logisch voneinander getrennt werden k\u00F6nnen, obwohl sie sich auf derselben Hardware befinden. Dadurch lassen sich Netzwerke \u00FCbersichtlicher strukturieren und sicherer gestalten, z.\u202FB. durch die Trennung von Abteilungen oder sensiblen Diensten.",
+    "Category": "Netzwerktechnik"
+  },
+  {
+    "Id": 144,
+    "Front": "Broadcast",
+    "Back": "Broadcast bezeichnet die gleichzeitige \u00DCbertragung von Daten an alle Ger\u00E4te innerhalb eines Netzwerks oder Netzwerksegments. Dabei wird keine bestimmte Zieladresse verwendet, sondern eine spezielle Broadcast-Adresse, die alle Teilnehmer erreicht. Solche \u00DCbertragungen sind hilfreich f\u00FCr Dienste wie DHCP, k\u00F6nnen aber bei zu h\u00E4ufiger Nutzung die Netzwerklast erh\u00F6hen.",
+    "Category": "Netzwerktechnik"
+  },
+  {
+    "Id": 145,
+    "Front": "Erhebliche M\u00E4ngel vs Unerherbliche M\u00E4ngel",
+    "Back": "Erhebliche M\u00E4ngel liegen vor, wenn der Mangel so gravierend ist, dass die Leistung nicht wie vereinbart genutzt werden kann \u2013 z.\u202FB. wenn eine Software nicht startet oder ein Ger\u00E4t funktionsunt\u00FCchtig ist. In solchen F\u00E4llen kann der K\u00E4ufer vom Vertrag zur\u00FCcktreten oder den Kaufpreis mindern. Unerhebliche M\u00E4ngel sind dagegen kleinere Abweichungen oder Sch\u00F6nheitsfehler, die die Funktion nicht wesentlich beeintr\u00E4chtigen \u2013 hier ist ein R\u00FCcktritt in der Regel ausgeschlossen.",
+    "Category": "Vertragsrecht / Sachm\u00E4ngelrecht"
+  },
+  {
+    "Id": 146,
+    "Front": "Unterschied zwischen Wartungs- und Servicevertr\u00E4gen",
+    "Back": "Wartungsvertr\u00E4ge beziehen sich meist auf die technische Instandhaltung eines Systems, etwa durch regelm\u00E4\u00DFige Updates, Reparaturen oder Austausch defekter Komponenten. Sie sichern die Betriebsf\u00E4higkeit \u00FCber einen definierten Zeitraum. Servicevertr\u00E4ge hingegen sind weiter gefasst und beinhalten oft zus\u00E4tzlich Supportleistungen wie Helpdesk, Reaktionszeiten, Schulungen oder proaktive System\u00FCberwachung. Wartung ist also oft ein Teilbereich eines umfassenderen Servicevertrags.",
+    "Category": "IT-Betrieb / Vertragsmanagement"
+  },
+  {
+    "Id": 147,
+    "Front": "Bonit\u00E4t",
+    "Back": "Bonit\u00E4t beschreibt die Kreditw\u00FCrdigkeit einer Person oder eines Unternehmens, also die F\u00E4higkeit und Bereitschaft, finanzielle Verpflichtungen zuverl\u00E4ssig zu erf\u00FCllen. Sie wird durch Faktoren wie Einkommen, Zahlungsverhalten oder bestehende Schulden bestimmt. Eine gute Bonit\u00E4t erleichtert den Zugang zu Krediten oder Vertr\u00E4gen, w\u00E4hrend eine schlechte Bonit\u00E4t zu h\u00F6heren Zinsen oder Ablehnungen f\u00FChren kann.",
+    "Category": "Wirtschaft / Finanzen"
+  },
+  {
+    "Id": 148,
+    "Front": "Bonit\u00E4t vs Liquidit\u00E4t",
+    "Back": "Bonit\u00E4t und Liquidit\u00E4t sind zwei unterschiedliche, aber oft zusammen betrachtete finanzielle Kennzahlen. Bonit\u00E4t beschreibt die langfristige F\u00E4higkeit eines Schuldners, seinen Zahlungsverpflichtungen nachzukommen \u2013 also seine Kreditw\u00FCrdigkeit. Liquidit\u00E4t hingegen bezieht sich auf die kurzfristige F\u00E4higkeit, aktuelle Rechnungen und Verbindlichkeiten zu begleichen, etwa durch vorhandene Geldmittel oder schnell verf\u00FCgbare Verm\u00F6genswerte. Ein Unternehmen kann also liquide, aber nicht unbedingt bonit\u00E4tsstark sein \u2013 oder umgekehrt.",
+    "Category": "Wirtschaft / Finanzen"
   }
 ]
