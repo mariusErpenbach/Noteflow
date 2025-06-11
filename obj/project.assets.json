@@ -1479,11 +1479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\Noteflow\\Noteflow.csproj",
+      "projectUniqueName": "C:\\Users\\hwty\\github\\Noteflow\\Noteflow.csproj",
       "projectName": "Noteflow",
-      "projectPath": "D:\\github\\Noteflow\\Noteflow.csproj",
+      "projectPath": "C:\\Users\\hwty\\github\\Noteflow\\Noteflow.csproj",
       "packagesPath": "C:\\Users\\hwty\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\Noteflow\\obj\\",
+      "outputPath": "C:\\Users\\hwty\\github\\Noteflow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hwty\\AppData\\Roaming\\NuGet\\NuGet.Config"

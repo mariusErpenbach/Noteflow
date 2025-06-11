@@ -817,77 +817,6 @@
   },
   {
     "Id": 137,
-<<<<<<< HEAD
-    "Front": "Benchmarking",
-    "Back": "Benchmarking ist der systematische Vergleich von Prozessen, Produkten oder Leistungen mit denen anderer \u2013 meist der Besten der Branche. Ziel ist es, eigene Schw\u00E4chen zu erkennen und Verbesserungspotenziale aufzudecken. Es f\u00F6rdert Innovation, Effizienz und Wettbewerbsf\u00E4higkeit.",
-    "Category": "Qualit\u00E4tsmanagement / Unternehmensstrategie"
-  },
-  {
-    "Id": 138,
-    "Front": "Rationelles Lesen",
-    "Back": "Rationelles Lesen ist eine Methode, um Texte schnell und gezielt zu erfassen, ohne jedes Wort im Detail zu lesen. Dabei werden Lesetechniken wie Skimming (\u00DCberfliegen) und Scanning (gezieltes Suchen) eingesetzt. Ziel ist es, wesentliche Informationen effizient zu erkennen und irrelevante Inhalte auszublenden.",
-    "Category": "Lerntechnik / Informationsverarbeitung"
-  },
-  {
-    "Id": 139,
-    "Front": "Honorific",
-    "Back": "Ein Honorific ist ein ehrender Titel oder eine Anredeform, die Respekt oder gesellschaftlichen Status ausdr\u00FCckt \u2013 z.\u202FB. Dr., Professor, Herr, Frau oder im Japanischen -san, -sama. Sie werden verwendet, um H\u00F6flichkeit und soziale Hierarchie zu zeigen. In vielen Kulturen sind sie fester Bestandteil der formellen Kommunikation.",
-    "Category": "Sprache / Kultur"
-  },
-  {
-    "Id": 140,
-    "Front": "Aktorik",
-    "Back": "Aktorik bezieht sich auf die ausf\u00FChrende Komponente eines Systems, die auf Befehle reagiert und physisch etwas bewegt oder ver\u00E4ndert \u2013 etwa Motoren, Ventile oder Roboterarme. In der IT oder Automatisierung schlie\u00DFt Aktorik den Kreis zwischen digitaler Steuerung und realer Wirkung. Sie ist das Gegenst\u00FCck zur Sensorik, die Daten liefert.",
-    "Category": "Soziotechnische Systeme / Organisationstheorie"
-  },
-  {
-    "Id": 141,
-    "Front": "Sensorik",
-    "Back": "Sensorik umfasst alle Systeme und Bauteile zur Erfassung von Messgr\u00F6\u00DFen \u2013 wie Temperatur, Licht, Bewegung oder Druck. Sensoren wandeln physikalische Reize in elektrische Signale um, die weiterverarbeitet werden k\u00F6nnen. Sie sind das \u0022Auge und Ohr\u0022 technischer Systeme und das Gegenst\u00FCck zur Aktorik.",
-    "Category": "Automatisierung / Messtechnik"
-  },
-  {
-    "Id": 142,
-    "Front": "Van",
-    "Back": "VAN steht f\u00FCr Value Added Network \u2013 ein privates Kommunikationsnetz, das zus\u00E4tzliche Dienste wie Datenkonvertierung, -weiterleitung und -sicherheit anbietet. Es wird h\u00E4ufig im gesch\u00E4ftlichen Umfeld genutzt, z.\u202FB. f\u00FCr den elektronischen Datenaustausch (EDI) zwischen Unternehmen. VANs agieren oft als Mittelsmann, um Daten sicher und formatiert zu \u00FCbermitteln.",
-    "Category": "Netzwerk / IT-Sicherheit"
-  },
-  {
-    "Id": 143,
-    "Front": "VLan",
-    "Back": "VLAN steht f\u00FCr \u201EVirtual Local Area Network\u201C. Es bezeichnet ein virtuelles Teilnetz innerhalb eines physischen Netzwerks, in dem Ger\u00E4te logisch voneinander getrennt werden k\u00F6nnen, obwohl sie sich auf derselben Hardware befinden. Dadurch lassen sich Netzwerke \u00FCbersichtlicher strukturieren und sicherer gestalten, z.\u202FB. durch die Trennung von Abteilungen oder sensiblen Diensten.",
-    "Category": "Netzwerktechnik"
-  },
-  {
-    "Id": 144,
-    "Front": "Broadcast",
-    "Back": "Broadcast bezeichnet die gleichzeitige \u00DCbertragung von Daten an alle Ger\u00E4te innerhalb eines Netzwerks oder Netzwerksegments. Dabei wird keine bestimmte Zieladresse verwendet, sondern eine spezielle Broadcast-Adresse, die alle Teilnehmer erreicht. Solche \u00DCbertragungen sind hilfreich f\u00FCr Dienste wie DHCP, k\u00F6nnen aber bei zu h\u00E4ufiger Nutzung die Netzwerklast erh\u00F6hen.",
-    "Category": "Netzwerktechnik"
-  },
-  {
-    "Id": 145,
-    "Front": "Erhebliche M\u00E4ngel vs Unerherbliche M\u00E4ngel",
-    "Back": "Erhebliche M\u00E4ngel liegen vor, wenn der Mangel so gravierend ist, dass die Leistung nicht wie vereinbart genutzt werden kann \u2013 z.\u202FB. wenn eine Software nicht startet oder ein Ger\u00E4t funktionsunt\u00FCchtig ist. In solchen F\u00E4llen kann der K\u00E4ufer vom Vertrag zur\u00FCcktreten oder den Kaufpreis mindern. Unerhebliche M\u00E4ngel sind dagegen kleinere Abweichungen oder Sch\u00F6nheitsfehler, die die Funktion nicht wesentlich beeintr\u00E4chtigen \u2013 hier ist ein R\u00FCcktritt in der Regel ausgeschlossen.",
-    "Category": "Vertragsrecht / Sachm\u00E4ngelrecht"
-  },
-  {
-    "Id": 146,
-    "Front": "Unterschied zwischen Wartungs- und Servicevertr\u00E4gen",
-    "Back": "Wartungsvertr\u00E4ge beziehen sich meist auf die technische Instandhaltung eines Systems, etwa durch regelm\u00E4\u00DFige Updates, Reparaturen oder Austausch defekter Komponenten. Sie sichern die Betriebsf\u00E4higkeit \u00FCber einen definierten Zeitraum. Servicevertr\u00E4ge hingegen sind weiter gefasst und beinhalten oft zus\u00E4tzlich Supportleistungen wie Helpdesk, Reaktionszeiten, Schulungen oder proaktive System\u00FCberwachung. Wartung ist also oft ein Teilbereich eines umfassenderen Servicevertrags.",
-    "Category": "IT-Betrieb / Vertragsmanagement"
-  },
-  {
-    "Id": 147,
-    "Front": "Bonit\u00E4t",
-    "Back": "Bonit\u00E4t beschreibt die Kreditw\u00FCrdigkeit einer Person oder eines Unternehmens, also die F\u00E4higkeit und Bereitschaft, finanzielle Verpflichtungen zuverl\u00E4ssig zu erf\u00FCllen. Sie wird durch Faktoren wie Einkommen, Zahlungsverhalten oder bestehende Schulden bestimmt. Eine gute Bonit\u00E4t erleichtert den Zugang zu Krediten oder Vertr\u00E4gen, w\u00E4hrend eine schlechte Bonit\u00E4t zu h\u00F6heren Zinsen oder Ablehnungen f\u00FChren kann.",
-    "Category": "Wirtschaft / Finanzen"
-  },
-  {
-    "Id": 148,
-    "Front": "Bonit\u00E4t vs Liquidit\u00E4t",
-    "Back": "Bonit\u00E4t und Liquidit\u00E4t sind zwei unterschiedliche, aber oft zusammen betrachtete finanzielle Kennzahlen. Bonit\u00E4t beschreibt die langfristige F\u00E4higkeit eines Schuldners, seinen Zahlungsverpflichtungen nachzukommen \u2013 also seine Kreditw\u00FCrdigkeit. Liquidit\u00E4t hingegen bezieht sich auf die kurzfristige F\u00E4higkeit, aktuelle Rechnungen und Verbindlichkeiten zu begleichen, etwa durch vorhandene Geldmittel oder schnell verf\u00FCgbare Verm\u00F6genswerte. Ein Unternehmen kann also liquide, aber nicht unbedingt bonit\u00E4tsstark sein \u2013 oder umgekehrt.",
-    "Category": "Wirtschaft / Finanzen"
-=======
     "Front": "IT-SIG",
     "Back": "Das IT-Sicherheitsgesetz (IT-SiG) ist ein deutsches Gesetz, das Betreiber kritischer Infrastrukturen verpflichtet, ihre IT-Systeme gegen Angriffe zu sch\u00FCtzen. Es wurde 2015 eingef\u00FChrt und durch das IT-SiG 2.0 (2021) erweitert. Ziel ist es, die nationale Cybersicherheit zu st\u00E4rken, etwa durch Meldepflichten bei Sicherheitsvorf\u00E4llen und Vorgaben f\u00FCr Sicherheitsstandards.",
     "Category": "Gesetzgebung / IT-Compliance"
@@ -1100,7 +1029,120 @@
     "Id": 172,
     "Front": "Switch Monitoring",
     "Back": "Switch Monitoring \u00FCberwacht Netzwerk-Switches hinsichtlich Leistung, Verbindungen und Fehlern. Es erfasst z.\u202FB. Port-Status, Datenverkehr, Fehlerraten und Temperatur. So lassen sich Probleme fr\u00FCh erkennen, Netzwerkausf\u00E4lle vermeiden und die Netzwerkqualit\u00E4t sichern.",
-    "Category": "Netzwerktechnik / IT-Management"
->>>>>>> 8ef42def22383228e409170be5fcb0c14504ef74
+    "Category": "Netzwerktechnologie / IT-Management"
+  },
+  {
+    "Id": 173,
+    "Front": "multihop vpn",
+    "Back": "Multihop bezeichnet in der Netzwerktechnik eine Kommunikation, bei der Datenpakete \u00FCber mehrere Zwischenstationen (Hops) von der Quelle zum Ziel weitergeleitet werden. Dies steht im Gegensatz zur direkten Verbindung (Single-Hop), bei der Sender und Empf\u00E4nger direkt miteinander kommunizieren. Multihop-Kommunikation ist typisch f\u00FCr Ad-hoc- oder Mesh-Netzwerke, bei denen jeder Knoten als potenzieller Weiterleitungs-Punkt fungiert. Die Vorteile von Multihop liegen in der erh\u00F6hten Reichweite und besseren Netzabdeckung, da auch weit entfernte Ger\u00E4te erreicht werden k\u00F6nnen, ohne dass sie in direkter Funkreichweite sein m\u00FCssen. Allerdings steigt mit jedem zus\u00E4tzlichen Hop die Latenz und potenziell die Fehleranf\u00E4lligkeit, insbesondere bei drahtlosen Verbindungen. Routing-Protokolle wie AODV oder OLSR werden eingesetzt, um geeignete Wege durch das Netz zu finden.",
+    "Category": "Netzwerktechnik / Multihop"
+  },
+  {
+    "Id": 174,
+    "Front": "Sting Operation",
+    "Back": "Eine Sting Operation ist eine verdeckte Ermittlungsmethode, bei der Strafverfolgungsbeh\u00F6rden oder Geheimdienste eine kontrollierte Umgebung schaffen, um kriminelle Handlungen zu provozieren oder aufzudecken. Dabei geben sich Ermittler beispielsweise als K\u00E4ufer illegaler Waren oder als Kriminelle aus, um Beweise gegen T\u00E4ter zu sammeln. Ziel ist es, den T\u00E4ter auf frischer Tat zu ertappen oder konkrete Beweise zu sichern, die f\u00FCr eine sp\u00E4tere Verurteilung n\u00F6tig sind. Diese Methode wird h\u00E4ufig in F\u00E4llen wie Drogenhandel, Korruption, Menschenhandel oder Internetkriminalit\u00E4t eingesetzt. Rechtlich ist eine Sting Operation oft umstritten, da sie sich in einem Graubereich zwischen erlaubter Ermittlung und verbotener Anstiftung zur Straftat bewegt. In Deutschland ist die Anwendung strenger reguliert als etwa in den USA, wo Sting Operations h\u00E4ufiger vorkommen und durch sogenannte \u0022Undercover Agents\u0022 durchgef\u00FChrt werden.",
+    "Category": "Strafverfolgung / Ermittlungsmethoden"
+  },
+  {
+    "Id": 175,
+    "Front": "Taktfrequenz",
+    "Back": "Die Taktfrequenz, auch als Prozessortakt oder Clock Speed bezeichnet, gibt an, wie viele Rechenschritte ein Prozessor pro Sekunde ausf\u00FChren kann. Sie wird in Hertz (Hz) gemessen, wobei moderne Prozessoren in der Regel im Gigahertz-Bereich (GHz) arbeiten \u2013 also Milliarden Takte pro Sekunde. Eine h\u00F6here Taktfrequenz bedeutet grunds\u00E4tzlich, dass ein Prozessor mehr Operationen in k\u00FCrzerer Zeit durchf\u00FChren kann, allerdings ist sie nicht der alleinige Ma\u00DFstab f\u00FCr die tats\u00E4chliche Leistung. Weitere Einflussfaktoren sind die Anzahl der Kerne, die Architektur, der Cache sowie die Effizienz des Befehlssatzes. Zudem kann eine h\u00F6here Taktfrequenz zu einem h\u00F6heren Energieverbrauch und mehr W\u00E4rmeentwicklung f\u00FChren, weshalb moderne CPUs oft dynamische Taktanpassungen (z.\u202FB. Turbo Boost) nutzen. In Benchmarks ist die reale Leistungsf\u00E4higkeit eines Systems meist nur im Zusammenspiel aller Komponenten sinnvoll zu bewerten.",
+    "Category": "Computertechnik / Hardware-Grundlagen"
+  },
+  {
+    "Id": 176,
+    "Front": "IPC ",
+    "Back": "IPC steht f\u00FCr \u0022Instructions per Cycle\u0022 und beschreibt, wie viele Maschinenbefehle ein Prozessor pro Taktzyklus verarbeiten kann. Dieser Wert ist entscheidend f\u00FCr die tats\u00E4chliche Leistung eines Prozessors, da er angibt, wie effizient eine CPU unabh\u00E4ngig von ihrer Taktfrequenz arbeitet. Ein Prozessor mit hoher Taktfrequenz, aber geringer IPC kann langsamer sein als ein moderner Prozessor mit niedrigerem Takt, aber besserer Architektur und h\u00F6herem IPC. Der IPC-Wert wird stark von der Mikroarchitektur, der Pipeline-Tiefe, dem Cache-Zugriff und der parallelen Ausf\u00FChrung von Befehlen (Superskalarit\u00E4t, Out-of-Order-Execution) beeinflusst. Da IPC stark von der Art der Aufgabe abh\u00E4ngt, ist er nicht immer konstant und wird selten direkt angegeben. Stattdessen spiegeln synthetische Benchmarks oder anwendungsbezogene Leistungstests (z.\u202FB. Cinebench) das Zusammenspiel von Taktfrequenz und IPC besser wider.",
+    "Category": "Computertechnik / Prozessorarchitektur"
+  },
+  {
+    "Id": 177,
+    "Front": "MIPS ",
+    "Back": "MIPS steht f\u00FCr \u0022Million Instructions Per Second\u0022 und ist eine Kennzahl, die angibt, wie viele Millionen Maschinenbefehle ein Prozessor pro Sekunde ausf\u00FChren kann. Obwohl MIPS ein fr\u00FCher Versuch war, die Leistungsf\u00E4higkeit von Prozessoren messbar zu machen, gilt es heute als wenig aussagekr\u00E4ftig, da es weder die Art der Befehle noch deren Komplexit\u00E4t ber\u00FCcksichtigt. Ein Prozessor, der einfache Befehle sehr schnell ausf\u00FChrt, kann hohe MIPS-Werte erreichen, obwohl er bei komplexeren Aufgaben langsamer ist. Zudem unterscheiden sich Befehls\u00E4tze verschiedener Architekturen (z.\u202FB. RISC vs. CISC), was direkte Vergleiche erschwert. Aus diesen Gr\u00FCnden hat sich MIPS als objektive Vergleichsgr\u00F6\u00DFe weitgehend \u00FCberholt; moderne Benchmarks und Messgr\u00F6\u00DFen wie FLOPS, IPC, oder praxisnahe Tests (z.\u202FB. Cinebench) liefern deutlich bessere Leistungsbewertungen.",
+    "Category": " Computertechnik / Leistungskennzahlen"
+  },
+  {
+    "Id": 178,
+    "Front": "FLOPS",
+    "Back": "FLOPS steht f\u00FCr \u0022Floating Point Operations Per Second\u0022 und ist eine Ma\u00DFeinheit f\u00FCr die Rechenleistung eines Computers bei Gleitkommaberechnungen. Diese Art von Berechnungen ist besonders relevant in wissenschaftlichen, technischen und grafischen Anwendungen, etwa bei Simulationen, KI-Modellen oder 3D-Berechnungen. FLOPS geben an, wie viele solcher Operationen pro Sekunde ausgef\u00FChrt werden k\u00F6nnen \u2013 z.\u202FB. GFLOPS (Milliarden), TFLOPS (Billionen) oder PFLOPS (Billiarden). Im Gegensatz zu MIPS ber\u00FCcksichtigt FLOPS die Komplexit\u00E4t der Operationen und ist daher besser geeignet, um die Rechenst\u00E4rke moderner Systeme zu vergleichen, insbesondere in Bereichen mit hoher mathematischer Pr\u00E4zision. Grafikkarten und Supercomputer werden oft anhand ihrer FLOPS-Leistung bewertet. In der Praxis sind jedoch auch hier Benchmarks notwendig, da theoretische FLOPS-Angaben oft von real erreichbaren Werten abweichen.",
+    "Category": "Computertechnik / Leistungskennzahlen"
+  },
+  {
+    "Id": 179,
+    "Front": "Frequenz",
+    "Back": "Frequenz bezeichnet die Anzahl an Wiederholungen eines periodischen Vorgangs pro Sekunde und wird in der Einheit Hertz (Hz) gemessen. 1 Hertz entspricht einem Ereignis pro Sekunde. Frequenz ist ein zentrales Konzept in der Physik, Technik und Signalverarbeitung \u2013 z.\u202FB. bei Schwingungen, Wellen (wie Schall- oder elektromagnetischen Wellen), sowie in elektrischen Systemen. Im Alltag begegnet man der Frequenz etwa beim Stromnetz (z.\u202FB. 50\u202FHz in Europa), bei Musik (Tonh\u00F6he in Hz) oder in Funktechnik (z.\u202FB. WLAN bei 2,4\u202FGHz). In der Digitaltechnik, etwa bei Prozessoren, gibt die Taktfrequenz an, wie oft pro Sekunde ein Schaltvorgang erfolgt \u2013 je h\u00F6her die Frequenz, desto schneller kann ein System (theoretisch) arbeiten. Wichtig ist, dass Frequenz allein nicht die gesamte Leistungsf\u00E4higkeit beschreibt, sondern stets im Kontext weiterer Parameter wie Amplitude, Signalform oder Effizienz zu sehen ist.",
+    "Category": "Physik / Signalverarbeitung"
+  },
+  {
+    "Id": 180,
+    "Front": "Periodendauer",
+    "Back": "Die Periodendauer (Symbol: T) ist die Zeit, die ein periodischer Vorgang ben\u00F6tigt, um sich einmal vollst\u00E4ndig zu wiederholen. Sie wird in Sekunden (s) gemessen und steht in einem direkten Zusammenhang zur Frequenz: Je h\u00F6her die Frequenz, desto k\u00FCrzer die Periodendauer \u2013 mathematisch ausgedr\u00FCckt:",
+    "Category": "Physik / Schwingungen und Wellen"
+  },
+  {
+    "Id": 181,
+    "Front": "Periodendauer \u002B Frequenz",
+    "Back": "Frequenz und Periodendauer sind eng miteinander verbundene Gr\u00F6\u00DFen zur Beschreibung periodischer Vorg\u00E4nge. Die Frequenz (f) gibt an, wie viele vollst\u00E4ndige Wiederholungen eines Vorgangs pro Sekunde stattfinden, gemessen in Hertz (Hz). Die Periodendauer (T) ist die Zeitdauer f\u00FCr eine einzelne vollst\u00E4ndige Schwingung oder einen Zyklus, gemessen in Sekunden (s). Diese beiden Gr\u00F6\u00DFen stehen in umgekehrtem Verh\u00E4ltnis zueinander und sind durch die Formel T = 1 / f verbunden. Das bedeutet: Je h\u00F6her die Frequenz, desto k\u00FCrzer ist die Periodendauer, und umgekehrt. Beispiel: Bei einer Frequenz von 50 Hz betr\u00E4gt die Periodendauer 1/50 s = 0,02 s (20 ms). Dieses Prinzip ist grundlegend in Bereichen wie der Akustik, Elektrotechnik, Funktechnik und allgemein bei der Analyse von Wellen und Schwingungen.",
+    "Category": "Physik / Schwingungen und Wellen"
+  },
+  {
+    "Id": 182,
+    "Front": "Arduino",
+    "Back": "Arduino ist eine Open-Source-Elektronikplattform, die auf einfach zu programmierenden Mikrocontroller-Boards basiert. Sie erm\u00F6glicht es Anwendern, schnell und kosteng\u00FCnstig Hardwareprojekte umzusetzen, von einfachen LED-Schaltungen bis hin zu komplexen IoT-Anwendungen. Arduino-Boards verwenden meist Atmel AVR-Mikrocontroller (z.\u202FB. ATmega328) und werden mit der Arduino-Programmiersprache (eine vereinfachte Variante von C/C\u002B\u002B) \u00FCber die Arduino IDE programmiert. Die Plattform ist besonders bei Einsteigern, Bastlern und in der Ausbildung beliebt, da sie durch umfangreiche Bibliotheken, Tutorials und eine gro\u00DFe Community unterst\u00FCtzt wird. Typische Einsatzgebiete sind Sensorsteuerungen, Robotik, Prototyping und automatisierte Steuerungen. Arduino bietet eine breite Palette an kompatiblen Shields (Erweiterungsplatinen) f\u00FCr zus\u00E4tzliche Funktionen wie WLAN, Motorsteuerung oder Displays.",
+    "Category": "Mikrocontroller / Embedded Systems"
+  },
+  {
+    "Id": 183,
+    "Front": "UART",
+    "Back": "UART steht f\u00FCr \u0022Universal Asynchronous Receiver Transmitter\u0022 und ist eine serielle Schnittstelle zur asynchronen Daten\u00FCbertragung zwischen Ger\u00E4ten. Dabei werden Daten bitweise nacheinander \u00FCber eine Leitung gesendet, ohne dass ein gemeinsames Taktsignal \u00FCbertragen wird. UART \u00FCbertr\u00E4gt Daten typischerweise mit einem Startbit, einer definierten Anzahl von Datenbits (meist 8), optionalen Parit\u00E4tsbits zur Fehlererkennung und einem oder mehreren Stoppbits. Diese Form der Kommunikation ist einfach, kosteng\u00FCnstig und weit verbreitet \u2013 etwa bei Mikrocontrollern, Computern und Peripherieger\u00E4ten. UART ben\u00F6tigt mindestens zwei Leitungen (Tx und Rx) f\u00FCr Senden und Empfangen. Die Geschwindigkeit wird in Baud (Bits pro Sekunde) angegeben und muss auf beiden Seiten \u00FCbereinstimmen. UART eignet sich f\u00FCr kurze Entfernungen und punkt-zu-punkt-Verbindungen, wird aber oft durch modernere Protokolle erg\u00E4nzt.",
+    "Category": "Elektronik / Kommunikation"
+  },
+  {
+    "Id": 184,
+    "Front": "Kardinalit\u00E4ten",
+    "Back": "Kardinalit\u00E4ten beschreiben in der Datenbankmodellierung die Anzahl der m\u00F6glichen Beziehungen zwischen Entit\u00E4ten (Tabellen) in einem Datenmodell. Sie geben an, wie viele Objekte einer Entit\u00E4t mit wie vielen Objekten einer anderen Entit\u00E4t verkn\u00FCpft sein k\u00F6nnen.  1:1 (Eins zu Eins): Ein Datensatz in Tabelle A ist mit genau einem Datensatz in Tabelle B verkn\u00FCpft. 1:N (Eins zu Viele): Ein Datensatz in Tabelle A kann mit mehreren Datens\u00E4tzen in Tabelle B verkn\u00FCpft sein, aber jeder Datensatz in B ist nur mit einem Datensatz in A verbunden. N:M (Viele zu Viele): Mehrere Datens\u00E4tze in Tabelle A k\u00F6nnen mit mehreren Datens\u00E4tzen in Tabelle B verkn\u00FCpft sein. Diese Beziehungen werden meist durch eine Zwischentabelle (Relation) umgesetzt.",
+    "Category": " Datenbanken / Datenmodellierung"
+  },
+  {
+    "Id": 185,
+    "Front": "Baudrate",
+    "Back": "Die Baudrate bezeichnet die Anzahl der Signalzustands\u00E4nderungen (Symbole) pro Sekunde bei der Daten\u00FCbertragung und wird in Baud gemessen. Sie gibt an, wie schnell ein Signal auf einer \u00DCbertragungsleitung wechselt. Wichtig ist, dass Baudrate nicht immer mit der Datenrate (Bits pro Sekunde) gleichzusetzen ist, da ein Signalzustand mehr als ein Bit repr\u00E4sentieren kann (z.\u202FB. bei Mehrbit-Symbolen oder Modulationstechniken). In einfachen seriellen Schnittstellen wie UART entspricht die Baudrate meist der Bitrate. Die richtige Einstellung der Baudrate ist entscheidend f\u00FCr eine fehlerfreie Kommunikation zwischen Sender und Empf\u00E4nger. \u00DCbliche Werte bei seriellen Verbindungen sind beispielsweise 9600, 115200 Baud.",
+    "Category": "Kommunikationstechnik / Daten\u00FCbertragung"
+  },
+  {
+    "Id": 186,
+    "Front": "CAN-Bus",
+    "Back": "Der CAN-Bus (Controller Area Network) ist ein serielles Kommunikationsprotokoll, das urspr\u00FCnglich f\u00FCr die Vernetzung von Steuerger\u00E4ten in Fahrzeugen entwickelt wurde. Er erm\u00F6glicht den robusten und effizienten Datenaustausch zwischen mehreren Knoten (Steuerger\u00E4ten) \u00FCber eine Zweidrahtleitung, ohne dass ein zentrales Steuerger\u00E4t erforderlich ist. Der CAN-Bus arbeitet nach dem Prinzip der Broadcast-Kommunikation, bei der Nachrichten mit Priorit\u00E4ten gesendet werden, um Kollisionen zu vermeiden. Er unterst\u00FCtzt Datenraten bis zu 1 Mbit/s und sorgt durch Fehlererkennung und Wiederholmechanismen f\u00FCr hohe Zuverl\u00E4ssigkeit. CAN wird heute nicht nur in Fahrzeugen, sondern auch in der Industrieautomation, Medizintechnik und anderen Bereichen eingesetzt, wo eine st\u00F6rsichere, zeitkritische Kommunikation ben\u00F6tigt wird.",
+    "Category": "Fahrzeugtechnik / Kommunikationsprotokolle"
+  },
+  {
+    "Id": 187,
+    "Front": "Ethernet",
+    "Back": "Ethernet ist ein weit verbreiteter Standard f\u00FCr kabelgebundene Netzwerke (LAN \u2013 Local Area Network), der Daten in Form von Frames \u00FCbertr\u00E4gt. Es basiert auf dem IEEE-802.3-Standard und erm\u00F6glicht eine zuverl\u00E4ssige, schnelle Kommunikation zwischen Ger\u00E4ten wie Computern, Switches und Routern. Ethernet nutzt \u00FCblicherweise Twisted-Pair-Kabel (z.\u202FB. Cat5e, Cat6) oder Glasfaser. G\u00E4ngige \u00DCbertragungsraten sind 10\u202FMbit/s, 100\u202FMbit/s (Fast Ethernet), 1\u202FGbit/s (Gigabit Ethernet) und 10\u202FGbit/s oder mehr (10G, 40G, 100G Ethernet). Jeder Teilnehmer im Netzwerk besitzt eine eindeutige MAC-Adresse. Ethernet arbeitet auf der Sicherungsschicht (Layer 2) des OSI-Modells und verwendet typischerweise das CSMA/CD-Verfahren (Carrier Sense Multiple Access with Collision Detection), das bei modernen geswitchten Netzwerken jedoch kaum noch relevant ist. Ethernet ist heute die Grundlage der meisten lokalen Netzwerke weltweit.",
+    "Category": "Netzwerktechnik / Kommunikation"
+  },
+  {
+    "Id": 188,
+    "Front": "CAN-Protokoll",
+    "Back": "Das CAN-Protokoll (Controller Area Network) ist ein auf Nachrichten basierendes Kommunikationsprotokoll, das den Datenaustausch zwischen Mikrocontrollern und Ger\u00E4ten ohne zentralen Rechner erm\u00F6glicht. Es wurde von Bosch f\u00FCr den Einsatz in Fahrzeugen entwickelt, ist aber heute auch in industriellen und medizinischen Anwendungen verbreitet.",
+    "Category": "Kommunikation / Protokolle / Embedded Systems"
+  },
+  {
+    "Id": 189,
+    "Front": "CAN-Frames",
+    "Back": "Ein CAN-Frame ist die standardisierte Nachrichtenstruktur, mit der Daten im CAN-Bus \u00FCbertragen werden. Es gibt vier verschiedene Typen von Frames: Data Frame (enth\u00E4lt tats\u00E4chliche Nutzdaten), Remote Frame (fordert Daten von einem anderen Teilnehmer an), Error Frame (wird bei erkannten Fehlern gesendet) und Overload Frame (signalisiert eine \u00DCberlastung des Empf\u00E4ngers). Der wichtigste Frame ist der Data Frame. Er besteht aus mehreren Feldern: einem Start-of-Frame-Bit, einem Arbitration Field mit der Message-ID und einem Remote-Transmission-Request-Bit (RTR), einem Control Field mit dem Data Length Code (DLC), einem Data Field (maximal 8 Byte), einem CRC-Feld zur Fehlererkennung, einem Acknowledge Field und dem End-of-Frame. Die Struktur stellt sicher, dass Nachrichten eindeutig identifizierbar, priorisierbar und fehlertolerant \u00FCber den Bus \u00FCbertragen werden k\u00F6nnen.",
+    "Category": "Kommunikation / Protokolle / Embedded Systems"
+  },
+  {
+    "Id": 190,
+    "Front": "Bit-Masken",
+    "Back": "Bit-Masken sind Zahlenwerte, bei denen bestimmte Bits gezielt gesetzt oder gel\u00F6scht werden, um einzelne Bits in einer bin\u00E4ren Zahl gezielt zu manipulieren oder auszulesen. Sie kommen h\u00E4ufig in der Systemprogrammierung, bei Mikrocontrollern oder beim Umgang mit Hardware-Registern zum Einsatz. Durch logische Operatoren wie UND (\u0026), ODER (|), NICHT (~) oder XOR (^) lassen sich bestimmte Bits ein- oder ausschalten. Beispiel: M\u00F6chte man das dritte Bit eines Werts setzen, verwendet man eine Bit-Maske wie 0b00000100 (dezimal 4) und kombiniert sie mit dem Wert per logischem ODER. Um ein bestimmtes Bit zu l\u00F6schen, nutzt man eine invertierte Maske mit dem UND-Operator. Bit-Masken erm\u00F6glichen eine kompakte, performante und speichersparende Steuerung einzelner Flags oder Zust\u00E4nde.",
+    "Category": "Programmierung / Mikrocontroller / Bitmanipulation"
+  },
+  {
+    "Id": 191,
+    "Front": "Subnetzmaske",
+    "Back": "Die Subnetzmaske ist ein Hilfsmittel zur Unterteilung von IP-Netzwerken in kleinere Subnetze. Sie bestimmt, welcher Teil einer IP-Adresse das Netzwerk repr\u00E4sentiert und welcher Teil f\u00FCr Hosts innerhalb dieses Netzwerks verwendet wird. Eine Subnetzmaske besteht \u2013 wie eine IPv4-Adresse \u2013 aus 32 Bit und wird oft in Dezimalform dargestellt, z.\u202FB. 255.255.255.0. Die gesetzten Einsen von links (z.\u202FB. 24 Einsen bei /24) zeigen den Netzanteil an, die verbleibenden Nullen den Hostanteil. Mit Hilfe der Subnetzmaske kann ein Router oder Rechner berechnen, ob sich ein Zielger\u00E4t im selben Subnetz befindet oder ob das Datenpaket \u00FCber ein Gateway weitergeleitet werden muss. Subnetzmasken sind zentral f\u00FCr die Strukturierung gro\u00DFer Netzwerke, erh\u00F6hen die Sicherheit und verbessern die Effizienz der IP-Adressvergabe.",
+    "Category": "Netzwerktechnik / IP-Adressierung"
   }
 ]
