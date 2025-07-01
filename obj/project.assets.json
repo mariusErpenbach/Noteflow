@@ -1479,11 +1479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hwty\\github\\Noteflow\\Noteflow.csproj",
+      "projectUniqueName": "D:\\github\\Noteflow\\Noteflow.csproj",
       "projectName": "Noteflow",
-      "projectPath": "C:\\Users\\hwty\\github\\Noteflow\\Noteflow.csproj",
+      "projectPath": "D:\\github\\Noteflow\\Noteflow.csproj",
       "packagesPath": "C:\\Users\\hwty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hwty\\github\\Noteflow\\obj\\",
+      "outputPath": "D:\\github\\Noteflow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hwty\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1557,7 +1557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

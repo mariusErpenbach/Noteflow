@@ -1144,5 +1144,35 @@
     "Front": "Subnetzmaske",
     "Back": "Die Subnetzmaske ist ein Hilfsmittel zur Unterteilung von IP-Netzwerken in kleinere Subnetze. Sie bestimmt, welcher Teil einer IP-Adresse das Netzwerk repr\u00E4sentiert und welcher Teil f\u00FCr Hosts innerhalb dieses Netzwerks verwendet wird. Eine Subnetzmaske besteht \u2013 wie eine IPv4-Adresse \u2013 aus 32 Bit und wird oft in Dezimalform dargestellt, z.\u202FB. 255.255.255.0. Die gesetzten Einsen von links (z.\u202FB. 24 Einsen bei /24) zeigen den Netzanteil an, die verbleibenden Nullen den Hostanteil. Mit Hilfe der Subnetzmaske kann ein Router oder Rechner berechnen, ob sich ein Zielger\u00E4t im selben Subnetz befindet oder ob das Datenpaket \u00FCber ein Gateway weitergeleitet werden muss. Subnetzmasken sind zentral f\u00FCr die Strukturierung gro\u00DFer Netzwerke, erh\u00F6hen die Sicherheit und verbessern die Effizienz der IP-Adressvergabe.",
     "Category": "Netzwerktechnik / IP-Adressierung"
+  },
+  {
+    "Id": 192,
+    "Front": "PSP",
+    "Back": "PSP steht im IT-Bereich meist f\u00FCr \u201EProjektstrukturplan\u201C. Dabei handelt es sich um eine systematische Gliederung eines Projekts in einzelne Teilaufgaben und Arbeitspakete, die \u00FCbersichtlich darstellen, welche Schritte zur Zielerreichung n\u00F6tig sind. Durch diese Zerlegung wird das Projekt besser planbar, kontrollierbar und steuerbar, was gerade bei komplexen IT-Projekten von gro\u00DFer Bedeutung ist. Der PSP unterst\u00FCtzt Teams dabei, Verantwortlichkeiten klar zu definieren und Fortschritte zu verfolgen. Er ist damit ein unverzichtbares Instrument im Projektmanagement.",
+    "Category": "Projektmanagement"
+  },
+  {
+    "Id": 193,
+    "Front": "Netzplan (Projekte)",
+    "Back": "Ein Netzplan ist ein grafisches Werkzeug zur Planung und Steuerung von Projekten, das die Abfolge von einzelnen Aktivit\u00E4ten und deren Abh\u00E4ngigkeiten darstellt. In der IT wird er h\u00E4ufig verwendet, um komplexe Abl\u00E4ufe \u00FCbersichtlich zu visualisieren und zeitliche Zusammenh\u00E4nge sowie kritische Pfade zu erkennen. Durch den Netzplan k\u00F6nnen Verz\u00F6gerungen fr\u00FChzeitig identifiziert und Ressourcen effizient eingeplant werden. Er basiert auf Knoten und Kanten, wobei Knoten die Ereignisse und Kanten die Aktivit\u00E4ten repr\u00E4sentieren. Der Netzplan ist somit ein wichtiges Instrument zur Optimierung von Projektabl\u00E4ufen.",
+    "Category": "Projektmanagement"
+  },
+  {
+    "Id": 194,
+    "Front": "RSA",
+    "Back": "RSA ist ein kryptografisches Verfahren, das zur sicheren Verschl\u00FCsselung und digitalen Signatur verwendet wird und auf der Schwierigkeit basiert, gro\u00DFe Zahlen in ihre Primfaktoren zu zerlegen. Es wurde in den 1970er Jahren von Rivest, Shamir und Adleman entwickelt und gilt als eines der ersten praktischen Public-Key-Verfahren. Bei RSA gibt es ein Schl\u00FCsselpaar aus einem \u00F6ffentlichen und einem privaten Schl\u00FCssel, wobei der \u00F6ffentliche Schl\u00FCssel zum Verschl\u00FCsseln und der private zum Entschl\u00FCsseln von Daten genutzt wird. Dieses Verfahren spielt eine zentrale Rolle in der sicheren Kommunikation im Internet, beispielsweise bei SSL/TLS-Verbindungen. Die Sicherheit von RSA h\u00E4ngt von der L\u00E4nge der Schl\u00FCssel ab und erfordert gro\u00DFe Primzahlen, um Angriffe zu erschweren.",
+    "Category": "Kryptografie"
+  },
+  {
+    "Id": 195,
+    "Front": "IMAP",
+    "Back": "IMAP, kurz f\u00FCr Internet Message Access Protocol, ist ein Protokoll, das verwendet wird, um E-Mails von einem Mailserver abzurufen und auf verschiedenen Ger\u00E4ten synchron zu halten. Im Gegensatz zu POP3 bleiben die Nachrichten dabei auf dem Server gespeichert, sodass Nutzer ihre E-Mails von mehreren Endger\u00E4ten aus einsehen und verwalten k\u00F6nnen. IMAP unterst\u00FCtzt zudem die Organisation von Nachrichten in verschiedenen Ordnern direkt auf dem Server, was eine zentrale Verwaltung erleichtert. Es ist besonders praktisch f\u00FCr Nutzer, die regelm\u00E4\u00DFig von verschiedenen Standorten oder Ger\u00E4ten auf ihre E-Mails zugreifen m\u00F6chten. Das Protokoll ist ein Standard in der E-Mail-Kommunikation.",
+    "Category": "Netzwerkprotokolle / E-Mail-Kommunikation"
+  },
+  {
+    "Id": 196,
+    "Front": "POP3",
+    "Back": "POP3, das f\u00FCr Post Office Protocol Version 3 steht, ist ein Protokoll zum Abrufen von E-Mails von einem Mailserver auf einen lokalen Computer oder ein Ger\u00E4t. Im Gegensatz zu IMAP werden bei POP3 die E-Mails in der Regel vom Server heruntergeladen und anschlie\u00DFend vom Server gel\u00F6scht, was bedeutet, dass die Nachrichten lokal gespeichert und nicht mehr auf dem Server verf\u00FCgbar sind. Dieses Verfahren eignet sich gut f\u00FCr Nutzer, die ihre E-Mails haupts\u00E4chlich auf einem einzigen Ger\u00E4t verwalten m\u00F6chten, da die Synchronisation zwischen mehreren Ger\u00E4ten eingeschr\u00E4nkt ist. POP3 ist ein \u00E4lteres Protokoll, das heute weniger verbreitet ist, aber immer noch in vielen E-Mail-Clients unterst\u00FCtzt wird. Es ist einfach aufgebaut und fokussiert sich vor allem auf den schnellen Download der Nachrichten.",
+    "Category": "Netzwerkprotokolle / E-Mail-Kommunikation"
   }
 ]
