@@ -1,0 +1,3 @@
+Assets/models/*.gguf
+bin/
+obj/

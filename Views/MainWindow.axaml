@@ -16,17 +16,33 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-  <DockPanel  Background="#2b2d42">
-        <!-- Menüleiste oben fixieren -->
-        <ContentControl DockPanel.Dock="Top" Content="{Binding MenuBarViewModel}" />
-         <Button DockPanel.Dock="Top" 
-                Content="Zurück" 
-                Command="{Binding GoBackCommand}"
-                HorizontalAlignment="Left"
-                Margin="10,5"
-                Padding="10,3"
-                IsVisible="{Binding ShowBackButton}"/>
-        <!-- CurrentView nimmt den restlichen Platz ein -->
-        <ContentControl Content="{Binding CurrentView}"/>
-    </DockPanel>
+  <Grid Background="#2b2d42">
+        <DockPanel>
+            <!-- Menüleiste oben fixieren -->
+            <ContentControl DockPanel.Dock="Top" Content="{Binding MenuBarViewModel}" />
+            <Button DockPanel.Dock="Top" 
+                    Content="Zurück" 
+                    Command="{Binding GoBackCommand}"
+                    HorizontalAlignment="Left"
+                    Margin="10,5"
+                    Padding="10,3"
+                    IsVisible="{Binding ShowBackButton}"/>
+            <!-- CurrentView nimmt den restlichen Platz ein -->
+            <ContentControl Content="{Binding CurrentView}"/>
+        </DockPanel>
+
+        <Grid IsVisible="{Binding IsCardDetailOpen}"
+              Background="#80000000"
+              Panel.ZIndex="10">
+            <Border Background="#2b2d42"
+                    CornerRadius="12"
+                    Padding="12"
+                    Width="720"
+                    Height="520"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                <ContentControl Content="{Binding CardDetail}" />
+            </Border>
+        </Grid>
+    </Grid>
 </Window>

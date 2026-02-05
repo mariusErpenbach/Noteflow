@@ -8,12 +8,19 @@ namespace Noteflow.Views
         public MenuBarView()
         {
             InitializeComponent();
+            AttachedToVisualTree += (_, __) => TrySetDataContext();
+        }
 
-            // Überprüfe, ob VisualRoot nicht null ist und cast es zu MainWindow
-            if (VisualRoot is MainWindow mainWindow)
+        private void TrySetDataContext()
+        {
+            if (DataContext is MenuBarViewModel)
             {
-                // Verwende die ViewModel-Eigenschaft von MainWindow
-                DataContext = new MenuBarViewModel(mainWindow.ViewModel);
+                return;
+            }
+
+            if (VisualRoot is MainWindow mainWindow && mainWindow.DataContext is MainWindowViewModel vm)
+            {
+                DataContext = new MenuBarViewModel(vm);
             }
         }
     }

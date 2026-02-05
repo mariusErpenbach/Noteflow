@@ -22,9 +22,15 @@ namespace Noteflow.Services
         {
             try
             {
+                var dir = Path.GetDirectoryName(filePath);
+                if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
+                {
+                    Directory.CreateDirectory(dir);
+                }
                 if (!File.Exists(filePath))
                 {
                     Console.WriteLine("Die Datei existiert nicht. Erstelle eine neue JSON-Datei.");
+                    File.WriteAllText(filePath, "[]");
                     return new List<IndexCard>();
                 }
 
@@ -45,6 +51,11 @@ namespace Noteflow.Services
         {
             try
             {
+                var dir = Path.GetDirectoryName(filePath);
+                if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
+                {
+                    Directory.CreateDirectory(dir);
+                }
                 var jsonData = JsonSerializer.Serialize(cards, new JsonSerializerOptions { WriteIndented = true });
                 Console.WriteLine($"JSON-Daten zum Speichern: {jsonData}"); // Debugging-Ausgabe
                 File.WriteAllText(filePath, jsonData);

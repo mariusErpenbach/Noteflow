@@ -2,9 +2,9 @@ using Avalonia.Controls;
 
 namespace Noteflow.Views
 {
-    public partial class MainWindow : Window
+    public partial class CardFilterView : UserControl
     {
-        public MainWindow()
+        public CardFilterView()
         {
             InitializeComponent();
         }

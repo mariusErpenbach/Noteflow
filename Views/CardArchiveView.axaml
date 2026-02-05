@@ -1,0 +1,47 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             xmlns:views="clr-namespace:Noteflow.Views"
+             x:Class="Noteflow.Views.CardArchiveView"
+             x:DataType="vm:CardArchiveViewModel">
+    <Grid ColumnDefinitions="220,*" Margin="10">
+        <views:CardFilterView Grid.Column="0" DataContext="{Binding FilterViewModel}" />
+
+        <ScrollViewer Grid.Column="1">
+            <ItemsControl ItemsSource="{Binding Cards}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="10,5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Expander Grid.Column="0"
+                                      Header="{Binding Card.Front}"
+                                      HorizontalAlignment="Stretch">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Card.Back}" />
+                                    <TextBlock Text="{Binding Card.Category, StringFormat='Kategorie: {0}'}" />
+                                </StackPanel>
+                            </Expander>
+
+                            <Button Grid.Column="1"
+                                    Command="{Binding RestoreCommand}"
+                                    Content="Wiederherstellen"
+                                    Margin="10,0"
+                                    VerticalAlignment="Center" />
+                            <Button Grid.Column="2"
+                                    Command="{Binding DeleteCommand}"
+                                    Content="Loeschen"
+                                    Background="#5A1E1E"
+                                    Margin="10,0"
+                                    VerticalAlignment="Center" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -1,0 +1,68 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             x:Class="Noteflow.Views.CardDetailView"
+             x:DataType="vm:CardDetailViewModel">
+    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                  HorizontalScrollBarVisibility="Disabled"
+                  Padding="0,8,0,0">
+        <StackPanel Margin="20" Spacing="12">
+            <DockPanel LastChildFill="True">
+                <TextBlock Text="Karte"
+                           FontSize="14"
+                           Foreground="#bfc0c0"
+                           VerticalAlignment="Center" />
+                <Button DockPanel.Dock="Right"
+                        Content="Schließen"
+                        Command="{Binding CloseCommand}" />
+            </DockPanel>
+            <TextBox Text="{Binding Front}"
+                     FontWeight="Bold"
+                     FontSize="22"
+                     Foreground="White"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     TextWrapping="Wrap"
+                     IsReadOnly="{Binding IsReadOnly}" />
+            <Border Background="#081F33"
+                    CornerRadius="10"
+                    Padding="14">
+                <ScrollViewer VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+                    <TextBox Text="{Binding Back}"
+                             FontSize="14"
+                             Foreground="White"
+                             Background="Transparent"
+                             BorderThickness="0"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True"
+                             AcceptsTab="True"
+                             MinHeight="220"
+                             VerticalContentAlignment="Top"
+                             IsReadOnly="{Binding IsReadOnly}" />
+                </ScrollViewer>
+            </Border>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button Content="Bearbeiten"
+                        IsVisible="{Binding IsNotEditing}"
+                        Command="{Binding StartEditCommand}" />
+                <Button Content="Speichern"
+                        IsVisible="{Binding IsEditing}"
+                        Command="{Binding SaveEditCommand}" />
+                <Button Content="Abbrechen"
+                        IsVisible="{Binding IsEditing}"
+                        Command="{Binding CancelEditCommand}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <Button Content="Archivieren"
+                        IsVisible="{Binding IsEditing}"
+                        IsEnabled="{Binding CanArchive}"
+                        Command="{Binding ArchiveCardCommand}" />
+                <Button Content="Loeschen"
+                        IsVisible="{Binding IsEditing}"
+                        Background="#5A1E1E"
+                        Command="{Binding DeleteCardCommand}" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

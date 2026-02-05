@@ -2,9 +2,9 @@ using Avalonia.Controls;
 
 namespace Noteflow.Views
 {
-    public partial class MainWindow : Window
+    public partial class LearningModeView : UserControl
     {
-        public MainWindow()
+        public LearningModeView()
         {
             InitializeComponent();
         }

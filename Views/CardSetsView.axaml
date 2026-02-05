@@ -1,0 +1,269 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             xmlns:models="clr-namespace:Noteflow.Models"
+             x:Class="Noteflow.Views.CardSetsView"
+             Focusable="True"
+             x:DataType="vm:CardSetsViewModel">
+    <UserControl.Styles>
+        <Style Selector="ToggleButton.card-toggle">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <ContentPresenter Padding="{TemplateBinding Padding}"
+                                      HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
+                                      VerticalAlignment="{TemplateBinding VerticalAlignment}"
+                                      Content="{TemplateBinding Content}"
+                                      ContentTemplate="{TemplateBinding ContentTemplate}" />
+                </ControlTemplate>
+            </Setter>
+        </Style>
+        <Style Selector="Border.card-border">
+            <Setter Property="BorderBrush" Value="#0F2A45" />
+            <Setter Property="BorderThickness" Value="1" />
+        </Style>
+        <Style Selector="Border.card-border.saved">
+            <Setter Property="BorderBrush" Value="#3FBF6A" />
+            <Setter Property="BorderThickness" Value="2" />
+        </Style>
+        <Style Selector="Border.card-border.dirty">
+            <Setter Property="BorderBrush" Value="#F39C12" />
+            <Setter Property="BorderThickness" Value="2" />
+        </Style>
+        <Style Selector="Button.list-entry">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="FocusAdorner" Value="{x:Null}" />
+        </Style>
+        <Style Selector="Button.list-entry:pointerover">
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="Button.list-entry:pressed">
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="Button.list-entry:disabled">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+        <Style Selector="Button.list-entry:disabled TextBlock">
+            <Setter Property="Foreground" Value="{DynamicResource AppTextBrush}" />
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+        <Style Selector="ScrollViewer.selected-list">
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="ScrollViewer.selected-list:disabled">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+        <Style Selector="ScrollViewer.selected-list /template/ ScrollContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="ScrollViewer.selected-list /template/ Border#PART_ContentPresenter">
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="ItemsControl.selected-list:disabled">
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+        <Style Selector="Grid.modal-overlay">
+            <Setter Property="Background" Value="#66000000" />
+        </Style>
+        <Style Selector="Border.modal-card">
+            <Setter Property="Background" Value="#081F33" />
+            <Setter Property="CornerRadius" Value="12" />
+            <Setter Property="Padding" Value="16" />
+            <Setter Property="Width" Value="520" />
+            <Setter Property="MaxWidth" Value="520" />
+        </Style>
+    </UserControl.Styles>
+
+    <Grid ColumnDefinitions="300,*" Margin="10">
+        <StackPanel Spacing="12">
+            <Border Background="#081F33" CornerRadius="10" Padding="12"
+                    x:Name="cardSetsRoot">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Sets" FontWeight="Bold" FontSize="16" />
+                    <Button Content="Neues Set" Command="{Binding NewSetCommand}" />
+                    <ListBox ItemsSource="{Binding Sets}"
+                             SelectedItem="{Binding SelectedSet}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid ColumnDefinitions="*,Auto">
+                                    <TextBlock Text="{Binding Name}" />
+                                    <Border Grid.Column="1"
+                                            Margin="8,0,0,0"
+                                            Padding="6,2"
+                                            Background="#203D5C"
+                                            CornerRadius="6"
+                                            IsVisible="{Binding IsNew}">
+                                        <TextBlock Text="new" FontSize="11" />
+                                    </Border>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </Border>
+
+            <Border Background="#081F33" CornerRadius="10" Padding="12">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="{Binding SelectedCards.Count, StringFormat=Ausgewählt ({0})}"
+                               FontWeight="Bold"
+                               FontSize="14" />
+                    <ScrollViewer Classes="selected-list"
+                                  VerticalScrollBarVisibility="Auto"
+                                  HorizontalScrollBarVisibility="Disabled"
+                                  Height="240"
+                                  IsEnabled="{Binding HasSelectedSet}">
+                        <ItemsControl Classes="selected-list"
+                                      ItemsSource="{Binding SelectedCards}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="models:IndexCard">
+                                    <Button Classes="list-entry"
+                                            Focusable="False"
+                                            HorizontalAlignment="Stretch"
+                                            x:CompileBindings="False"
+                                            Command="{Binding DataContext.ShowCardBackCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}">
+                                        <Grid ColumnDefinitions="*,Auto" Margin="0,0,0,6">
+                                            <TextBlock Text="{Binding Front}" TextWrapping="Wrap" />
+                                        </Grid>
+                                    </Button>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <Border Grid.Column="1"
+                Background="#081F33"
+                CornerRadius="10"
+                Padding="12"
+                Margin="12,0,0,0"
+                IsVisible="{Binding HasSelectedSet}">
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,*">
+                <TextBlock Text="Set bearbeiten" FontWeight="Bold" FontSize="16" />
+                <TextBox Grid.Row="1"
+                         Margin="0,12,0,0"
+                         Watermark="Set-Name"
+                         Text="{Binding SelectedSetName}"
+                         IsEnabled="{Binding HasSelectedSet}" />
+                <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="8" Margin="0,12,0,0">
+                    <Button Content="Speichern" Command="{Binding SaveSetCommand}" IsEnabled="{Binding HasSelectedSet}" />
+                    <Button Content="Löschen" Command="{Binding DeleteSetCommand}" IsEnabled="{Binding HasSelectedSet}" />
+                </StackPanel>
+                <TextBlock Grid.Row="3" Text="Karten auswählen" FontSize="14" Margin="0,12,0,0" />
+                <ScrollViewer Grid.Row="4"
+                              Margin="0,12,0,0"
+                              VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled"
+                              IsEnabled="{Binding HasSelectedSet}">
+                    <ItemsControl ItemsSource="{Binding CardSelections}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal" ItemWidth="250" ItemHeight="168" MinWidth="250" HorizontalAlignment="Center" />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:CardSelectionItem">
+                                <ToggleButton Classes="card-toggle"
+                                              IsChecked="{Binding IsSelected}">
+                                    <Border Margin="10,14"
+                                            Padding="12"
+                                            CornerRadius="10"
+                                            Background="#081F33"
+                                            Width="230"
+                                            Height="140"
+                                            Classes="card-border"
+                                            Classes.saved="{Binding IsSavedSelection}"
+                                            Classes.dirty="{Binding IsDirtySelection}">
+                                        <Grid RowDefinitions="Auto,*" ColumnDefinitions="*,Auto">
+                                            <Border Grid.Column="1"
+                                                    Padding="6,2"
+                                                    Background="#0F2A45"
+                                                    CornerRadius="6">
+                                                <TextBlock Text="{Binding Card.Category}"
+                                                           FontSize="11"
+                                                           Foreground="#bfc0c0" />
+                                            </Border>
+                                            <TextBlock Grid.Row="1"
+                                                       Grid.ColumnSpan="2"
+                                                       Text="{Binding Card.Front}"
+                                                       FontWeight="Bold"
+                                                       FontSize="16"
+                                                       Foreground="White"
+                                                       HorizontalAlignment="Center"
+                                                       VerticalAlignment="Center"
+                                                       TextAlignment="Center"
+                                                       TextWrapping="Wrap" />
+                                        </Grid>
+                                    </Border>
+                                </ToggleButton>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+
+        <Grid IsVisible="{Binding IsCardBackVisible}"
+              ZIndex="10"
+              ColumnSpan="2"
+              Classes="modal-overlay">
+            <Border Classes="modal-card"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                <StackPanel Spacing="12">
+                    <Grid ColumnDefinitions="*,Auto,Auto">
+                        <TextBlock Text="Antwort" FontWeight="Bold" FontSize="14" />
+                        <Border Grid.Column="1"
+                                Margin="0,0,8,0"
+                                Padding="8,4"
+                                Background="#0F2A45"
+                                CornerRadius="8"
+                                MaxWidth="240"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center">
+                            <TextBlock Text="{Binding CardBackCategoryDisplay}"
+                                       FontSize="12"
+                                       Foreground="#BFC0C0"
+                                       TextWrapping="NoWrap"
+                                       TextTrimming="CharacterEllipsis"
+                                       TextAlignment="Center"
+                                       VerticalAlignment="Center" />
+                        </Border>
+                        <Button Grid.Column="2"
+                                Content="×"
+                                Width="32"
+                                Height="32"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Command="{Binding CloseCardBackCommand}" />
+                    </Grid>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                  HorizontalScrollBarVisibility="Disabled"
+                                  Height="220">
+                        <TextBox Text="{Binding CardBackText}"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 IsReadOnly="True"
+                                 BorderThickness="0"
+                                 Background="Transparent" />
+                    </ScrollViewer>
+                    <Button Content="Schließen"
+                            HorizontalAlignment="Right"
+                            Command="{Binding CloseCardBackCommand}" />
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

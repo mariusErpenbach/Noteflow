@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using Noteflow.Models;
 using Noteflow.Services;
 using System.Windows.Input;
+using System;
 
 namespace Noteflow.ViewModels
 {
@@ -37,7 +38,8 @@ namespace Noteflow.ViewModels
                 Id = 0, // Die ID wird später in ReindexCards aktualisiert
                 Front = Front,
                 Back = Back,
-                Category = Category
+                Category = Category,
+                CreatedAt = DateTime.UtcNow.ToString("yyyy-MM-dd")
             };
 
             // Lade die vorhandenen Karten

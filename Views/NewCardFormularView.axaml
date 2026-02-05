@@ -6,7 +6,16 @@
     
     <StackPanel>
         <TextBox Watermark="Front" Text="{Binding Front}" />
-        <TextBox Watermark="Back" Text="{Binding Back}" />
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Height="180">
+            <TextBox Watermark="Back"
+                     Text="{Binding Back}"
+                     AcceptsReturn="True"
+                     AcceptsTab="True"
+                     TextWrapping="Wrap"
+                     VerticalContentAlignment="Top" />
+        </ScrollViewer>
         <TextBox Watermark="Category" Text="{Binding Category}" />
         <Button Content="Speichern" Command="{Binding SaveCommand}" />
     </StackPanel>

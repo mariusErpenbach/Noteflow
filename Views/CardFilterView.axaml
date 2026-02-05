@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             x:Class="Noteflow.Views.CardFilterView"
+             x:DataType="vm:CardFilterViewModel">
+    <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
+        <TextBlock Text="{Binding TotalCards, StringFormat=Gesamtanzahl Karten: {0}}"
+                   FontSize="12"
+                   Foreground="#bfc0c0" />
+        <TextBox Width="200" Watermark="Suche..." Text="{Binding SearchText, Mode=TwoWay}" />
+        <ComboBox Width="150" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory, Mode=TwoWay}" />
+        <Button Content="Sortieren A-Z" Command="{Binding SortAZCommand}" />
+        <Button Content="Sortieren Z-A" Command="{Binding SortZACommand}" />
+        <Button Content="Zurücksetzen" Command="{Binding ResetFilterCommand}" />
+    </StackPanel>
+</UserControl>

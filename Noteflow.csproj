@@ -10,8 +10,14 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <AvaloniaResource Include="Assets\**" />
+    <AvaloniaResource Include="Assets\**" Exclude="Assets\Models\*.gguf" />
+    <Content Include="Assets\Models\*.gguf" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
+
+  <!-- Custom Target for 'dotnet release' -->
+  <Target Name="Release">
+    <Exec Command="pwsh -File &quot;$(MSBuildProjectDirectory)\release.ps1&quot;" />
+  </Target>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.2.1" />
@@ -24,5 +30,7 @@
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Include="LLamaSharp" Version="0.25.0" />
+    <PackageReference Include="LLamaSharp.Backend.Cpu" Version="0.25.0" />
   </ItemGroup>
 </Project>

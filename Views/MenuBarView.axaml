@@ -5,12 +5,35 @@
              x:DataType="vm:MenuBarViewModel">
     
     <DockPanel>
-        <Menu DockPanel.Dock="Top" Background="#8A817C" Height="30">
-            <MenuItem Header="Bank" Command="{Binding EditBankCommand}" Background="#463f3a">
+        <Menu DockPanel.Dock="Top" Background="#1B1E2B" Height="34">
+            <Menu.Styles>
+                <Style Selector="MenuItem.top">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="Foreground" Value="#C9D1D9" />
+                </Style>
+                <Style Selector="MenuItem.top[IsChecked=true]">
+                    <Setter Property="Background" Value="#2D5B5E" />
+                    <Setter Property="Foreground" Value="White" />
+                    <Setter Property="FontWeight" Value="SemiBold" />
+                </Style>
+            </Menu.Styles>
+            <MenuItem Header="Bank"
+                      Classes="top"
+                      IsChecked="{Binding IsBankActive}">
+                <MenuItem Header="All Cards" Command="{Binding EditBankCommand}" />
                 <MenuItem Header="New Card" Command="{Binding NewCardCommand}" />
                 <MenuItem Header="Delete Card" Command="{Binding DeleteCardCommand}" />
+                <MenuItem Header="Archiv" Command="{Binding OpenArchiveCommand}" />
+                <MenuItem Header="Importieren" Command="{Binding ImportBankCommand}" />
             </MenuItem>
-            <MenuItem Header="Search" Command="{Binding FilterCardCommand}" />
+            <MenuItem Header="Sets"
+                      Classes="top"
+                      Command="{Binding OpenSetsCommand}"
+                      IsChecked="{Binding IsSetsActive}" />
+            <MenuItem Header="Lernen"
+                      Classes="top"
+                      Command="{Binding OpenLearningModeCommand}"
+                      IsChecked="{Binding IsLearningActive}" />
         </Menu>
     </DockPanel>
 </UserControl>

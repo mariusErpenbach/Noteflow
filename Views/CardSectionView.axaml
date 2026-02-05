@@ -1,6 +1,8 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             xmlns:models="clr-namespace:Noteflow.Models"
+             xmlns:views="clr-namespace:Noteflow.Views"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              x:Class="Noteflow.Views.CardSectionView"
@@ -9,40 +11,117 @@
              VerticalAlignment="Stretch"
              mc:Ignorable="d">
 
-    <Grid RowDefinitions="Auto,*" Margin="10">
-        <!-- Suchfeld  -->
-        <TextBox Grid.Row="0"
-                 Watermark="Suche (mind. 3 Zeichen)..."
-                 Text="{Binding SearchText, Mode=TwoWay}"
-                 Padding="10,5"/>
-        
-       <!-- Card list -->
-        <ScrollViewer Grid.Row="1"
-                      VerticalScrollBarVisibility="Auto"
-                      HorizontalScrollBarVisibility="Disabled"
-                      Margin="0,10,0,0">
-            <ItemsControl ItemsSource="{Binding Cards}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Expander Header="{Binding Front}" 
-                                  HorizontalAlignment="Stretch"
-                                  Margin="0,5">
-                            <Expander.Styles>
-                                <Style Selector="Expander /template/ ToggleButton#PART_ExpanderToggleButton">
-                                    <Setter Property="Background" Value="#081F33" />
-                                    <Setter Property="Foreground" Value="White" />
-                                    <Setter Property="BorderThickness" Value="0" />
-                                </Style>
-                            </Expander.Styles>
-                            
-                            <StackPanel>
-                                <TextBlock Text="{Binding Back}" TextWrapping="Wrap"/>
-                                <TextBlock Text="{Binding Category, StringFormat='Kategorie: {0}'}" />
-                            </StackPanel>
-                        </Expander>
+    <Grid ColumnDefinitions="220,*" Margin="10">
+        <!-- Linke Spalte: Filter-View -->
+        <views:CardFilterView Grid.Column="0" DataContext="{Binding FilterViewModel}" />
+
+        <!-- Rechte Spalte: View Toggle + Cards -->
+        <Grid Grid.Column="1" RowDefinitions="Auto,*">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Spacing="6"
+                        Margin="0,4,10,6">
+                <ToggleButton Content="Cards"
+                              IsChecked="{Binding IsCardView, Mode=OneWay}"
+                              Command="{Binding ToggleCardViewCommand}"
+                              Padding="10,4" />
+                <ToggleButton Content="List"
+                              IsChecked="{Binding IsListView, Mode=OneWay}"
+                              Command="{Binding ToggleListViewCommand}"
+                              Padding="10,4" />
+            </StackPanel>
+
+            <ScrollViewer Grid.Row="1"
+                          VerticalScrollBarVisibility="Visible"
+                          HorizontalScrollBarVisibility="Disabled"
+                          Margin="0,0,0,0"
+                          Padding="0,8,12,0"
+                          HorizontalAlignment="Stretch"
+                          IsVisible="{Binding IsCardView}">
+                <ItemsControl ItemsSource="{Binding Cards}"
+                              HorizontalAlignment="Center">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal" ItemWidth="250" ItemHeight="168" MinWidth="250" HorizontalAlignment="Center" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="models:IndexCard">
+                            <Button Background="Transparent"
+                                    BorderBrush="Transparent"
+                                    Padding="0"
+                                    x:CompileBindings="False"
+                                    Command="{Binding DataContext.OpenCardCommand, RelativeSource={RelativeSource AncestorType=views:CardSectionView}}"
+                                    CommandParameter="{Binding}">
+                                <Border Margin="10,14" Padding="12" CornerRadius="10" Background="#081F33" Width="230" Height="140">
+                                    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*,Auto">
+                                        <Border Grid.Column="1"
+                                                Padding="6,2"
+                                                Background="#0F2A45"
+                                                CornerRadius="6">
+                                            <TextBlock Text="{Binding Category}"
+                                                       FontSize="11"
+                                                       Foreground="#bfc0c0" />
+                                        </Border>
+                                        <TextBlock Grid.Row="1"
+                                                   Grid.ColumnSpan="2"
+                                                   Text="{Binding Front}"
+                                                   FontWeight="Bold"
+                                                   FontSize="16"
+                                                   Foreground="White"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   TextAlignment="Center"
+                                                   TextWrapping="Wrap" />
+                                    </Grid>
+                                </Border>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+
+            <ListBox Grid.Row="1"
+                     ItemsSource="{Binding Cards}"
+                     HorizontalAlignment="Stretch"
+                     Margin="0,4,12,0"
+                     IsVisible="{Binding IsListView}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate x:DataType="models:IndexCard">
+                        <Button Background="Transparent"
+                                BorderBrush="Transparent"
+                                Padding="8"
+                                HorizontalContentAlignment="Stretch"
+                                x:CompileBindings="False"
+                                Command="{Binding DataContext.OpenCardCommand, RelativeSource={RelativeSource AncestorType=views:CardSectionView}}"
+                                CommandParameter="{Binding}">
+                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                                <TextBlock Text="{Binding Front}"
+                                           FontSize="14"
+                                           FontWeight="SemiBold"
+                                           Foreground="White"
+                                           TextWrapping="Wrap" />
+                                <TextBlock Grid.Row="1"
+                                           Text="{Binding Back}"
+                                           FontSize="12"
+                                           Foreground="#bfc0c0"
+                                           TextWrapping="Wrap"
+                                           MaxHeight="48" />
+                                <Border Grid.Column="1"
+                                        Padding="6,2"
+                                        Background="#0F2A45"
+                                        CornerRadius="6"
+                                        VerticalAlignment="Top"
+                                        Margin="8,0,0,0">
+                                    <TextBlock Text="{Binding Category}"
+                                               FontSize="11"
+                                               Foreground="#bfc0c0" />
+                                </Border>
+                            </Grid>
+                        </Button>
                     </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
     </Grid>
 </UserControl>
