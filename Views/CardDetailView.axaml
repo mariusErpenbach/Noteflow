@@ -1,6 +1,7 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="clr-namespace:Noteflow.ViewModels"
+             xmlns:md="clr-namespace:Markdown.Avalonia;assembly=Markdown.Avalonia"
              x:Class="Noteflow.Views.CardDetailView"
              x:DataType="vm:CardDetailViewModel">
     <ScrollViewer VerticalScrollBarVisibility="Auto"
@@ -27,9 +28,11 @@
             <Border Background="#081F33"
                     CornerRadius="10"
                     Padding="14">
-                <ScrollViewer VerticalScrollBarVisibility="Auto"
-                              HorizontalScrollBarVisibility="Disabled">
+                <Grid>
+                    <md:MarkdownScrollViewer Markdown="{Binding Back}"
+                                             IsVisible="{Binding IsNotEditing}" />
                     <TextBox Text="{Binding Back}"
+                             IsVisible="{Binding IsEditing}"
                              FontSize="14"
                              Foreground="White"
                              Background="Transparent"
@@ -38,9 +41,8 @@
                              AcceptsReturn="True"
                              AcceptsTab="True"
                              MinHeight="220"
-                             VerticalContentAlignment="Top"
-                             IsReadOnly="{Binding IsReadOnly}" />
-                </ScrollViewer>
+                             VerticalContentAlignment="Top" />
+                </Grid>
             </Border>
             <StackPanel Orientation="Horizontal" Spacing="8">
                 <Button Content="Bearbeiten"

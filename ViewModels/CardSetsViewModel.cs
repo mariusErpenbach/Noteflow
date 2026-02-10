@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Noteflow.ViewModels
 {
-    public partial class CardSetsViewModel : ViewModelBase
+    public partial class CardSetsViewModel : ViewModelBase, ICardDetailHost
     {
         private readonly CardBankManagement _cardBankManagement;
         private readonly CardSetManagement _cardSetManagement;
@@ -40,6 +40,12 @@ namespace Noteflow.ViewModels
         private string _selectedSetName = string.Empty;
 
         public bool HasSelectedSet => SelectedSet != null;
+
+        [ObservableProperty]
+        [NotifyPropertyChangedFor(nameof(IsCardDetailOpen))]
+        private CardDetailViewModel? _cardDetail;
+
+        public bool IsCardDetailOpen => CardDetail != null;
 
         public CardSetsViewModel(CardBankManagement cardBankManagement, CardSetManagement cardSetManagement, MainWindowViewModel mainWindowViewModel, int? preselectedSetId = null)
         {
@@ -215,6 +221,28 @@ namespace Noteflow.ViewModels
             UpdateSelectionVisualStates();
         }
 
+        public void RefreshCardSection()
+        {
+            var cards = _cardBankManagement.LoadCards()
+                .Where(card => !card.IsArchived)
+                .ToList();
+
+            var selectedIds = SelectedSet?.CardIds?.ToHashSet() ?? new System.Collections.Generic.HashSet<int>();
+            CardSelections = new ObservableCollection<CardSelectionItem>(
+                cards.Select(card =>
+                {
+                    var item = new CardSelectionItem(card)
+                    {
+                        IsSelected = selectedIds.Contains(card.Id)
+                    };
+                    item.PropertyChanged += CardSelectionChanged;
+                    return item;
+                }));
+
+            RefreshSelectedCards();
+            UpdateSelectionVisualStates();
+        }
+
         private void SaveAllSets()
         {
             var sets = Sets.ToList();
@@ -275,19 +303,6 @@ namespace Noteflow.ViewModels
         {
             return ShowDiscardChangesDialogAsync();
         }
-
-        [ObservableProperty]
-        private bool _isCardBackVisible;
-
-        [ObservableProperty]
-        private string _cardBackText = string.Empty;
-
-        [ObservableProperty]
-        [NotifyPropertyChangedFor(nameof(CardBackCategoryDisplay))]
-        private string _cardBackCategory = string.Empty;
-
-        public string CardBackCategoryDisplay => string.IsNullOrWhiteSpace(CardBackCategory) ? "-" : CardBackCategory;
-
 
         private void UpdateBaselineFromCurrent()
         {
@@ -451,19 +466,14 @@ namespace Noteflow.ViewModels
         }
 
         [RelayCommand]
-        private void ShowCardBack(IndexCard card)
+        private void OpenCardDetail(IndexCard card)
         {
-            CardBackText = card.Back;
-            CardBackCategory = card.Category ?? string.Empty;
-            IsCardBackVisible = true;
+            CardDetail = new CardDetailViewModel(card, _cardBankManagement, this);
         }
 
-        [RelayCommand]
-        private void CloseCardBack()
+        public void CloseCardDetail()
         {
-            CardBackText = string.Empty;
-            CardBackCategory = string.Empty;
-            IsCardBackVisible = false;
+            CardDetail = null;
         }
     }
 

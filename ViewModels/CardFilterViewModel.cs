@@ -11,6 +11,8 @@ namespace Noteflow.ViewModels
         private List<string> _categories = new();
         private string _selectedCategory = string.Empty;
         private int _totalCards;
+        private bool _isCardViewActive = true;
+        private bool _isListViewActive;
 
         public string SearchText
         {
@@ -36,9 +38,23 @@ namespace Noteflow.ViewModels
             set => SetProperty(ref _totalCards, value);
         }
 
+        public bool IsCardViewActive
+        {
+            get => _isCardViewActive;
+            set => SetProperty(ref _isCardViewActive, value);
+        }
+
+        public bool IsListViewActive
+        {
+            get => _isListViewActive;
+            set => SetProperty(ref _isListViewActive, value);
+        }
+
         public ICommand SortAZCommand { get; }
         public ICommand SortZACommand { get; }
         public ICommand ResetFilterCommand { get; }
+        public ICommand? ShowCardViewCommand { get; set; }
+        public ICommand? ShowListViewCommand { get; set; }
 
         public CardFilterViewModel()
         {

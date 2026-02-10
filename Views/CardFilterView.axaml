@@ -4,6 +4,16 @@
              x:Class="Noteflow.Views.CardFilterView"
              x:DataType="vm:CardFilterViewModel">
     <StackPanel Orientation="Vertical" Spacing="10" Margin="10">
+        <StackPanel Orientation="Horizontal" Spacing="6">
+            <ToggleButton Content="Cards"
+                          IsChecked="{Binding IsCardViewActive, Mode=OneWay}"
+                          Command="{Binding ShowCardViewCommand}"
+                          Padding="10,4" />
+            <ToggleButton Content="List"
+                          IsChecked="{Binding IsListViewActive, Mode=OneWay}"
+                          Command="{Binding ShowListViewCommand}"
+                          Padding="10,4" />
+        </StackPanel>
         <TextBlock Text="{Binding TotalCards, StringFormat=Gesamtanzahl Karten: {0}}"
                    FontSize="12"
                    Foreground="#bfc0c0" />

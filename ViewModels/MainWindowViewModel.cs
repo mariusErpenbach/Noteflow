@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Noteflow.ViewModels
 {
-    public partial class MainWindowViewModel : ViewModelBase
+    public partial class MainWindowViewModel : ViewModelBase, ICardDetailHost
     {
         [ObservableProperty]
         private ViewModelBase _currentView;
@@ -26,6 +26,9 @@ namespace Noteflow.ViewModels
         private readonly CardBankManagement _cardBankManagement;
         private readonly CardSetManagement _cardSetManagement;
         private readonly IAnswerEvaluator _answerEvaluator;
+        private readonly CardBrowserViewModel _cardBrowserViewModel;
+        private readonly CardGridViewModel _cardGridViewModel;
+        private readonly CardListViewModel _cardListViewModel;
 
         // Öffentliche Property für CardBankManagement
         public CardBankManagement CardBankManagement => _cardBankManagement;
@@ -38,8 +41,16 @@ namespace Noteflow.ViewModels
             _cardSetManagement = new CardSetManagement("Data/card_sets.json");
             _answerEvaluator = new LlamaSharpAnswerEvaluator("Assets/Models/mistral-7b-instruct-v0.2.Q4_K_M.gguf");
 
+            _cardBrowserViewModel = new CardBrowserViewModel(_cardBankManagement, this);
+            _cardBrowserViewModel.FilterViewModel.ShowCardViewCommand = new RelayCommand(ShowCardGrid);
+            _cardBrowserViewModel.FilterViewModel.ShowListViewCommand = new RelayCommand(ShowCardList);
+            _cardGridViewModel = new CardGridViewModel(_cardBrowserViewModel);
+            _cardListViewModel = new CardListViewModel(_cardBrowserViewModel);
+
             // Standardansicht: Zeige die Karten an
-            CurrentView = CreateCardSectionViewModel();
+            CurrentView = _cardGridViewModel;
+            _cardBrowserViewModel.FilterViewModel.IsCardViewActive = true;
+            _cardBrowserViewModel.FilterViewModel.IsListViewActive = false;
 
             // Erstelle eine Instanz der Menüleiste
             MenuBarViewModel = new MenuBarViewModel(this);
@@ -50,14 +61,15 @@ namespace Noteflow.ViewModels
         {
             UpdateBackButtonVisibility();
         }
-         private void UpdateBackButtonVisibility()
+        private void UpdateBackButtonVisibility()
         {
-            ShowBackButton = CurrentView is not CardSectionViewModel;
+            ShowBackButton = CurrentView is not CardGridViewModel &&
+                             CurrentView is not CardListViewModel;
         }
         [RelayCommand]
         public async Task GoBackAsync()
         {
-            await TryNavigateAsync(CreateCardSectionViewModel);
+            await TryNavigateAsync(CreateCardGridViewModel);
         }
         public void ShowNewCardForm()
         {
@@ -68,7 +80,7 @@ namespace Noteflow.ViewModels
         public void ShowCardSection()
         {
             // Wechsle zurück zur CardSectionView
-            CurrentView = CreateCardSectionViewModel();
+            ShowCardGrid();
         }
         
         public void ShowDeleteMode()
@@ -92,10 +104,7 @@ namespace Noteflow.ViewModels
 
         public void RefreshCardSection()
         {
-            if (CurrentView is CardSectionViewModel cardSection)
-            {
-                cardSection.ReloadCards();
-            }
+            _cardBrowserViewModel.ReloadCards();
         }
         public void ShowCardSets(int? preselectedSetId = null)
         {
@@ -122,9 +131,28 @@ namespace Noteflow.ViewModels
             CurrentView = CreateLearningSetupViewModel();
         }
 
-        public ViewModelBase CreateCardSectionViewModel()
+        public ViewModelBase CreateCardGridViewModel()
         {
-            return new CardSectionViewModel(_cardBankManagement, this);
+            return _cardGridViewModel;
+        }
+
+        public ViewModelBase CreateCardListViewModel()
+        {
+            return _cardListViewModel;
+        }
+
+        public void ShowCardGrid()
+        {
+            CurrentView = _cardGridViewModel;
+            _cardBrowserViewModel.FilterViewModel.IsCardViewActive = true;
+            _cardBrowserViewModel.FilterViewModel.IsListViewActive = false;
+        }
+
+        public void ShowCardList()
+        {
+            CurrentView = _cardListViewModel;
+            _cardBrowserViewModel.FilterViewModel.IsCardViewActive = false;
+            _cardBrowserViewModel.FilterViewModel.IsListViewActive = true;
         }
 
         public ViewModelBase CreateNewCardFormularViewModel()

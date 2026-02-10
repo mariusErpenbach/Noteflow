@@ -2158,5 +2158,122 @@
     "Link": "",
     "CreatedAt": "2026-02-04",
     "IsArchived": false
+  },
+  {
+    "Id": 241,
+    "Front": "Class Member (OOP)",
+    "Back": "Member einer Klasse in Java sind die Bestandteile, aus denen eine Klasse aufgebaut ist und die ihr Verhalten sowie ihre Daten definieren. Dazu geh\u00F6ren Attribute, auch Felder genannt, die den Zustand von Objekten speichern, sowie Methoden, die das Verhalten der Objekte festlegen. Ebenfalls zu den Membern z\u00E4hlen Konstruktoren, die zur Initialisierung neuer Objekte verwendet werden. Member k\u00F6nnen unterschiedliche Sichtbarkeiten haben, etwa public, private oder protected, wodurch der Zugriff von au\u00DFen gesteuert wird. Sie k\u00F6nnen entweder objektbezogen sein oder als static zur Klasse selbst geh\u00F6ren. Durch das Zusammenspiel der Member wird die Funktionalit\u00E4t einer Klasse vollst\u00E4ndig beschrieben.",
+    "Category": "Programmierung / OOP",
+    "Link": "",
+    "CreatedAt": "2026-02-09",
+    "IsArchived": false
+  },
+  {
+    "Id": 242,
+    "Front": "IT-Benchmarking",
+    "Back": "IT-Benchmarking bezeichnet den systematischen Vergleich von IT-Leistungen, Prozessen oder Kosten eines Unternehmens mit internen Referenzwerten oder externen Vergleichsorganisationen. Ziel ist es, St\u00E4rken und Schw\u00E4chen der eigenen IT objektiv zu erkennen und Verbesserungspotenziale abzuleiten. Dabei k\u00F6nnen technische Kennzahlen, Servicequalit\u00E4t, Effizienz oder Wirtschaftlichkeit betrachtet werden. IT-Benchmarking liefert Entscheidungsgrundlagen f\u00FCr Investitionen, Optimierungen und strategische Ausrichtungen der IT. Der Vergleich erfolgt auf Basis standardisierter Kennzahlen, um eine m\u00F6glichst hohe Vergleichbarkeit zu gew\u00E4hrleisten. Richtig eingesetzt unterst\u00FCtzt IT-Benchmarking eine kontinuierliche Leistungssteigerung der IT.",
+    "Category": "IT-Management",
+    "Link": "",
+    "CreatedAt": "2026-02-09",
+    "IsArchived": false
+  },
+  {
+    "Id": 243,
+    "Front": "Polypol",
+    "Back": "Ein Polypol ist eine Marktform, bei der viele Anbieter und viele Nachfrager aufeinandertreffen. \r\nKeiner der Marktteilnehmer besitzt einen sp\u00FCrbaren Einfluss auf den Marktpreis, da jeder nur einen sehr kleinen Marktanteil hat. \r\nDer Preis bildet sich durch das Zusammenspiel von Angebot und Nachfrage. \r\nTypisch f\u00FCr ein Polypol sind homogene G\u00FCter, bei denen sich die Produkte der Anbieter kaum unterscheiden.\r\nF\u00FCr die einzelnen Anbieter besteht eine hohe Wettbewerbsintensit\u00E4t. Der vollkommene Wettbewerbsmarkt ist ein theoretisches Idealbeispiel f\u00FCr ein Polypol.",
+    "Category": "Marktformen (Volkswirtschaftslehre)",
+    "Link": "",
+    "CreatedAt": "2026-02-09",
+    "IsArchived": false
+  },
+  {
+    "Id": 244,
+    "Front": "BPMN",
+    "Back": "BPMN steht f\u00FCr Business Process Model and Notation und ist ein standardisiertes grafisches Notationssystem zur Darstellung von Gesch\u00E4ftsprozessen. Ziel von BPMN ist es, Abl\u00E4ufe so zu visualisieren, dass sie sowohl f\u00FCr Fachanwender als auch f\u00FCr technische Experten verst\u00E4ndlich sind. Prozesse werden dabei durch Symbole f\u00FCr Aktivit\u00E4ten, Ereignisse und Verzweigungen beschrieben. Die Notation erm\u00F6glicht es, einfache bis sehr komplexe Gesch\u00E4ftsprozesse einheitlich darzustellen. BPMN unterst\u00FCtzt die Analyse, Dokumentation und Optimierung von Prozessen. Durch ihre Standardisierung wird sie international in vielen Organisationen eingesetzt.",
+    "Category": "Gesch\u00E4ftsprozessmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 245,
+    "Front": "Scheiterfaktoren (Projekte)",
+    "Back": "Scheiterfaktoren in Projekten sind Ursachen, die dazu f\u00FChren, dass Projektziele nicht oder nur unzureichend erreicht werden. H\u00E4ufig z\u00E4hlen dazu unklare Zieldefinitionen, da fehlende oder widerspr\u00FCchliche Anforderungen den Projektverlauf stark beeintr\u00E4chtigen. Auch mangelhafte Kommunikation zwischen Beteiligten kann zu Missverst\u00E4ndnissen und Fehlentscheidungen f\u00FChren. Unrealistische Zeit- oder Kostenplanungen erh\u00F6hen das Risiko von Verz\u00F6gerungen und Budget\u00FCberschreitungen. Fehlende Unterst\u00FCtzung durch das Management schw\u00E4cht die Durchsetzungskraft des Projekts. Zus\u00E4tzlich k\u00F6nnen unzureichendes Risikomanagement und mangelnde Kompetenzen im Projektteam zum Scheitern beitragen.",
+    "Category": "Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 246,
+    "Front": "Reaktive Idee",
+    "Back": "Eine reaktive Idee beschreibt einen L\u00F6sungsansatz, der als unmittelbare Reaktion auf ein bestehendes Problem oder ein aktuelles Ereignis entsteht. Sie ist nicht langfristig geplant, sondern ergibt sich aus einer konkreten Situation oder einem akuten Handlungsbedarf. Der Fokus liegt darauf, schnell auf Ver\u00E4nderungen, St\u00F6rungen oder Anforderungen zu reagieren. Reaktive Ideen entstehen h\u00E4ufig unter Zeitdruck und zielen auf kurzfristige Problembeseitigung ab. Im Gegensatz zu proaktiven Ideen fehlt ihnen meist eine strategische oder vorausschauende Ausrichtung. Sie sind dennoch wichtig, um handlungsf\u00E4hig zu bleiben und akute Probleme zu bew\u00E4ltigen.",
+    "Category": "Ideenmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 247,
+    "Front": "Vision\u00E4re Idee",
+    "Back": "Eine vision\u00E4re Idee ist ein zukunftsorientierter L\u00F6sungsansatz, der \u00FCber bestehende Strukturen und aktuelle Probleme hinausdenkt. Sie beschreibt eine Vorstellung davon, wie sich Produkte, Prozesse oder Organisationen langfristig entwickeln k\u00F6nnten. Der Fokus liegt auf Innovation, Ver\u00E4nderung und neuen M\u00F6glichkeiten, nicht auf kurzfristiger Umsetzung. Vision\u00E4re Ideen dienen h\u00E4ufig als Leitbild oder Orientierung f\u00FCr strategische Entscheidungen. Sie sind oft mit einem gewissen Risiko verbunden, da ihre Realisierung unsicher ist. Dennoch k\u00F6nnen sie entscheidende Impulse f\u00FCr nachhaltigen Erfolg und Fortschritt geben.",
+    "Category": "Innovationsmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 248,
+    "Front": "Projektantrag",
+    "Back": "Ein Projektantrag ist ein formelles Dokument, mit dem ein geplantes Projekt strukturiert beschrieben und zur Genehmigung vorgelegt wird. Er stellt den Ausgangspunkt eines Projekts dar und dient dazu, Entscheidungstr\u00E4ger von der Sinnhaftigkeit und Durchf\u00FChrbarkeit zu \u00FCberzeugen. Typischerweise enth\u00E4lt er Informationen zu Zielsetzung, Ausgangslage, Nutzen, grobem Vorgehen sowie zu zeitlichen und finanziellen Rahmenbedingungen. Au\u00DFerdem werden h\u00E4ufig Risiken, ben\u00F6tigte Ressourcen und Verantwortlichkeiten benannt. Der Projektantrag schafft Transparenz \u00FCber Zweck und Umfang des Vorhabens. Er bildet damit die Grundlage f\u00FCr eine fundierte Entscheidung \u00FCber die Projektfreigabe.",
+    "Category": "Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 249,
+    "Front": "Aufgaben eines Projektmanagers",
+    "Back": "Ein Projektmanager ist verantwortlich f\u00FCr die Planung, Steuerung und \u00DCberwachung eines Projekts von Beginn bis zum Abschluss. Er definiert gemeinsam mit den Stakeholdern die Projektziele und sorgt daf\u00FCr, dass diese innerhalb des vereinbarten Zeit-, Kosten- und Qualit\u00E4tsrahmens erreicht werden. Zu seinen Aufgaben geh\u00F6rt die Koordination des Projektteams sowie die sinnvolle Verteilung von Aufgaben und Ressourcen. Au\u00DFerdem \u00FCberwacht er den Projektfortschritt und reagiert bei Abweichungen mit geeigneten Ma\u00DFnahmen. Der Projektmanager identifiziert Risiken fr\u00FChzeitig und entwickelt Strategien zu deren Minimierung. Er \u00FCbernimmt zudem die Kommunikation zwischen allen Beteiligten und stellt eine transparente Berichterstattung sicher.",
+    "Category": "Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 250,
+    "Front": "M\u00F6gliche Ziele eines Projektes",
+    "Back": "Erreichung eines definierten fachlichen oder technischen Ergebnisses\n\nEinhaltung von Zeitvorgaben (z. B. Projektabschluss bis zu einem festen Termin)\n\nEinhaltung des geplanten Budgets und der Kostenrahmen\n\nSicherstellung einer festgelegten Qualit\u00E4tsstufe der Ergebnisse\n\nL\u00F6sung eines konkreten Problems oder Optimierung bestehender Prozesse\n\nErf\u00FCllung von Anforderungen relevanter Stakeholder\n\nEinf\u00FChrung oder Umsetzung neuer Produkte, Systeme oder Dienstleistungen",
+    "Category": "Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 251,
+    "Front": "Smarte Ziele",
+    "Back": "Smarte Ziele sind klar formulierte Ziele, die nach dem SMART-Prinzip aufgebaut sind, um ihre Umsetzbarkeit und \u00DCberpr\u00FCfbarkeit zu erh\u00F6hen. SMART steht f\u00FCr spezifisch, messbar, attraktiv (oder akzeptiert), realistisch und terminiert. Ein spezifisches Ziel ist eindeutig und klar beschrieben, ohne Interpretationsspielraum. Messbarkeit bedeutet, dass objektive Kriterien zur Zielerreichung festgelegt sind. Attraktivit\u00E4t stellt sicher, dass das Ziel sinnvoll und motivierend f\u00FCr die Beteiligten ist. Realistische Ziele sind mit den verf\u00FCgbaren Ressourcen erreichbar. Durch eine klare zeitliche Begrenzung wird festgelegt, bis wann das Ziel erreicht sein soll.",
+    "Category": "Zieldefinition / Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 252,
+    "Front": "Echte / Unechte Ziele",
+    "Back": "Echte Ziele:\n\nBeschreiben konkrete, \u00FCberpr\u00FCfbare Zust\u00E4nde oder Ergebnisse\n\nSind messbar und eindeutig formuliert\n\nDienen als klare Grundlage f\u00FCr Planung, Steuerung und Kontrolle\n\nErm\u00F6glichen eine objektive Bewertung der Zielerreichung\n\nUnechte Ziele:\n\nBeschreiben T\u00E4tigkeiten, Mittel oder Wege statt Ergebnisse\n\nSind oft vage oder nicht messbar formuliert\n\nGeben keine klare Aussage dar\u00FCber, wann sie erreicht sind\n\nErschweren die Erfolgskontrolle eines Projekts",
+    "Category": "Zieldefinition / Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
+  },
+  {
+    "Id": 253,
+    "Front": "Iteratives Wasserfallmodell",
+    "Back": "Anforderungsanalyse: Erfassung und Dokumentation der Anforderungen, die f\u00FCr eine Iteration relevant sind\n\nSystem- und Softwareentwurf: Planung der technischen L\u00F6sung auf Basis der aktuellen Anforderungen\n\nImplementierung: Umsetzung der geplanten Funktionen im Code\n\nTestphase: \u00DCberpr\u00FCfung der implementierten Funktionen auf Fehler und Zielerf\u00FCllung\n\nIntegration: Zusammenf\u00FChrung der neuen oder \u00FCberarbeiteten Komponenten mit dem bestehenden System\n\nBewertung / Feedback: Analyse der Ergebnisse und Ableitung von Anpassungen f\u00FCr die n\u00E4chste Iteration",
+    "Category": "Softwareentwicklung / Projektmanagement",
+    "Link": "",
+    "CreatedAt": "2026-02-10",
+    "IsArchived": false
   }
 ]

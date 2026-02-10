@@ -11,6 +11,8 @@ namespace Noteflow.Services
     {
         private string filePath;
 
+        public event Action? CardsChanged;
+
         public CardBankManagement(string path)
         {
             filePath = path;
@@ -60,6 +62,7 @@ namespace Noteflow.Services
                 Console.WriteLine($"JSON-Daten zum Speichern: {jsonData}"); // Debugging-Ausgabe
                 File.WriteAllText(filePath, jsonData);
                 Console.WriteLine("Karten erfolgreich gespeichert.");
+                CardsChanged?.Invoke();
             }
             catch (Exception ex)
             {

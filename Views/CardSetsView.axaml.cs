@@ -19,9 +19,9 @@ namespace Noteflow.Views
                 return;
             }
 
-            if (DataContext is CardSetsViewModel viewModel && viewModel.IsCardBackVisible)
+            if (DataContext is CardSetsViewModel viewModel && viewModel.IsCardDetailOpen)
             {
-                viewModel.CloseCardBackCommand.Execute(null);
+                viewModel.CloseCardDetail();
                 e.Handled = true;
             }
         }

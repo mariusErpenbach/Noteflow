@@ -54,6 +54,8 @@ namespace Noteflow.ViewModels
             // Speichere die aktualisierte Liste
             _cardBankManagement.SaveCards(cards);
 
+            _mainWindowViewModel.RefreshCardSection();
+
             // Navigiere zurück zur CardSectionView
             _mainWindowViewModel.ShowCardSection();
         }

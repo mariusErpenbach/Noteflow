@@ -86,33 +86,61 @@
                      HorizontalAlignment="Stretch"
                      Margin="0,4,12,0"
                      IsVisible="{Binding IsListView}">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Spacing="0" />
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.Styles>
+                    <Style Selector="ListBoxItem">
+                        <Setter Property="Margin" Value="0,1,0,1" />
+                    </Style>
+                    <Style Selector="Button.list-row">
+                        <Setter Property="Background" Value="#2B2F33" />
+                        <Setter Property="BorderBrush" Value="#3A3F45" />
+                        <Setter Property="BorderThickness" Value="1" />
+                        <Setter Property="CornerRadius" Value="10" />
+                    </Style>
+                    <Style Selector="ListBoxItem:nth-child(even) Button.list-row">
+                        <Setter Property="Background" Value="#2F3439" />
+                        <Setter Property="BorderBrush" Value="#3F454C" />
+                    </Style>
+                    <Style Selector="ListBoxItem:nth-child(odd) Button.list-row">
+                        <Setter Property="Background" Value="#2B2F33" />
+                        <Setter Property="BorderBrush" Value="#3A3F45" />
+                    </Style>
+                    <Style Selector="Button.list-row:pointerover">
+                        <Setter Property="Background" Value="#0F2A45" />
+                        <Setter Property="BorderBrush" Value="#1B4166" />
+                    </Style>
+                    <Style Selector="Button.list-row:pressed">
+                        <Setter Property="Background" Value="#123050" />
+                        <Setter Property="BorderBrush" Value="#24527E" />
+                    </Style>
+                </ListBox.Styles>
                 <ListBox.ItemTemplate>
                     <DataTemplate x:DataType="models:IndexCard">
-                        <Button Background="Transparent"
-                                BorderBrush="Transparent"
-                                Padding="8"
+                        <Button Padding="6,4"
+                                Margin="0"
+                                Classes="list-row"
                                 HorizontalContentAlignment="Stretch"
                                 x:CompileBindings="False"
                                 Command="{Binding DataContext.OpenCardCommand, RelativeSource={RelativeSource AncestorType=views:CardSectionView}}"
                                 CommandParameter="{Binding}">
-                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto">
+                            <Grid ColumnDefinitions="*,Auto"
+                                  RowDefinitions="Auto">
                                 <TextBlock Text="{Binding Front}"
                                            FontSize="14"
                                            FontWeight="SemiBold"
                                            Foreground="White"
-                                           TextWrapping="Wrap" />
-                                <TextBlock Grid.Row="1"
-                                           Text="{Binding Back}"
-                                           FontSize="12"
-                                           Foreground="#bfc0c0"
-                                           TextWrapping="Wrap"
-                                           MaxHeight="48" />
+                                           TextWrapping="NoWrap"
+                                           TextTrimming="CharacterEllipsis" />
                                 <Border Grid.Column="1"
                                         Padding="6,2"
                                         Background="#0F2A45"
                                         CornerRadius="6"
-                                        VerticalAlignment="Top"
-                                        Margin="8,0,0,0">
+                                        VerticalAlignment="Center"
+                                        Margin="12,0,0,0">
                                     <TextBlock Text="{Binding Category}"
                                                FontSize="11"
                                                Foreground="#bfc0c0" />

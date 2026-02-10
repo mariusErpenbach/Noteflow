@@ -172,7 +172,7 @@ namespace Noteflow.ViewModels
 
         private async Task OnEditBankAsync()
         {
-            await MainWindowViewModel.TryNavigateAsync(MainWindowViewModel.CreateCardSectionViewModel);
+            await MainWindowViewModel.TryNavigateAsync(MainWindowViewModel.CreateCardGridViewModel);
             MainWindowViewModel.CloseCardDetail();
         }
 

@@ -31,18 +31,6 @@
             <ContentControl Content="{Binding CurrentView}"/>
         </DockPanel>
 
-        <Grid IsVisible="{Binding IsCardDetailOpen}"
-              Background="#80000000"
-              Panel.ZIndex="10">
-            <Border Background="#2b2d42"
-                    CornerRadius="12"
-                    Padding="12"
-                    Width="720"
-                    Height="520"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-                <ContentControl Content="{Binding CardDetail}" />
-            </Border>
-        </Grid>
+        <views:CardDetailModalView />
     </Grid>
 </Window>

@@ -9,7 +9,7 @@ namespace Noteflow.ViewModels
     public partial class CardDetailViewModel : ViewModelBase
     {
         private readonly CardBankManagement _cardBankManagement;
-        private readonly MainWindowViewModel _mainWindowViewModel;
+        private readonly ICardDetailHost _cardDetailHost;
         private readonly int _cardId;
         private string _originalFront;
         private string _originalBack;
@@ -30,10 +30,10 @@ namespace Noteflow.ViewModels
         public bool IsNotEditing => !IsEditing;
         public bool CanArchive => !IsArchived;
 
-        public CardDetailViewModel(IndexCard card, CardBankManagement cardBankManagement, MainWindowViewModel mainWindowViewModel)
+        public CardDetailViewModel(IndexCard card, CardBankManagement cardBankManagement, ICardDetailHost cardDetailHost)
         {
             _cardBankManagement = cardBankManagement;
-            _mainWindowViewModel = mainWindowViewModel;
+            _cardDetailHost = cardDetailHost;
             _cardId = card.Id;
             _front = card.Front;
             _back = card.Back;
@@ -86,7 +86,7 @@ namespace Noteflow.ViewModels
             _originalFront = Front;
             _originalBack = Back;
             IsEditing = false;
-            _mainWindowViewModel.RefreshCardSection();
+            _cardDetailHost.RefreshCardSection();
         }
 
         [RelayCommand]
@@ -104,8 +104,8 @@ namespace Noteflow.ViewModels
             _cardBankManagement.SaveCards(cards);
             IsArchived = true;
             IsEditing = false;
-            _mainWindowViewModel.RefreshCardSection();
-            _mainWindowViewModel.CloseCardDetail();
+            _cardDetailHost.RefreshCardSection();
+            _cardDetailHost.CloseCardDetail();
         }
 
         [RelayCommand]
@@ -122,8 +122,8 @@ namespace Noteflow.ViewModels
             _cardBankManagement.ReindexCards(cards);
             _cardBankManagement.SaveCards(cards);
             IsEditing = false;
-            _mainWindowViewModel.RefreshCardSection();
-            _mainWindowViewModel.CloseCardDetail();
+            _cardDetailHost.RefreshCardSection();
+            _cardDetailHost.CloseCardDetail();
         }
 
         [RelayCommand]
@@ -134,7 +134,7 @@ namespace Noteflow.ViewModels
                 CancelEdit();
             }
 
-            _mainWindowViewModel.CloseCardDetail();
+            _cardDetailHost.CloseCardDetail();
         }
     }
 }
